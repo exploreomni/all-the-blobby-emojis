@@ -1,0 +1,38 @@
+#!/bin/sh
+
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+should_refresh=0
+
+if [ "${FORCE_README_REFRESH:-0}" = "1" ]; then
+  should_refresh=1
+else
+  staged_paths=$(git diff --cached --name-only --diff-filter=ACMRD)
+  while IFS= read -r path; do
+    case "$path" in
+      *.png|*.jpg|*.jpeg|*.gif|*.webp|*.svg|*.avif)
+        should_refresh=1
+        break
+        ;;
+      scripts/generate_readme.py)
+        should_refresh=1
+        break
+        ;;
+    esac
+  done <<EOF
+$staged_paths
+EOF
+fi
+
+if [ "$should_refresh" -ne 1 ]; then
+  exit 0
+fi
+
+python3 scripts/generate_readme.py
+
+if [ "${SKIP_GIT_ADD:-0}" != "1" ]; then
+  git add README.md
+fi
