@@ -4,58 +4,28 @@ from __future__ import annotations
 
 import argparse
 import html
+import os
 import re
 import subprocess
 import sys
 from pathlib import Path
-from urllib.parse import quote
 
-IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".avif"}
+# Allow running from the repo root without installing the package.
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+from blobbylib.urls import (  # noqa: E402
+    build_github_blob_url,
+    build_jsdelivr_url,
+    list_tracked_images,
+    parse_github_remote,
+    run_git,
+)
+
 BEGIN_MARKER = "<!-- BEGIN GENERATED EMOJI TABLE -->"
 END_MARKER = "<!-- END GENERATED EMOJI TABLE -->"
 INSERT_BEFORE_HEADING = "## Internal Instructions"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_README = REPO_ROOT / "README.md"
-
-
-def run_git(*args: str) -> str:
-    result = subprocess.run(
-        ["git", *args],
-        cwd=REPO_ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    return result.stdout.strip()
-
-
-def parse_github_remote(remote_url: str) -> tuple[str, str]:
-    patterns = (
-        r"^https://github\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$",
-        r"^git@github\.com:(?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$",
-        r"^ssh://git@github\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?$",
-    )
-    for pattern in patterns:
-        match = re.match(pattern, remote_url)
-        if match:
-            return match.group("owner"), match.group("repo")
-    raise ValueError(f"Unsupported GitHub remote URL: {remote_url}")
-
-
-def list_tracked_images() -> list[str]:
-    image_paths = []
-    for path in run_git("ls-files").splitlines():
-        if Path(path).suffix.lower() in IMAGE_SUFFIXES:
-            image_paths.append(path)
-    return sorted(image_paths)
-
-
-def build_jsdelivr_url(owner: str, repo: str, ref: str, path: str) -> str:
-    return f"https://cdn.jsdelivr.net/gh/{owner}/{repo}@{quote(ref, safe='-._~')}/{quote(path, safe='/-._~')}"
-
-
-def build_github_blob_url(owner: str, repo: str, ref: str, path: str) -> str:
-    return f"https://github.com/{owner}/{repo}/blob/{quote(ref, safe='-._~')}/{quote(path, safe='/-._~')}"
 
 
 def render_table(owner: str, repo: str, ref: str, image_paths: list[str]) -> str:
