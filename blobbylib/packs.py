@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import sys
 import zipfile
 from pathlib import Path
 from typing import Any
@@ -24,25 +25,41 @@ def write_packs(
     Outputs:
     - out/all-blobbies.zip          every record with a file or svg
     - out/<collection slug>.zip     per non-empty collection
-    - out/emojipacks.yaml           kind emoji/animation with slack_name set
+    - out/emojipacks.yaml           kind emoji/animation with slack_name and cdn url
     - out/emojme.json               same filter, JSON list
 
     Zips contain files at their repo-relative paths plus LICENSE.md at the zip
     root. Entries are in deterministic (sorted) order. Compression: DEFLATED.
+
+    Raises FileNotFoundError if root/LICENSE.md is absent (checked before any
+    zip is written).
+
+    Missing asset files are skipped with a stderr warning. Records with no cdn
+    url are skipped from pack lists with a stderr warning.
     """
+    license_path = root / "LICENSE.md"
+    if not license_path.exists():
+        raise FileNotFoundError(f"LICENSE.md not found at {license_path}")
+
     out.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
 
-    license_path = root / "LICENSE.md"
-
     def _entries(recs: list[dict[str, Any]]) -> list[tuple[str, Path]]:
-        """Return sorted (arcname, disk_path) pairs for records with files."""
+        """Return sorted (arcname, disk_path) pairs for records with existing files."""
         seen: dict[str, Path] = {}
         for rec in recs:
-            if rec.get("file"):
-                seen[rec["file"]] = root / rec["file"]
-            if rec.get("svg"):
-                seen[rec["svg"]] = root / rec["svg"]
+            for field in ("file", "svg"):
+                rel = rec.get(field)
+                if not rel:
+                    continue
+                disk_path = root / rel
+                if not disk_path.exists():
+                    print(
+                        f"warning: {rec.get('slug', '?')}: missing file {disk_path}, skipped from zips",
+                        file=sys.stderr,
+                    )
+                    continue
+                seen[rel] = disk_path
         return sorted(seen.items())
 
     def _write_zip(zip_path: Path, recs: list[dict[str, Any]]) -> Path:
@@ -72,14 +89,23 @@ def write_packs(
         _write_zip(col_zip, recs)
         written.append(col_zip)
 
-    # pack filter: kind emoji/animation AND slack_name is not None
-    pack_records = [
-        r for r in records
-        if r.get("kind") in _PACK_KINDS and r.get("slack_name") is not None
-    ]
-
     def _cdn_url(rec: dict[str, Any]) -> str | None:
-        return rec.get("cdn_pinned") or rec.get("cdn_main")
+        return rec.get("cdn_pinned") or rec.get("cdn_main") or None
+
+    # pack filter: kind emoji/animation AND slack_name is not None AND cdn url exists
+    pack_records: list[dict[str, Any]] = []
+    for r in records:
+        if r.get("kind") not in _PACK_KINDS:
+            continue
+        if r.get("slack_name") is None:
+            continue
+        if _cdn_url(r) is None:
+            print(
+                f"warning: {r.get('slug', '?')}: no cdn url, skipped from packs",
+                file=sys.stderr,
+            )
+            continue
+        pack_records.append(r)
 
     # emojipacks.yaml
     emojipacks_path = out / "emojipacks.yaml"

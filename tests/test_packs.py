@@ -5,6 +5,7 @@ import json
 import zipfile
 from pathlib import Path
 
+import pytest
 import yaml
 from PIL import Image
 
@@ -130,3 +131,90 @@ def test_stale_emoji_excluded_from_packs_but_in_zips(tmp_path):
     # stale file still lands in the zip
     with zipfile.ZipFile(tmp_path / "out" / "all-blobbies.zip") as z:
         assert "all-the-slack-blobbies/blobby-stale.png" in z.namelist()
+
+
+def test_missing_license_raises_before_any_zip(tmp_path):
+    """write_packs raises FileNotFoundError before writing anything when LICENSE.md is absent."""
+    root = tmp_path / "repo"
+    root.mkdir()
+    # no LICENSE.md written
+    (root / "all-the-slack-blobbies").mkdir()
+    img = Image.new("RGBA", (64, 64), color=(255, 0, 0, 255))
+    img.save(root / "all-the-slack-blobbies" / "blobby.png")
+    out = tmp_path / "out"
+    with pytest.raises(FileNotFoundError, match="LICENSE.md"):
+        write_packs(RECORDS, COLS, root, out)
+    # out directory may be created but no zip file should exist
+    assert not any(out.glob("*.zip")) if out.exists() else True
+
+
+def test_missing_asset_file_skipped_with_warning(tmp_path, capsys):
+    """A record whose file does not exist on disk is skipped from zips with a stderr warning."""
+    root = make_root(tmp_path)
+    # blobby.png exists; blobby-paris.svg exists; introduce a third record with a missing file
+    ghost_record = {
+        "slug": "blobby-ghost",
+        "display_name": "Blobby Ghost",
+        "slack_name": "blobby-ghost",
+        "generation": "new",
+        "kind": "emoji",
+        "collection": "core",
+        "tags": [],
+        "author": None,
+        "source": "slack",
+        "note": None,
+        "file": "all-the-slack-blobbies/blobby-ghost.png",
+        "svg": None,
+        "bytes": 1000,
+        "width": 128,
+        "height": 128,
+        "frames": 1,
+        "added": "2026-01-01",
+        "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-ghost.png",
+        "cdn_pinned": None,
+        "github": None,
+    }
+    records = RECORDS + [ghost_record]
+    paths = write_packs(records, COLS, root, tmp_path / "out")
+    captured = capsys.readouterr()
+    assert "blobby-ghost" in captured.err and "missing file" in captured.err
+    with zipfile.ZipFile(tmp_path / "out" / "all-blobbies.zip") as z:
+        assert "all-the-slack-blobbies/blobby-ghost.png" not in z.namelist()
+        assert "all-the-slack-blobbies/blobby.png" in z.namelist()
+
+
+def test_null_cdn_url_skipped_from_packs_with_warning(tmp_path, capsys):
+    """A record with no cdn url (cdn_main and cdn_pinned both None) is skipped from pack lists."""
+    root = make_root(tmp_path)
+    no_cdn_record = {
+        "slug": "blobby-nocdn",
+        "display_name": "Blobby No CDN",
+        "slack_name": "blobby-nocdn",
+        "generation": "new",
+        "kind": "emoji",
+        "collection": "core",
+        "tags": [],
+        "author": None,
+        "source": "slack",
+        "note": None,
+        "file": "all-the-slack-blobbies/blobby.png",
+        "svg": None,
+        "bytes": 1000,
+        "width": 128,
+        "height": 128,
+        "frames": 1,
+        "added": "2026-01-01",
+        "cdn_main": None,
+        "cdn_pinned": None,
+        "github": None,
+    }
+    records = RECORDS + [no_cdn_record]
+    paths = write_packs(records, COLS, root, tmp_path / "out")
+    captured = capsys.readouterr()
+    assert "blobby-nocdn" in captured.err and "no cdn url" in captured.err
+    pack = yaml.safe_load((tmp_path / "out" / "emojipacks.yaml").read_text())
+    pack_names = [e["name"] for e in pack["emojis"]]
+    assert "blobby-nocdn" not in pack_names
+    emojme = json.loads((tmp_path / "out" / "emojme.json").read_text())
+    emojme_names = [e["name"] for e in emojme]
+    assert "blobby-nocdn" not in emojme_names

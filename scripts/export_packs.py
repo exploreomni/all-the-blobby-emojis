@@ -39,7 +39,11 @@ def main() -> None:
     collections = load_collections(REPO_ROOT / "collections.yaml")
     out_path = REPO_ROOT / args.out
 
-    paths = write_packs(records, collections, REPO_ROOT, out_path)
+    try:
+        paths = write_packs(records, collections, REPO_ROOT, out_path)
+    except FileNotFoundError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
 
     for p in paths:
         size_kb = p.stat().st_size / 1024
