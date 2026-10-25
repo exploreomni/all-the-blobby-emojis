@@ -7,6 +7,7 @@ Usage:
 Reads manifest.json if present, else builds the manifest in memory.
 Processes only records whose collection is 'unsorted'.
 Appends to the CSV so a partial run can be resumed (skips slugs already present).
+All image inputs are normalised to PNG bytes before the API call.
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ import csv
 import io
 import json
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -28,9 +30,10 @@ from blobbylib.vocab import VOCAB  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-CSV_COLUMNS = ["slug", "keep", "display_name", "collection", "tags", "generation", "confidence", "current_display_name"]
-
-RSVG_CONVERT = "/opt/homebrew/bin/rsvg-convert"
+CSV_COLUMNS = [
+    "slug", "keep", "display_name", "collection", "tags",
+    "generation", "confidence", "current_display_name",
+]
 
 
 def _load_records() -> list[dict]:
@@ -63,13 +66,20 @@ def _load_records() -> list[dict]:
     )
 
 
-def _image_bytes_for_record(record: dict) -> tuple[bytes, str]:
-    """Return (raw_bytes, media_type) for the record's image.
+def _png_bytes_for_record(slug: str, record: dict) -> bytes:
+    """Return PNG bytes for the record's image.
 
-    - Raster file (png/gif/jpg): send directly.  For GIF, send the first frame as PNG.
-    - SVG-only: render to 256px PNG via rsvg-convert.
-    Returns empty bytes with media_type 'image/png' when no image is available.
+    All input formats are converted to PNG so that ``propose`` always
+    receives ``image/png`` bytes.
+
+    - PNG: read bytes directly.
+    - JPG/JPEG: open with Pillow, save as PNG.
+    - GIF: extract the first frame via Pillow, save as PNG.
+    - SVG-only: render to a 256px PNG via rsvg-convert.
+    - No image / conversion failure: returns empty bytes.
     """
+    from PIL import Image  # type: ignore[import]  # noqa: PLC0415
+
     file_rel: str | None = record.get("file")
     svg_rel: str | None = record.get("svg")
 
@@ -77,38 +87,47 @@ def _image_bytes_for_record(record: dict) -> tuple[bytes, str]:
         file_path = REPO_ROOT / file_rel
         if file_path.exists():
             ext = file_path.suffix.lower()
-            if ext == ".gif":
-                # Send first frame as PNG via Pillow to keep token count low.
+            if ext == ".png":
+                return file_path.read_bytes()
+            elif ext in (".gif", ".jpg", ".jpeg"):
                 try:
-                    from PIL import Image  # type: ignore[import]
                     with Image.open(file_path) as img:
-                        img.seek(0)
+                        if ext == ".gif":
+                            img.seek(0)
                         buf = io.BytesIO()
                         img.convert("RGBA").save(buf, format="PNG")
-                        return buf.getvalue(), "image/png"
-                except Exception:
-                    pass
-            elif ext in (".jpg", ".jpeg"):
-                return file_path.read_bytes(), "image/jpeg"
-            else:
-                return file_path.read_bytes(), "image/png"
+                        return buf.getvalue()
+                except Exception as exc:
+                    print(f"  WARN {slug}: could not convert {ext} to PNG: {exc}", file=sys.stderr)
 
     if svg_rel:
         svg_path = REPO_ROOT / svg_rel
         if svg_path.exists():
-            try:
-                result = subprocess.run(
-                    [RSVG_CONVERT, "-w", "256", "-h", "256", "-a",
-                     str(svg_path), "-o", "-"],
-                    capture_output=True,
-                    timeout=15,
+            rsvg = shutil.which("rsvg-convert")
+            if rsvg is None:
+                print(
+                    f"  WARN {slug}: rsvg-convert not found on PATH; "
+                    "install librsvg to convert SVGs",
+                    file=sys.stderr,
                 )
-                if result.returncode == 0 and result.stdout:
-                    return result.stdout, "image/png"
-            except Exception:
-                pass
+            else:
+                try:
+                    result = subprocess.run(
+                        [rsvg, "-w", "256", "-h", "256", "-a",
+                         str(svg_path), "-o", "-"],
+                        capture_output=True,
+                        timeout=15,
+                    )
+                    if result.returncode == 0 and result.stdout:
+                        return result.stdout
+                    print(
+                        f"  WARN {slug}: rsvg-convert returned {result.returncode}",
+                        file=sys.stderr,
+                    )
+                except Exception as exc:
+                    print(f"  WARN {slug}: rsvg-convert failed: {exc}", file=sys.stderr)
 
-    return b"", "image/png"
+    return b""
 
 
 def _load_existing_slugs(out_path: Path) -> set[str]:
@@ -182,7 +201,7 @@ def main() -> int:
     processed = 0
     for record in pending:
         slug = record["slug"]
-        image_bytes, media_type = _image_bytes_for_record(record)
+        image_bytes = _png_bytes_for_record(slug, record)
         try:
             proposal = propose(record, image_bytes, VOCAB, ask)
         except Exception as exc:
@@ -190,7 +209,10 @@ def main() -> int:
             continue
         _append_row(out_path, proposal, record.get("display_name", ""))
         processed += 1
-        print(f"  {slug} -> {proposal.collection} [{', '.join(proposal.tags)}] (conf={proposal.confidence:.2f})")
+        print(
+            f"  {slug} -> {proposal.collection} "
+            f"[{', '.join(proposal.tags)}] (conf={proposal.confidence:.2f})"
+        )
 
     print(f"\nWrote {processed} rows to {out_path}")
     return 0

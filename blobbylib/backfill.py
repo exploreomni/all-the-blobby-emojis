@@ -70,7 +70,7 @@ def propose(
     record:
         A manifest record dict (must contain at least 'slug').
     image_bytes:
-        Raw image bytes to send to the model.
+        Raw PNG bytes to send to the model (always PNG; callers must convert).
     vocab:
         The Vocab instance holding valid tags and collection slugs.
     ask:
@@ -139,21 +139,83 @@ def merge_proposals(items_yaml_text: str, proposals: list[Proposal]) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Real `ask` implementation using the Anthropic SDK
+# Real `ask` implementations
 # ---------------------------------------------------------------------------
 
-def _make_ask():
-    """Return the real `ask` function that calls the Claude API.
+def _make_ask_urllib(urlopen=None) -> Callable[[str, bytes, str], str]:
+    """Build an `ask` function that uses urllib (no third-party SDK required).
 
-    The ANTHROPIC_API_KEY is read at call time (not at module import time) so
-    that tests that inject a fake `ask` are never blocked by a missing key.
+    Parameters
+    ----------
+    urlopen:
+        Injectable replacement for ``urllib.request.urlopen`` (for tests).
     """
     import base64
-    import anthropic  # type: ignore[import]
+    import urllib.request
+
+    _urlopen = urlopen if urlopen is not None else urllib.request.urlopen
+
+    def ask(prompt: str, image_bytes: bytes, media_type: str) -> str:
+        image_data = base64.standard_b64encode(image_bytes).decode("utf-8")
+        payload = json.dumps({
+            "model": "claude-haiku-5-5",
+            "max_tokens": 512,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image",
+                            "source": {
+                                "type": "base64",
+                                "media_type": media_type,
+                                "data": image_data,
+                            },
+                        },
+                        {"type": "text", "text": prompt},
+                    ],
+                }
+            ],
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.anthropic.com/v1/messages",
+            data=payload,
+            headers={
+                "x-api-key": os.environ["ANTHROPIC_API_KEY"],
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            method="POST",
+        )
+        with _urlopen(req) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+        for block in body.get("content", []):
+            if block.get("type") == "text":
+                return block["text"]
+        return "{}"
+
+    return ask
+
+
+def _make_ask() -> Callable[[str, bytes, str], str]:
+    """Return the best available `ask` function.
+
+    Tries the ``anthropic`` SDK first; falls back to ``urllib`` if the SDK is
+    not installed.  The API key is read from ``ANTHROPIC_API_KEY`` at call
+    time, never at import time.
+    """
+    import base64
+
+    try:
+        import anthropic  # type: ignore[import]
+    except ImportError:
+        return _make_ask_urllib()
+
+    # SDK available: create the client once and close over it.
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     def ask(prompt: str, image_bytes: bytes, media_type: str) -> str:
         """Call claude-haiku-5-5 with the prompt and image; return raw JSON text."""
-        client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
         image_data = base64.standard_b64encode(image_bytes).decode("utf-8")
         response = client.messages.create(
             model="claude-haiku-5-5",
