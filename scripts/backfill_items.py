@@ -114,16 +114,22 @@ def _png_bytes_for_record(slug: str, record: dict) -> bytes:
                 try:
                     result = subprocess.run(
                         [rsvg, "-w", "256", "-h", "256", "-a",
-                         str(svg_path), "-o", "-"],
+                         str(svg_path)],
                         capture_output=True,
                         timeout=15,
                     )
-                    if result.returncode == 0 and result.stdout:
+                    if result.returncode != 0:
+                        print(
+                            f"  WARN {slug}: rsvg-convert returned {result.returncode}",
+                            file=sys.stderr,
+                        )
+                    elif not result.stdout:
+                        print(
+                            f"  WARN {slug}: rsvg-convert produced no output",
+                            file=sys.stderr,
+                        )
+                    else:
                         return result.stdout
-                    print(
-                        f"  WARN {slug}: rsvg-convert returned {result.returncode}",
-                        file=sys.stderr,
-                    )
                 except Exception as exc:
                     print(f"  WARN {slug}: rsvg-convert failed: {exc}", file=sys.stderr)
 
