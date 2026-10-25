@@ -34,12 +34,12 @@ def image_info(path: Path) -> ImageInfo:
     if ext == "svg":
         tree = ET.parse(path)
         root = tree.getroot()
-        # Strip namespace if present
-        tag = root.tag
         # viewBox takes priority
         viewbox = root.get("viewBox") or root.get("viewbox")
         if viewbox:
             parts = viewbox.strip().replace(",", " ").split()
+            if len(parts) < 4:
+                raise ValueError(f"SVG viewBox has fewer than four numbers: {path}")
             width = round(float(parts[2]))
             height = round(float(parts[3]))
         else:

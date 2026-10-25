@@ -41,3 +41,17 @@ def test_svg_no_dimensions_raises(tmp_path):
     p.write_text('<svg xmlns="http://www.w3.org/2000/svg"></svg>')
     with pytest.raises(ValueError, match=str(p)):
         image_info(p)
+
+
+def test_svg_rounds_non_integer_viewbox(tmp_path):
+    p = tmp_path / "d.svg"
+    p.write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.4 207.6"></svg>')
+    i = image_info(p)
+    assert (i.width, i.height) == (207, 208)
+
+
+def test_svg_short_viewbox_raises(tmp_path):
+    p = tmp_path / "e.svg"
+    p.write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100"></svg>')
+    with pytest.raises(ValueError, match=str(p)):
+        image_info(p)
