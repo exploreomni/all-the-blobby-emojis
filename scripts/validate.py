@@ -27,7 +27,7 @@ from blobbylib.urls import (  # noqa: E402
     parse_github_remote,
     run_git,
 )
-from blobbylib.validate import validate  # noqa: E402
+from blobbylib.validate import validate, warnings as collect_warnings  # noqa: E402
 
 _WATCHED_DIRS = ("all-the-slack-blobbies", "svg")
 
@@ -113,6 +113,9 @@ def main() -> int:
     files_on_disk = _collect_files_on_disk(REPO_ROOT)
 
     errors = validate(records, items, collections, files_on_disk, args.strict)
+
+    for warn in collect_warnings(records):
+        print(f"warning: {warn}", file=sys.stderr)
 
     if errors:
         for err in errors:

@@ -31,7 +31,7 @@ from blobbylib.validate import validate, warnings as collect_warnings  # noqa: E
 
 BEGIN_MARKER = "<!-- BEGIN GENERATED EMOJI TABLE -->"
 END_MARKER = "<!-- END GENERATED EMOJI TABLE -->"
-INSERT_BEFORE_HEADING = "## Internal Instructions"
+INSERT_BEFORE_HEADING = "## Maintainer notes"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_README = REPO_ROOT / "README.md"
 DEFAULT_MANIFEST = REPO_ROOT / "manifest.json"
