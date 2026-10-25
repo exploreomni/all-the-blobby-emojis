@@ -1,0 +1,27 @@
+# Explicit basename -> slug mappings for SVG import.
+# Groups without descriptive names, Blobby.svg (avoids collision with raster slug),
+# and collision resolutions.
+
+# --- Group files (unnamed) ---
+"Group 2147233966.svg": blobby-corgi
+"Group 2147233983.svg": blobby-swedish-meatballs
+"Group 2147234011.svg": blobby-drummer
+"Group 2147234012.svg": blobby-drummer-2
+# Group 4.svg is in stickers/; renamed in temp copy to group-4-sticker.svg
+"group-4-sticker.svg": blobby-big-eyes
+
+# --- Root file renames ---
+# Blobby.svg normalizes to 'blobby' which collides with the raster emoji slug.
+"Blobby.svg": blobby-graduate-book
+# london-eye.svg and startup-blobby.svg get descriptive blobby-prefixed slugs.
+"london-eye.svg": blobby-london-eye
+"startup-blobby.svg": blobby-startup
+
+# --- Collision resolutions ---
+# bobbly-elvis.svg normalizes to blobby-elvis, colliding with blobby-elvis.svg.
+# This is a second Elvis variant.
+"bobbly-elvis.svg": blobby-elvis-2
+# Sticker copies of blobby-from-the-black-lagoon and blobby-werewolf share
+# the same basename as root files. Renamed in temp copy before import.
+"blobby-from-the-black-lagoon-sticker.svg": blobby-from-the-black-lagoon-2
+"blobby-werewolf-sticker.svg": blobby-werewolf-2
