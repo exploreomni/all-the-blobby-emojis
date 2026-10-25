@@ -93,3 +93,29 @@ def test_collection_cover_defaults_none(tmp_path):
     assert col.cover is None
     assert col.slug == "core"
     assert col.order == 1
+
+
+def test_listed_defaults_true(tmp_path):
+    (tmp_path / "items.yaml").write_text(
+        "blobby-dbt:\n  display_name: dbt Blobby\n  generation: classic\n  kind: emoji\n  collection: partners\n  tags: []\n  source: slack\n"
+    )
+    item = load_items(tmp_path / "items.yaml")["blobby-dbt"]
+    assert item.listed is True
+    assert item.unlisted_reason is None
+
+
+def test_listed_false_accepted(tmp_path):
+    (tmp_path / "items.yaml").write_text(
+        "blobby-secret:\n  display_name: Secret\n  generation: classic\n  kind: emoji\n  collection: core\n  tags: []\n  source: slack\n  listed: false\n  unlisted_reason: customer logo\n"
+    )
+    item = load_items(tmp_path / "items.yaml")["blobby-secret"]
+    assert item.listed is False
+    assert item.unlisted_reason == "customer logo"
+
+
+def test_listed_non_boolean_raises(tmp_path):
+    (tmp_path / "items.yaml").write_text(
+        "blobby-bad:\n  display_name: Bad\n  generation: classic\n  kind: emoji\n  collection: core\n  tags: []\n  source: slack\n  listed: yes-please\n"
+    )
+    with pytest.raises(ItemError, match="listed"):
+        load_items(tmp_path / "items.yaml")

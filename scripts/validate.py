@@ -117,6 +117,9 @@ def main() -> int:
     for warn in collect_warnings(records):
         print(f"warning: {warn}", file=sys.stderr)
 
+    unlisted_count = sum(1 for r in records if not r.get("listed", True))
+    print(f"unlisted: {unlisted_count} items", file=sys.stderr)
+
     if errors:
         for err in errors:
             print(err)

@@ -99,6 +99,8 @@ def test_manifest_record_shape(tmp_path: Path) -> None:
         "author",
         "source",
         "note",
+        "listed",
+        "unlisted_reason",
         "file",
         "svg",
         "bytes",

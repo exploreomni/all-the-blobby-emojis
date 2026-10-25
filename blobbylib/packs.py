@@ -44,6 +44,9 @@ def write_packs(
     out.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
 
+    # Filter out unlisted records from all generated surfaces.
+    records = [r for r in records if r.get("listed", True)]
+
     def _entries(recs: list[dict[str, Any]]) -> list[tuple[str, Path]]:
         """Return sorted (arcname, disk_path) pairs for records with existing files."""
         seen: dict[str, Path] = {}

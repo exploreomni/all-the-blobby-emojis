@@ -37,6 +37,8 @@ class Item:
     source: str
     svg: str | None
     note: str | None
+    listed: bool = True
+    unlisted_reason: str | None = None
 
 
 @dataclass(frozen=True)
@@ -117,6 +119,19 @@ def load_items(path: Path) -> dict[str, Item]:
         svg: str | None = fields.get("svg")
         note: str | None = fields.get("note")
 
+        # listed: optional boolean, defaults to True
+        if "listed" in fields:
+            raw_listed = fields["listed"]
+            if not isinstance(raw_listed, bool):
+                raise ItemError(
+                    f"{slug}: 'listed' must be true or false, got {raw_listed!r}"
+                )
+            listed: bool = raw_listed
+        else:
+            listed = True
+
+        unlisted_reason: str | None = fields.get("unlisted_reason")
+
         items[slug] = Item(
             slug=slug,
             display_name=display_name,
@@ -129,6 +144,8 @@ def load_items(path: Path) -> dict[str, Item]:
             source=source,
             svg=svg,
             note=note,
+            listed=listed,
+            unlisted_reason=unlisted_reason,
         )
 
     return items

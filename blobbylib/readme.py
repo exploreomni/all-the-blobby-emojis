@@ -62,9 +62,13 @@ def render_sections(
     items.  A zip-download link and a license pointer appear above the first
     section.
     """
-    # Group records by collection slug.
+    # Separate listed from unlisted records.
+    listed_records = [r for r in records if r.get("listed", True)]
+    unlisted_count = len(records) - len(listed_records)
+
+    # Group listed records by collection slug.
     by_collection: dict[str, list[dict[str, Any]]] = {}
-    for rec in records:
+    for rec in listed_records:
         col_slug = rec.get("collection") or "unsorted"
         by_collection.setdefault(col_slug, []).append(rec)
 
@@ -77,6 +81,11 @@ def render_sections(
     lines.append("")
     lines.append("Usage terms: [LICENSE.md](LICENSE.md)")
     lines.append("")
+    if unlisted_count > 0:
+        lines.append(
+            f"{unlisted_count} items are kept in the repo for link stability but not listed here."
+        )
+        lines.append("")
 
     for col_slug, col in collections.items():
         items = by_collection.get(col_slug)

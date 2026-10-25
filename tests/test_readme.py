@@ -68,3 +68,21 @@ def test_svg_only_item_links_svg_not_png():
     out = render_sections([REC_CITY_SVG_ONLY], COLS)
     row = [l for l in out.splitlines() if "blobby-paris" in l][0]
     assert "svg/blobby-paris.svg" in row and ".png" not in row
+
+
+def test_unlisted_record_omitted_from_readme():
+    unlisted = dict(REC_CORE, slug="blobby-secret", display_name="Secret", listed=False)
+    out = render_sections([REC_CORE, unlisted], COLS)
+    assert "blobby-secret" not in out
+    assert "blobby" in out  # the listed one is still there
+
+
+def test_unlisted_count_line_appears():
+    unlisted = dict(REC_CORE, slug="blobby-secret", display_name="Secret", listed=False)
+    out = render_sections([REC_CORE, unlisted], COLS)
+    assert "1 items are kept in the repo for link stability but not listed here." in out
+
+
+def test_unlisted_count_line_omitted_when_zero():
+    out = render_sections([REC_CORE], COLS)
+    assert "kept in the repo for link stability" not in out

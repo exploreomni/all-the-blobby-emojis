@@ -183,6 +183,50 @@ def test_missing_asset_file_skipped_with_warning(tmp_path, capsys):
         assert "all-the-slack-blobbies/blobby.png" in z.namelist()
 
 
+def test_unlisted_record_excluded_from_zips_and_pack_lists(tmp_path):
+    """An unlisted record is omitted from every zip and from both pack lists."""
+    root = make_root(tmp_path)
+    img = Image.new("RGBA", (128, 128), color=(0, 255, 0, 255))
+    img.save(root / "all-the-slack-blobbies" / "blobby-hidden.png")
+    unlisted_record = {
+        "slug": "blobby-hidden",
+        "display_name": "Blobby Hidden",
+        "slack_name": "blobby-hidden",
+        "generation": "classic",
+        "kind": "emoji",
+        "collection": "core",
+        "tags": [],
+        "author": None,
+        "source": "slack",
+        "note": None,
+        "listed": False,
+        "unlisted_reason": "customer logo",
+        "file": "all-the-slack-blobbies/blobby-hidden.png",
+        "svg": None,
+        "bytes": 1000,
+        "width": 128,
+        "height": 128,
+        "frames": 1,
+        "added": "2026-01-01",
+        "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-hidden.png",
+        "cdn_pinned": None,
+        "github": None,
+    }
+    records = RECORDS + [unlisted_record]
+    paths = write_packs(records, COLS, root, tmp_path / "out")
+    # unlisted must not appear in emojipacks.yaml
+    pack = yaml.safe_load((tmp_path / "out" / "emojipacks.yaml").read_text())
+    pack_names = [e["name"] for e in pack["emojis"]]
+    assert "blobby-hidden" not in pack_names
+    # unlisted must not appear in emojme.json
+    emojme = json.loads((tmp_path / "out" / "emojme.json").read_text())
+    emojme_names = [e["name"] for e in emojme]
+    assert "blobby-hidden" not in emojme_names
+    # unlisted file must NOT be in the zip
+    with zipfile.ZipFile(tmp_path / "out" / "all-blobbies.zip") as z:
+        assert "all-the-slack-blobbies/blobby-hidden.png" not in z.namelist()
+
+
 def test_null_cdn_url_skipped_from_packs_with_warning(tmp_path, capsys):
     """A record with no cdn url (cdn_main and cdn_pinned both None) is skipped from pack lists."""
     root = make_root(tmp_path)

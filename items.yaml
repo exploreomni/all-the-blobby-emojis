@@ -103,6 +103,8 @@ baby-mr-blobby:
   - bow-tie
   source: slack
   note: Mr Blobby, the pink spotted British TV character, wearing a bow tie.
+  listed: false
+  unlisted_reason: not Blobby
 bad-to-the-blobby:
   display_name: Bad to the Blobby
   generation: classic
@@ -146,6 +148,8 @@ bilink1davey2blobby:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: franchise
 birthday-blobby:
   display_name: Birthday Blobby
   generation: classic
@@ -406,6 +410,8 @@ blobby-beaver:
   - busy
   source: slack
   note: Blobby in a beaver costume runs carrying a laptop and coffee.
+  listed: false
+  unlisted_reason: customer logo
 blobby-benny:
   display_name: Benny Blobby
   generation: new
@@ -724,6 +730,8 @@ blobby-deal-with-it:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: customer logo
 blobby-dealwithit:
   display_name: Blobby Deal With It
   generation: classic
@@ -1043,6 +1051,8 @@ blobby-hat-blobby-hat-blobby-hat-blobby:
   - baseball-cap
   source: slack
   note: Blobby wears a black cap featuring a tiny Blobby logo.
+  listed: false
+  unlisted_reason: gross or in-joke
 blobby-hat-blobby-hat-blobby:
   display_name: Hat Blobby
   generation: classic
@@ -1219,6 +1229,8 @@ blobby-jammies:
   - pajamas
   source: slack
   note: Blobby wears teal button-up pajamas and a white cap while waving.
+  listed: false
+  unlisted_reason: customer logo
 blobby-joy:
   display_name: Joy Blobby
   generation: classic
@@ -1294,6 +1306,8 @@ blobby-losty:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: real person
 blobby-loves-hockey:
   display_name: Loves Hockey Blobby
   generation: classic
@@ -2573,6 +2587,8 @@ blobby-yells-at-jonny:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: named employee
 blobby-yes:
   display_name: Yes Blobby
   generation: classic
@@ -2602,6 +2618,8 @@ blobby-zoom-close:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: customer logo
 blobby:
   display_name: Blobby
   generation: classic
@@ -2755,6 +2773,8 @@ bufo-loves-blobby:
   - bufo
   source: slack
   note: Bufo the frog hugs a smiling Blobby surrounded by hearts.
+  listed: false
+  unlisted_reason: gross or in-joke
 bumblebee-blobby:
   display_name: Bumblebee Blobby
   generation: classic
@@ -2784,6 +2804,8 @@ chevios-blobby:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: customer logo
 chicago-l-train-blobby:
   display_name: Chicago L Train Blobby
   generation: new
@@ -3003,6 +3025,8 @@ garretts-popcorn-blobby:
   - chicago
   source: slack
   note: Blobby as a striped bucket overflowing with Garrett's caramel popcorn.
+  listed: false
+  unlisted_reason: franchise
 gold-star-blobby:
   display_name: Gold Star Blobby
   generation: classic
@@ -3039,6 +3063,8 @@ guild-blobby:
   - guild
   source: slack
   note: Blobby in a graduation cap and gown holds a diploma and pointer.
+  listed: false
+  unlisted_reason: customer logo
 harry-caray-blobby:
   display_name: Harry Caray Blobby
   generation: classic
@@ -3052,6 +3078,8 @@ harry-caray-blobby:
   source: slack
   note: Blobby as Harry Caray with big glasses, white hair, and a microphone saying
     Holy Cow.
+  listed: false
+  unlisted_reason: customer logo
 hashtag-free-blobby:
   display_name: Hashtag Free Blobby
   generation: classic
@@ -3059,6 +3087,8 @@ hashtag-free-blobby:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: not Blobby
 heavy-metal-blobby:
   display_name: Heavy Metal Blobby
   generation: classic
@@ -3106,6 +3136,8 @@ hostage-blobby:
   - plush
   source: slack
   note: Blobby plush held in someone's hands like a hostage photo.
+  listed: false
+  unlisted_reason: gross or in-joke
 hovering_lemonade_blobby:
   display_name: Hovering Lemonade Blobby
   generation: classic
@@ -3202,6 +3234,8 @@ michael_d_blobby:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: not Blobby
 miggeldy-blobby:
   display_name: Miggeldy Blobby
   generation: classic
@@ -3209,6 +3243,8 @@ miggeldy-blobby:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: not Blobby
 monsieur-blobby:
   display_name: Monsieur Blobby
   generation: new
@@ -3244,6 +3280,8 @@ mr-blobby:
   - polka-dots
   source: slack
   note: Blobby as Mr Blobby, pink with yellow spots and a bow tie.
+  listed: false
+  unlisted_reason: not Blobby
 mrs-blobby:
   display_name: Mrs Blobby
   generation: classic
@@ -3255,6 +3293,8 @@ mrs-blobby:
   - wig
   source: slack
   note: Blobby dressed as Mrs Blobby with blonde wig and yellow spotted bow.
+  listed: false
+  unlisted_reason: not Blobby
 nerd-gummy-cluster-blobby:
   display_name: Nerd Gummy Cluster Blobby
   generation: classic
@@ -3262,6 +3302,8 @@ nerd-gummy-cluster-blobby:
   collection: food
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: not Blobby
 old-man-yells-at-blobby:
   display_name: Old Man Yells at Blobby
   generation: classic
@@ -3274,6 +3316,8 @@ old-man-yells-at-blobby:
   - meme
   source: slack
   note: Grandpa Simpson shakes his fist and yells at a floating Blobby.
+  listed: false
+  unlisted_reason: gross or in-joke
 omnopoly-blobby:
   display_name: Omnopoly Blobby
   generation: new
@@ -3477,6 +3521,8 @@ snowflakeangelsblobby:
   source: slack
   slack_name: null
   note: 'Current Slack name: blobbysnowflake'
+  listed: false
+  unlisted_reason: gross or in-joke
 sombrero_blobby:
   display_name: Sombrero Blobby
   generation: classic
@@ -3645,6 +3691,8 @@ traitor-blobby:
   collection: unsorted
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: franchise
 unicorn-blobby:
   display_name: Unicorn Blobby
   generation: classic

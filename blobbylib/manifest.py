@@ -119,6 +119,8 @@ def build_manifest(
             "author": item.author,
             "source": item.source,
             "note": item.note,
+            "listed": item.listed,
+            "unlisted_reason": item.unlisted_reason,
             "file": raster_path,
             "svg": svg_path,
             "bytes": info.bytes if info is not None else None,
