@@ -1,83 +1,77 @@
 - slug: core
   name: Core
   order: 1
-  description: The foundational Blobby emojis that every Omni team member uses daily.
-  cover: null
-
-- slug: reactions
-  name: Reactions
-  order: 2
-  description: Blobby expressions and gestures built for Slack reactions and quick responses.
-  cover: null
-
-- slug: cities
-  name: Cities
-  order: 3
-  description: City and region Blobbies celebrating the places the Omni team calls home.
-  cover: null
-
-- slug: partners
-  name: Partners
-  order: 4
-  description: Blobby versions of Omni partner logos and tools in the data ecosystem.
+  description: The official master Blobbies, hand-picked only, never assigned by the model.
   cover: null
 
 - slug: holidays
-  name: Holidays
-  order: 5
-  description: Seasonal and holiday Blobbies for celebrations throughout the year.
+  name: Holidays and seasons
+  order: 2
+  description: Anything tied to a holiday or season, Halloween monsters included.
   cover: null
 
-- slug: characters
-  name: Characters
+- slug: pop-culture
+  name: Pop culture
+  order: 3
+  description: Recognizable franchise characters, celebrities, memes, zodiac signs.
+  cover: null
+
+- slug: costumes
+  name: Costumes and jobs
+  order: 4
+  description: Generic professions and outfits with no franchise (pirate, captain, doctor, chef, builder, showgirl).
+  cover: null
+
+- slug: cities
+  name: Cities and travel
+  order: 5
+  description: Places, flags, landmarks, local food that stands for a place.
+  cover: null
+
+- slug: partners
+  name: Partners and tools
   order: 6
-  description: Blobby renditions of pop-culture characters, icons, and real-world figures.
+  description: dbt, Snowflake, Databricks, MotherDuck, Google Sheets, and other software or brands.
   cover: null
 
 - slug: food
-  name: Food
+  name: Food and drink
   order: 7
-  description: Food and drink Blobbies capturing team favorites and regional classics.
+  description: Food and drink.
   cover: null
 
 - slug: animals
   name: Animals
   order: 8
-  description: Animal Blobbies ranging from pets to wildlife to mythical creatures.
+  description: Animals.
   cover: null
 
 - slug: sports
   name: Sports
   order: 9
-  description: Sports-themed Blobbies for teams, athletes, and game-day moments.
+  description: Sports.
   cover: null
 
-- slug: pop-culture
-  name: Pop Culture
+- slug: omni
+  name: Omni and data
   order: 10
-  description: Blobby takes on movies, music, memes, and other cultural touchstones.
+  description: AI, agents, dashboards, SQL, data, Omni values.
   cover: null
 
-- slug: omni-values
-  name: Omni Values
+- slug: reactions
+  name: Reactions
   order: 11
-  description: Blobbies representing Omni's culture, values, and internal milestones.
+  description: Emotions, gestures, and sign-holding words only.
   cover: null
 
-- slug: animated
-  name: Animated
+- slug: objects
+  name: Scenes and objects
   order: 12
-  description: GIF animations that bring Blobby to life in Slack reactions and threads.
-  cover: null
-
-- slug: classic
-  name: Classic
-  order: 13
-  description: Early-generation Blobbies preserved as a record of where it all started.
+  description: A Blobby doing or being a thing that fits nowhere above (balloon, cube, rocket, typing, vacation, on a date).
   cover: null
 
 - slug: unsorted
   name: Unsorted
-  order: 14
-  description: Holding pen for Blobby items awaiting collection backfill.
+  order: 13
+  description: Holding pen for items awaiting backfill.
   cover: null

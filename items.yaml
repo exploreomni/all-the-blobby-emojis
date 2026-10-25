@@ -24,7 +24,7 @@ agent-blobby-salute:
   display_name: Agent Blobby Salute
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - agent
   - glasses
@@ -36,7 +36,7 @@ agent-blobby-salute2:
   display_name: Agent Blobby Salute
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - agent
   - salute
@@ -49,7 +49,7 @@ agent-blobby:
   display_name: Agent Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - agent
   - glasses
@@ -62,7 +62,7 @@ agentic-blobby:
   display_name: Agentic Blobby
   generation: new
   kind: emoji
-  collection: omni-values
+  collection: omni
   tags:
   - agent
   - ai
@@ -85,7 +85,7 @@ baby-blobby:
   display_name: Baby Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - happy
   - baby
@@ -96,7 +96,7 @@ baby-mr-blobby:
   display_name: Baby Mr Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - surprised
@@ -164,7 +164,7 @@ blobba-the-hutt:
   display_name: Blobba the Hutt
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - star-wars
   - jabba
@@ -201,7 +201,7 @@ blobbo-libre:
   display_name: Blobbo Libre
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - superhero
   - glasses
@@ -360,7 +360,7 @@ blobby-balloon:
   display_name: Balloon Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - balloon
   - party
@@ -477,7 +477,7 @@ blobby-boucher:
   display_name: Bobby Boucher Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - helmet
   - football
@@ -488,7 +488,7 @@ blobby-bride:
   display_name: Bride Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - love
   - crown
@@ -507,7 +507,7 @@ blobby-bumble:
   display_name: Bumble Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - christmas
   - snowflake
@@ -547,7 +547,7 @@ blobby-captain:
   display_name: Captain Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - captain
   - hat
@@ -622,7 +622,7 @@ blobby-clippy:
   display_name: Clippy Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - office
   - retro
@@ -676,7 +676,7 @@ blobby-cube:
   display_name: Cube Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - happy
   - cube
@@ -782,7 +782,7 @@ blobby-elevated-business-casual:
   display_name: Elevated Business Casual Blobby
   generation: classic
   kind: emoji
-  collection: omni-values
+  collection: omni
   tags:
   - office
   - business-casual
@@ -804,7 +804,7 @@ blobby-elvis:
   display_name: Elvis Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - glasses
   - retro
@@ -895,7 +895,7 @@ blobby-for-president:
   display_name: Blobby for President
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - flag
   - president
@@ -919,7 +919,7 @@ blobby-fsm:
   display_name: Flying Spaghetti Monster Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - happy
   - spaghetti
@@ -951,7 +951,7 @@ blobby-graduate:
   display_name: Graduate Blobby
   generation: classic
   kind: emoji
-  collection: omni-values
+  collection: omni
   tags:
   - hat
   - book
@@ -974,7 +974,7 @@ blobby-gritty:
   display_name: Gritty Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hockey
   - helmet
@@ -1010,7 +1010,7 @@ blobby-hat-blobby-hat-blobby-hat-blobby:
   display_name: Hat Blobby (Recursive)
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - hat
   - recursive
@@ -1021,7 +1021,7 @@ blobby-hat-blobby-hat-blobby:
   display_name: Hat Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - hat
   - baseball-cap
@@ -1031,7 +1031,7 @@ blobby-hat-blobby:
   display_name: Hat Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - hat
   - happy
@@ -1086,7 +1086,7 @@ blobby-hill:
   display_name: Blobby Hill
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - king-of-the-hill
@@ -1141,7 +1141,7 @@ blobby-imp:
   display_name: Imp Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - imp
@@ -1152,7 +1152,7 @@ blobby-in-the-lab:
   display_name: Blobby in the Lab
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - glasses
   - data
@@ -1235,7 +1235,7 @@ blobby-leia:
   display_name: Leia Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - space
   - happy
@@ -1247,7 +1247,7 @@ blobby-lightyear:
   display_name: Blobby Lightyear
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - space
   - helmet
@@ -1267,7 +1267,7 @@ blobby-loves-hockey:
   display_name: Loves Hockey Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hockey
   - halloween
@@ -1321,7 +1321,7 @@ blobby-monalisa:
   display_name: Mona Lisa Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - mona-lisa
@@ -1343,7 +1343,7 @@ blobby-mouse:
   display_name: Mouse Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - mouse
@@ -1378,7 +1378,7 @@ blobby-naut:
   display_name: Blobbynaut
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - space
   - helmet
@@ -1457,7 +1457,7 @@ blobby-offers-google-sheets:
   display_name: Blobby Offers Google Sheets
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - data
   - office
@@ -1523,7 +1523,7 @@ blobby-parton:
   display_name: Blobby Parton
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - dolly-parton
@@ -1609,7 +1609,7 @@ blobby-pirate:
   display_name: Pirate Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - pirate
   - hat
@@ -1643,7 +1643,7 @@ blobby-plush:
   display_name: Plush Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - happy
   - plush
@@ -1687,7 +1687,7 @@ blobby-presentation:
   display_name: Presentation Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - office
   - data
@@ -1732,7 +1732,7 @@ blobby-reader:
   display_name: Reader Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - book
   - reading
@@ -1743,7 +1743,7 @@ blobby-reading:
   display_name: Reading Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - book
   - glasses
@@ -1843,7 +1843,7 @@ blobby-royalty:
   display_name: Royalty Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - crown
   - king
@@ -1933,7 +1933,7 @@ blobby-showgirl:
   display_name: Showgirl Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - happy
@@ -2077,7 +2077,7 @@ blobby-superhero:
   display_name: Superhero Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - superhero
   - cape
@@ -2191,7 +2191,7 @@ blobby-the-builder:
   display_name: Blobby the Builder
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - helmet
   - hat
@@ -2203,7 +2203,7 @@ blobby-the-clown:
   display_name: Blobby the Clown
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - scared
@@ -2215,7 +2215,7 @@ blobby-the-doll:
   display_name: The Doll Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - scared
@@ -2249,7 +2249,7 @@ blobby-the-riveter:
   display_name: Blobby the Riveter
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hype
   - retro
@@ -2321,7 +2321,7 @@ blobby-tufted:
   display_name: Tufted Blobby
   generation: new
   kind: emoji
-  collection: core
+  collection: unsorted
   tags:
   - happy
   - retro
@@ -2375,7 +2375,7 @@ blobby-washington:
   display_name: Washington Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - george-washington
@@ -2521,7 +2521,7 @@ blobby_boy:
   display_name: Lobby Boy Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - mustache
@@ -2532,7 +2532,7 @@ blobby_can_do:
   display_name: Can Do Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - thumbs-up
   - 'yes'
@@ -2545,7 +2545,7 @@ blobby_sleuth:
   display_name: Sleuth Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - thinking
@@ -2569,7 +2569,7 @@ blobbys-world:
   display_name: Blobby's World
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - wave
   - retro
@@ -2765,7 +2765,7 @@ doctor-blobby:
   display_name: Doctor Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - doctor
   - stethoscope
@@ -2776,7 +2776,7 @@ dr-blobby:
   display_name: Dr. Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - doctor
   - stethoscope
@@ -2787,7 +2787,7 @@ dread-pirate-blobby:
   display_name: Dread Pirate Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - pirate
   - hat
@@ -2835,7 +2835,7 @@ ferris-blobby:
   display_name: Ferris Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - ferris-bueller
@@ -2864,7 +2864,7 @@ flavortown_blobby:
   display_name: Flavortown Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - glasses
   - chef
@@ -2938,7 +2938,7 @@ guild-blobby:
   display_name: Guild Blobby
   generation: classic
   kind: emoji
-  collection: omni-values
+  collection: omni
   tags:
   - hat
   - book
@@ -2950,7 +2950,7 @@ harry-caray-blobby:
   display_name: Harry Caray Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - glasses
   - baseball
@@ -2970,7 +2970,7 @@ heavy-metal-blobby:
   display_name: Heavy Metal Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - angry
   - halloween
@@ -3040,7 +3040,7 @@ iblobby-shrek:
   display_name: Shrek Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - animated
   - shrek
@@ -3115,7 +3115,7 @@ monsieur-blobby:
   display_name: Monsieur Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - beret
@@ -3138,7 +3138,7 @@ mr-blobby:
   display_name: Mr Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - wave
@@ -3150,7 +3150,7 @@ mrs-blobby:
   display_name: Mrs Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - mr-blobby
@@ -3199,7 +3199,7 @@ peterblobby:
   display_name: Peter Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - glasses
   - peter-griffin
@@ -3234,7 +3234,7 @@ ricky-blobby-driving:
   display_name: Ricky Blobby Driving
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - helmet
   - hype
@@ -3246,7 +3246,7 @@ ricky-blobby:
   display_name: Ricky Blobby
   generation: new
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - helmet
   - hype
@@ -3280,7 +3280,7 @@ sailor-blobby:
   display_name: Sailor Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - superhero
   - hat
@@ -3322,7 +3322,7 @@ shipit-blobby:
   display_name: Ship It Blobby
   generation: classic
   kind: emoji
-  collection: omni-values
+  collection: omni
   tags:
   - hat
   - hype
@@ -3357,7 +3357,7 @@ snoop-blobby-blob:
   display_name: Snoop Blobby Blob
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - dog
   - snoop-dogg
@@ -3400,7 +3400,7 @@ space_blobby:
   display_name: Space Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - space
   - helmet
@@ -3438,7 +3438,7 @@ super-blobby:
   display_name: Super Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - superhero
   - superman
@@ -3449,7 +3449,7 @@ super-saiyan-blobby:
   display_name: Super Saiyan Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hype
   - fire
@@ -3462,7 +3462,7 @@ taytoblobby:
   display_name: Tayto Blobby
   generation: classic
   kind: emoji
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - wave
@@ -3475,7 +3475,7 @@ the-blobbies:
   display_name: The Blobbies
   generation: new
   kind: emoji
-  collection: omni-values
+  collection: omni
   tags:
   - trophy
   - award
@@ -3575,7 +3575,7 @@ wrong-blobby:
   display_name: Wrong Blobby
   generation: classic
   kind: animation
-  collection: characters
+  collection: unsorted
   tags:
   - retro
   - wave
@@ -3587,7 +3587,7 @@ blobby-big-eyes:
   display_name: Big Eyes Blobby
   generation: new
   kind: illustration
-  collection: reactions
+  collection: core
   tags:
   - surprised
   - big-eyes
@@ -3644,7 +3644,7 @@ blobby-colonel:
   display_name: Colonel Blobby
   generation: new
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - captain
@@ -3706,7 +3706,7 @@ blobby-computer:
   display_name: Computer Blobby
   generation: new
   kind: illustration
-  collection: core
+  collection: unsorted
   tags:
   - laptop
   - office
@@ -3718,7 +3718,7 @@ blobby-construction:
   display_name: Construction Blobby
   generation: new
   kind: illustration
-  collection: omni-values
+  collection: omni
   tags:
   - hat
   - helmet
@@ -3839,7 +3839,7 @@ blobby-detective:
   display_name: Detective Blobby
   generation: new
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - glasses
@@ -3875,7 +3875,7 @@ blobby-elvis-2:
   display_name: Elvis Blobby 2
   generation: new
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - glasses
   - retro
@@ -3898,7 +3898,7 @@ blobby-from-the-black-lagoon-2:
   display_name: Blobby from the Black Lagoon
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - retro
@@ -3910,7 +3910,7 @@ blobby-from-the-black-lagoon:
   display_name: Blobby from the Black Lagoon
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - retro
@@ -3956,7 +3956,7 @@ blobby-graduate-book:
   display_name: Graduate Book Blobby
   generation: new
   kind: illustration
-  collection: omni-values
+  collection: omni
   tags:
   - book
   - glasses
@@ -3968,7 +3968,7 @@ blobby-krueger:
   display_name: Krueger Blobby
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - hat
@@ -3982,7 +3982,7 @@ blobby-lecter:
   display_name: Hannibal Lecter Blobby
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - scared
@@ -4097,7 +4097,7 @@ blobby-oogie-boogie:
   display_name: Oogie Boogie Blobby
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - oogie-boogie
@@ -4182,7 +4182,7 @@ blobby-pennywise:
   display_name: Pennywise Blobby
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - balloon
@@ -4195,7 +4195,7 @@ blobby-professor:
   display_name: Professor Blobby
   generation: new
   kind: illustration
-  collection: core
+  collection: unsorted
   tags:
   - book
   - glasses
@@ -4214,7 +4214,7 @@ blobby-sally:
   display_name: Sally Blobby
   generation: new
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - zombie
@@ -4244,7 +4244,7 @@ blobby-skellington:
   display_name: Skellington Blobby
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - halloween
   - christmas
@@ -4308,7 +4308,7 @@ blobby-startup:
   display_name: Startup Blobby
   generation: new
   kind: illustration
-  collection: omni-values
+  collection: omni
   tags:
   - laptop
   - coffee
@@ -4529,7 +4529,7 @@ blobby-zero:
   display_name: Zero Blobby
   generation: new
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - ghost
   - dog
@@ -4610,7 +4610,7 @@ omni-blobby-queen-1:
   display_name: Queen Blobby
   generation: new
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - crown
   - glasses
@@ -4646,7 +4646,7 @@ omni-blobby-show-girl:
   display_name: Show Girl Blobby
   generation: classic
   kind: illustration
-  collection: characters
+  collection: unsorted
   tags:
   - hat
   - showgirl
@@ -4664,3 +4664,55 @@ omni-blobby-ticket:
   - car
   source: figma-illustrations
   note: Sad Blobby beside a pink car with a $95 parking ticket.
+blobby-blushed:
+  display_name: Blobby Blushed
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  source: master
+  note: Official master file
+blobby-dynamic:
+  display_name: Dynamic Blobby
+  generation: new
+  kind: illustration
+  collection: core
+  tags: []
+  source: master
+  note: Official master file
+blobby-ouch:
+  display_name: Blobby Ouch
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  source: master
+  note: Official master file
+blobby-puppy-eyes:
+  display_name: Blobby Puppy Eyes
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  source: master
+  note: Official master file
+blobby-standard:
+  display_name: Standard Blobby
+  generation: new
+  kind: illustration
+  collection: core
+  tags: []
+  source: master
+  note: Official master file
+blobby-teary:
+  display_name: Blobby Teary
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  source: master
+  note: Official master file

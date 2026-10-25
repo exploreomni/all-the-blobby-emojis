@@ -50,20 +50,19 @@ _TAG_LIST: list[str] = [
 # ---------------------------------------------------------------------------
 
 _COLLECTION_INFO: list[tuple[str, str]] = [
-    ("core",         "The foundational Blobby emojis that every Omni team member uses daily."),
-    ("reactions",    "Blobby expressions and gestures built for Slack reactions and quick responses."),
-    ("cities",       "City and region Blobbies celebrating the places the Omni team calls home."),
-    ("partners",     "Blobby versions of Omni partner logos and tools in the data ecosystem."),
-    ("holidays",     "Seasonal and holiday Blobbies for celebrations throughout the year."),
-    ("characters",   "Blobby renditions of pop-culture characters, icons, and real-world figures."),
-    ("food",         "Food and drink Blobbies capturing team favorites and regional classics."),
-    ("animals",      "Animal Blobbies ranging from pets to wildlife to mythical creatures."),
-    ("sports",       "Sports-themed Blobbies for teams, athletes, and game-day moments."),
-    ("pop-culture",  "Blobby takes on movies, music, memes, and other cultural touchstones."),
-    ("omni-values",  "Blobbies representing Omni's culture, values, and internal milestones."),
-    ("animated",     "GIF animations that bring Blobby to life in Slack reactions and threads."),
-    ("classic",      "Early-generation Blobbies preserved as a record of where it all started."),
-    ("unsorted",     "Holding pen for Blobby items awaiting collection backfill."),
+    ("core",         "The official master Blobbies, hand-picked only, never assigned by the model."),
+    ("holidays",     "Anything tied to a holiday or season, Halloween monsters included."),
+    ("pop-culture",  "Recognizable franchise characters, celebrities, memes, zodiac signs."),
+    ("costumes",     "Generic professions and outfits with no franchise (pirate, captain, doctor, chef, builder, showgirl)."),
+    ("cities",       "Places, flags, landmarks, local food that stands for a place."),
+    ("partners",     "dbt, Snowflake, Databricks, MotherDuck, Google Sheets, and other software or brands."),
+    ("food",         "Food and drink."),
+    ("animals",      "Animals."),
+    ("sports",       "Sports."),
+    ("omni",         "AI, agents, dashboards, SQL, data, Omni values."),
+    ("reactions",    "Emotions, gestures, and sign-holding words only."),
+    ("objects",      "A Blobby doing or being a thing that fits nowhere above (balloon, cube, rocket, typing, vacation, on a date)."),
+    ("unsorted",     "Holding pen for items awaiting backfill."),
 ]
 
 
