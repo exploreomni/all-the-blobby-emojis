@@ -28,8 +28,13 @@ def _build_prompt(record: dict, vocab: Vocab) -> str:
     """Build the tagging prompt for the Claude API call."""
     slug = record.get("slug", "unknown")
 
+    # Exclude curator-only collections: classic, animated, and unsorted are
+    # assigned by humans, not the model.
+    _CURATOR_ONLY = {"classic", "animated", "unsorted"}
     collections_text = "\n".join(
-        f"  - {slug_}: {desc}" for slug_, desc in vocab.collections.items()
+        f"  - {slug_}: {desc}"
+        for slug_, desc in vocab.collections.items()
+        if slug_ not in _CURATOR_ONLY
     )
     tags_text = ", ".join(sorted(vocab.tags))
 
@@ -48,7 +53,7 @@ Your task: return a single JSON object (no markdown, no explanation) with these 
   "confidence": <0.0-1.0>
 }}
 
-Available collections (pick the single best fit):
+Available collections (pick the single best fit from this list; prefer reactions for plain expression or gesture blobbies):
 {collections_text}
 
 Available tags (only use words from this list; pick 1-4 that best describe the image):
@@ -93,8 +98,13 @@ def propose(
     generation: str = str(data.get("generation", "classic"))
     confidence: float = float(data.get("confidence", 0.0))
 
-    # Validate against vocab.
-    collection = vocab.valid_collection(raw_collection)
+    # Validate against vocab; also reject curator-only collections the model
+    # should never choose (classic, animated, unsorted).
+    _MODEL_FORBIDDEN = {"classic", "animated", "unsorted"}
+    if raw_collection in _MODEL_FORBIDDEN:
+        collection = "unsorted"
+    else:
+        collection = vocab.valid_collection(raw_collection)
     tags = vocab.valid_tags([str(t).lower() for t in raw_tags])
 
     # generation must be classic or new; default to classic if invalid.

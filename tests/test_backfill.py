@@ -48,6 +48,13 @@ def test_merge_only_touches_unsorted_entries():
     assert "collection: core" in out and "B!" not in out
 
 
+def test_propose_rejects_curator_only_collection():
+    """A model reply with collection 'classic' must fall back to 'unsorted'."""
+    ask = lambda *a: '{"display_name":"Old Blobby","collection":"classic","tags":["happy"],"generation":"classic","confidence":0.7}'
+    p = propose({"slug": "old-blobby", "file": "x.png"}, b"", VOCAB, ask)
+    assert p.collection == "unsorted"
+
+
 def test_make_ask_urllib_path(monkeypatch):
     """_make_ask_urllib uses a fake urlopen; verify it sends the right shape and returns text."""
     api_json = json.dumps({
