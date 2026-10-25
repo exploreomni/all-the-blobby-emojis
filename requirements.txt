@@ -1,0 +1,3 @@
+pyyaml
+pillow
+pytest
