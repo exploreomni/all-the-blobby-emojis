@@ -254,7 +254,7 @@ blobby-98:
   display_name: Blobby 98
   generation: new
   kind: emoji
-  collection: partners
+  collection: pop-culture
   tags:
   - retro
   - pixel
@@ -1312,7 +1312,7 @@ blobby-lyft:
   display_name: Lyft Blobby
   generation: new
   kind: emoji
-  collection: partners
+  collection: objects
   tags:
   - retro
   - car
@@ -3259,7 +3259,7 @@ nerd-gummy-cluster-blobby:
   display_name: Nerd Gummy Cluster Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: food
   tags: []
   source: slack
 old-man-yells-at-blobby:
