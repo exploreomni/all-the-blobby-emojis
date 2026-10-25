@@ -1,0 +1,83 @@
+- slug: core
+  name: Core
+  order: 1
+  description: The foundational Blobby emojis that every Omni team member uses daily.
+  cover: null
+
+- slug: reactions
+  name: Reactions
+  order: 2
+  description: Blobby expressions and gestures built for Slack reactions and quick responses.
+  cover: null
+
+- slug: cities
+  name: Cities
+  order: 3
+  description: City and region Blobbies celebrating the places the Omni team calls home.
+  cover: null
+
+- slug: partners
+  name: Partners
+  order: 4
+  description: Blobby versions of Omni partner logos and tools in the data ecosystem.
+  cover: null
+
+- slug: holidays
+  name: Holidays
+  order: 5
+  description: Seasonal and holiday Blobbies for celebrations throughout the year.
+  cover: null
+
+- slug: characters
+  name: Characters
+  order: 6
+  description: Blobby renditions of pop-culture characters, icons, and real-world figures.
+  cover: null
+
+- slug: food
+  name: Food
+  order: 7
+  description: Food and drink Blobbies capturing team favorites and regional classics.
+  cover: null
+
+- slug: animals
+  name: Animals
+  order: 8
+  description: Animal Blobbies ranging from pets to wildlife to mythical creatures.
+  cover: null
+
+- slug: sports
+  name: Sports
+  order: 9
+  description: Sports-themed Blobbies for teams, athletes, and game-day moments.
+  cover: null
+
+- slug: pop-culture
+  name: Pop Culture
+  order: 10
+  description: Blobby takes on movies, music, memes, and other cultural touchstones.
+  cover: null
+
+- slug: omni-values
+  name: Omni Values
+  order: 11
+  description: Blobbies representing Omni's culture, values, and internal milestones.
+  cover: null
+
+- slug: animated
+  name: Animated
+  order: 12
+  description: GIF animations that bring Blobby to life in Slack reactions and threads.
+  cover: null
+
+- slug: classic
+  name: Classic
+  order: 13
+  description: Early-generation Blobbies preserved as a record of where it all started.
+  cover: null
+
+- slug: unsorted
+  name: Unsorted
+  order: 14
+  description: Holding pen for Blobby items awaiting collection backfill.
+  cover: null
