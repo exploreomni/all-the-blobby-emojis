@@ -43,7 +43,7 @@ if [ "$should_refresh" -ne 1 ]; then
   exit 0
 fi
 
-if ! python3 -m pytest -q; then
+if ! env -u GIT_DIR -u GIT_INDEX_FILE -u GIT_WORK_TREE -u GIT_PREFIX python3 -m pytest -q; then
   echo "pre-commit: tests failed, aborting commit" >&2
   exit 1
 fi
