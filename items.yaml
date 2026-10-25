@@ -16,27 +16,27 @@
   collection: sports
   tags:
   - hat
-  - brand
   - 49ers
+  - football
   source: slack
   note: Blobby wears a black San Francisco 49ers baseball cap.
 agent-blobby-salute:
   display_name: Agent Blobby Salute
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - agent
   - glasses
-  - salute
   - suit
+  - secret-agent
   source: slack
   note: Blobby as a secret agent in sunglasses, black suit, and tie.
 agent-blobby-salute2:
   display_name: Agent Blobby Salute
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - agent
   - salute
@@ -49,7 +49,7 @@ agent-blobby:
   display_name: Agent Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - agent
   - glasses
@@ -60,7 +60,7 @@ agent-blobby:
   note: Blobby wears dark sunglasses, a black suit, and tie like a secret agent.
 agentic-blobby:
   display_name: Agentic Blobby
-  generation: new
+  generation: classic
   kind: emoji
   collection: omni
   tags:
@@ -85,9 +85,8 @@ baby-blobby:
   display_name: Baby Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
-  - happy
   - baby
   - pacifier
   source: slack
@@ -96,7 +95,7 @@ baby-mr-blobby:
   display_name: Baby Mr Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - surprised
@@ -120,7 +119,7 @@ beatnik-blobby:
   display_name: Beatnik Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - hat
   - retro
@@ -132,7 +131,7 @@ big_boi_blobby:
   display_name: Big Boi Blobby
   generation: new
   kind: emoji
-  collection: food
+  collection: pop-culture
   tags:
   - happy
   - burger
@@ -164,25 +163,26 @@ blobba-the-hutt:
   display_name: Blobba the Hutt
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
+  - space
   - star-wars
   - jabba
   source: slack
   note: Blobby as Jabba the Hutt with heavy-lidded eyes and smug grin.
 blobbee-flower:
   display_name: Blobbee Flower
-  generation: new
+  generation: classic
   kind: emoji
   collection: animals
   tags:
-  - bee
   - flower
+  - bee
   source: slack
   note: Blobby dressed as a bumblebee sitting on a daisy flower.
 blobberonis:
   display_name: Blobberonis
-  generation: classic
+  generation: new
   kind: emoji
   collection: food
   tags:
@@ -194,14 +194,18 @@ blobbies-walking-into-the-sunset:
   display_name: Blobbies Walking Into The Sunset
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - love
+  - sunset
+  - friends
   source: slack
+  note: Two blobbies, pink and blue, walk hand in hand toward a sunset.
 blobbo-libre:
   display_name: Blobbo Libre
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - superhero
   - glasses
@@ -224,7 +228,7 @@ blobby-100-zoom:
   note: Blobby holds up a sign with the 100 emoji.
 blobby-100:
   display_name: 100 Blobby
-  generation: classic
+  generation: new
   kind: emoji
   collection: reactions
   tags:
@@ -250,13 +254,13 @@ blobby-98:
   display_name: Blobby 98
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: partners
   tags:
   - retro
   - pixel
   - flag
   - windows-98
-  - brand
+  - microsoft
   source: slack
   note: Blobby inside a waving Windows 98 logo flag with pixel trail.
 blobby-ahhhhhhhhh:
@@ -297,7 +301,7 @@ blobby-announce-2:
   display_name: Announce Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - hype
   - megaphone
@@ -308,7 +312,7 @@ blobby-announce:
   display_name: Announce Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - hype
   - megaphone
@@ -341,7 +345,7 @@ blobby-aussie:
   collection: cities
   tags:
   - hat
-  - flag
+  - city
   - australia
   - bush-hat
   source: slack
@@ -360,10 +364,10 @@ blobby-balloon:
   display_name: Balloon Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - balloon
-  - party
+  - floating
   source: slack
   note: Blobby shaped like a smiling balloon with a gradient fill.
 blobby-bara:
@@ -381,7 +385,7 @@ blobby-bat:
   display_name: Bat Blobby
   generation: new
   kind: emoji
-  collection: animals
+  collection: holidays
   tags:
   - halloween
   - vampire
@@ -397,7 +401,9 @@ blobby-beaver:
   tags:
   - laptop
   - coffee
+  - office
   - beaver
+  - busy
   source: slack
   note: Blobby in a beaver costume runs carrying a laptop and coffee.
 blobby-benny:
@@ -407,8 +413,8 @@ blobby-benny:
   collection: animals
   tags:
   - dog
-  - benny
   - puppy
+  - benny
   source: slack
   note: Blobby wears a golden puppy dog costume with floppy ears.
 blobby-biker:
@@ -477,7 +483,7 @@ blobby-boucher:
   display_name: Bobby Boucher Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - helmet
   - football
@@ -488,7 +494,7 @@ blobby-bride:
   display_name: Bride Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - love
   - crown
@@ -500,17 +506,20 @@ blobby-bubbles:
   display_name: Blobby Bubbles
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - balloon
+  - bubbles
+  - bubble-wand
   source: slack
+  note: Blobby blows soap bubbles shaped like smaller Blobbies with a wand.
 blobby-bumble:
   display_name: Bumble Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: holidays
   tags:
   - christmas
-  - snowflake
   - laughing
   - yeti
   - abominable-snowman
@@ -547,7 +556,7 @@ blobby-captain:
   display_name: Captain Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - captain
   - hat
@@ -570,7 +579,7 @@ blobby-cheese-steak:
   display_name: Cheese Steak Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: cities
   tags:
   - city
   - cheesesteak
@@ -581,7 +590,7 @@ blobby-chicago-dog-drool:
   display_name: Chicago Dog Drool Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: cities
   tags:
   - hotdog
   - city
@@ -591,9 +600,9 @@ blobby-chicago-dog-drool:
   note: Blobby drools over a Chicago-style hot dog with all the toppings.
 blobby-chicago-dog:
   display_name: Chicago Dog Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: food
+  collection: cities
   tags:
   - hotdog
   - city
@@ -602,11 +611,15 @@ blobby-chicago-dog:
   note: Blobby smiles behind a Chicago-style hot dog loaded with toppings.
 blobby-chill:
   display_name: Blobby Chill
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - sleepy
+  - spa
+  - face-mask
   source: slack
+  note: Blobby relaxes at a spa with a face mask, cucumbers, and towel.
 blobby-claus:
   display_name: Blobby Claus
   generation: classic
@@ -620,15 +633,15 @@ blobby-claus:
   note: Blobby wears a red Santa hat with white fur trim.
 blobby-clippy:
   display_name: Clippy Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - office
   - retro
   - ai
   - paperclip
-  - brand
+  - clippy
   source: slack
   note: Blobby as Clippy, the googly-eyed paperclip assistant on paper.
 blobby-coffee:
@@ -648,7 +661,6 @@ blobby-cold-face:
   kind: emoji
   collection: reactions
   tags:
-  - snowflake
   - cold
   - freezing
   source: slack
@@ -667,7 +679,7 @@ blobby-copy:
   collection: reactions
   tags:
   - 'yes'
-  - happy
+  - thumbs-up
   - copy
   - sign
   source: slack
@@ -676,7 +688,7 @@ blobby-cube:
   display_name: Cube Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - happy
   - cube
@@ -701,8 +713,8 @@ blobby-dbt:
   collection: partners
   tags:
   - dbt
-  - data
   - hat
+  - data
   source: slack
   note: Blobby wears a black baseball cap with the orange dbt logo.
 blobby-deal-with-it:
@@ -713,12 +725,18 @@ blobby-deal-with-it:
   tags: []
   source: slack
 blobby-dealwithit:
-  display_name: Blobby Dealwithit
+  display_name: Blobby Deal With It
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: pop-culture
+  tags:
+  - glasses
+  - animated
+  - retro
+  - deal-with-it
+  - meme
   source: slack
+  note: Blobby smiles in the Deal With It sunglasses meme.
 blobby-derp:
   display_name: Derp Blobby
   generation: classic
@@ -726,7 +744,6 @@ blobby-derp:
   collection: reactions
   tags:
   - confused
-  - laughing
   - derp
   - silly
   source: slack
@@ -782,7 +799,7 @@ blobby-elevated-business-casual:
   display_name: Elevated Business Casual Blobby
   generation: classic
   kind: emoji
-  collection: omni
+  collection: costumes
   tags:
   - office
   - business-casual
@@ -804,7 +821,7 @@ blobby-elvis:
   display_name: Elvis Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - glasses
   - retro
@@ -820,6 +837,7 @@ blobby-enraged:
   tags:
   - angry
   - furious
+  - mad
   source: slack
   note: Blobby glares with furrowed brows, a deep frown, and an anger vein.
 blobby-eu:
@@ -842,16 +860,22 @@ blobby-explo:
   source: slack
 blobby-family:
   display_name: Blobby Family
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - glasses
+  - love
+  - family
+  - baby
   source: slack
+  note: Blobby family portrait with a glasses-wearing parent, a bearded parent, and
+    a baby with a pacifier.
 blobby-fancy:
   display_name: Fancy Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: costumes
   tags:
   - happy
   - tuxedo
@@ -862,10 +886,11 @@ blobby-fire:
   display_name: Fire Blobby
   generation: classic
   kind: animation
-  collection: reactions
+  collection: pop-culture
   tags:
   - fire
   - surprised
+  - animated
   - this-is-fine
   source: slack
   note: Wide-eyed Blobby stares blankly while flames burn behind it.
@@ -887,15 +912,16 @@ blobby-flex:
   collection: reactions
   tags:
   - hype
+  - happy
   - flex
   - muscles
   source: slack
   note: Blobby flexes muscular arms and shows off six-pack abs.
 blobby-for-president:
   display_name: Blobby for President
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - flag
   - president
@@ -904,7 +930,7 @@ blobby-for-president:
   note: Blobby wears a white powdered colonial wig before an American flag.
 blobby-frankenstein:
   display_name: Frankenstein Blobby
-  generation: new
+  generation: classic
   kind: emoji
   collection: holidays
   tags:
@@ -919,7 +945,7 @@ blobby-fsm:
   display_name: Flying Spaghetti Monster Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - happy
   - spaghetti
@@ -928,7 +954,7 @@ blobby-fsm:
   note: Blobby as the Flying Spaghetti Monster with meatballs and noodles.
 blobby-ghost:
   display_name: Ghost Blobby
-  generation: new
+  generation: classic
   kind: emoji
   collection: holidays
   tags:
@@ -951,11 +977,11 @@ blobby-graduate:
   display_name: Graduate Blobby
   generation: classic
   kind: emoji
-  collection: omni
+  collection: costumes
   tags:
   - hat
-  - book
   - graduation
+  - mortarboard
   source: slack
   note: Blobby wears a black graduation cap with a gold tassel.
 blobby-grimace:
@@ -966,6 +992,7 @@ blobby-grimace:
   tags:
   - scared
   - confused
+  - surprised
   - grimace
   - awkward
   source: slack
@@ -974,7 +1001,7 @@ blobby-gritty:
   display_name: Gritty Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hockey
   - helmet
@@ -990,7 +1017,6 @@ blobby-guinness:
   tags:
   - beer
   - st-patricks
-  - brand
   - guinness
   source: slack
   note: Blobby smiles contentedly while holding a pint of Guinness stout.
@@ -998,10 +1024,10 @@ blobby-hallucinates:
   display_name: Hallucinates Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: omni
   tags:
-  - confused
   - ai
+  - confused
   - dizzy
   - hallucinating
   source: slack
@@ -1031,9 +1057,10 @@ blobby-hat-blobby:
   display_name: Hat Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - hat
+  - baseball
   - happy
   - baseball-cap
   source: slack
@@ -1086,7 +1113,7 @@ blobby-hill:
   display_name: Blobby Hill
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - king-of-the-hill
@@ -1097,12 +1124,12 @@ blobby-horns:
   display_name: Horns Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - hype
   - retro
   - rock-on
-  - headband
+  - rocker
   source: slack
   note: Blobby with spiky hair and a headband throws rock-on horns.
 blobby-hotdog:
@@ -1134,6 +1161,7 @@ blobby-hype:
   tags:
   - hype
   - wave
+  - happy
   - hands-up
   source: slack
   note: Blobby raises both hands in the air with excitement.
@@ -1141,7 +1169,7 @@ blobby-imp:
   display_name: Imp Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - imp
@@ -1152,7 +1180,7 @@ blobby-in-the-lab:
   display_name: Blobby in the Lab
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - glasses
   - data
@@ -1184,9 +1212,13 @@ blobby-jammies:
   display_name: Blobby Jammies
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: costumes
+  tags:
+  - hat
+  - wave
+  - pajamas
   source: slack
+  note: Blobby wears teal button-up pajamas and a white cap while waving.
 blobby-joy:
   display_name: Joy Blobby
   generation: classic
@@ -1207,7 +1239,7 @@ blobby-koala:
   - koala
   - wave
   - bear
-  - costume
+  - onesie
   source: slack
   note: Blobby wears a koala costume and waves hello.
 blobby-latte:
@@ -1235,10 +1267,9 @@ blobby-leia:
   display_name: Leia Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - space
-  - happy
   - star-wars
   - princess-leia
   source: slack
@@ -1247,7 +1278,7 @@ blobby-lightyear:
   display_name: Blobby Lightyear
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - space
   - helmet
@@ -1267,10 +1298,10 @@ blobby-loves-hockey:
   display_name: Loves Hockey Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: holidays
   tags:
-  - hockey
   - halloween
+  - hockey
   - scared
   - jason-voorhees
   - mask
@@ -1281,27 +1312,30 @@ blobby-lyft:
   display_name: Lyft Blobby
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: partners
   tags:
   - retro
-  - brand
   - car
+  - mustache
   source: slack
   note: Blobby drives a pink car with a Lyft-style mustache on the front.
 blobby-math:
   display_name: Blobby Math
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - data
+  - math
+  - equation
   source: slack
+  note: Smiling Blobby covered in handwritten math equations and a square root formula.
 blobby-meatballs:
   display_name: Meatballs Blobby
   generation: classic
   kind: emoji
   collection: food
   tags:
-  - happy
   - meatballs
   - fork
   source: slack
@@ -1315,13 +1349,14 @@ blobby-melting:
   - sad
   - sleepy
   - melting
+  - tired
   source: slack
   note: Blobby melts into a puddle with a weary, drooping expression.
 blobby-monalisa:
   display_name: Mona Lisa Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - mona-lisa
@@ -1343,21 +1378,21 @@ blobby-mouse:
   display_name: Mouse Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hat
-  - mouse
+  - happy
   - mickey-mouse
+  - mouse-ears
   source: slack
   note: Blobby wears round black Mickey Mouse-style ears and smiles.
 blobby-movie-projector:
   display_name: Movie Projector Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: pop-culture
+  collection: objects
   tags:
   - retro
-  - animated
   - movie
   - projector
   source: slack
@@ -1369,7 +1404,6 @@ blobby-mummy:
   collection: holidays
   tags:
   - halloween
-  - zombie
   - mummy
   - bandages
   source: slack
@@ -1378,7 +1412,7 @@ blobby-naut:
   display_name: Blobbynaut
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - space
   - helmet
@@ -1395,6 +1429,7 @@ blobby-new-years26:
   - new-year
   - wine
   - hype
+  - crown
   - champagne
   - '2026'
   source: slack
@@ -1406,8 +1441,8 @@ blobby-nice:
   collection: reactions
   tags:
   - 'yes'
-  - thumbs-up
   - hype
+  - thumbs-up
   - nice
   - sign
   source: slack
@@ -1416,9 +1451,13 @@ blobby-no:
   display_name: Blobby No
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: reactions
+  tags:
+  - 'no'
+  - sleepy
+  - smug
   source: slack
+  note: Blobby with a closed-eye smug smile, saying no.
 blobby-noche:
   display_name: Noche Blobby
   generation: classic
@@ -1426,8 +1465,9 @@ blobby-noche:
   collection: animals
   tags:
   - cat
+  - halloween
   - black-cat
-  - pet
+  - fluffy
   source: slack
   note: Blobby peeks out from a fluffy black cat costume with green eyes.
 blobby-nod:
@@ -1457,19 +1497,19 @@ blobby-offers-google-sheets:
   display_name: Blobby Offers Google Sheets
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: partners
   tags:
   - data
   - office
-  - brand
+  - google-sheets
   - spreadsheet
   source: slack
   note: Blobby smiles while holding out a Google Sheets spreadsheet icon.
 blobby-on-a-date:
   display_name: Blobby on a Date
-  generation: classic
+  generation: new
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - love
   - rose
@@ -1480,7 +1520,7 @@ blobby-on-holiday:
   display_name: Blobby on Holiday
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: objects
   tags:
   - beach
   - glasses
@@ -1493,7 +1533,7 @@ blobby-on-the-phone:
   display_name: Blobby on the Phone
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - phone
   - office
@@ -1504,17 +1544,22 @@ blobby-on-wheels:
   display_name: Blobby On Wheels
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - happy
+  - retro
+  - wheels
+  - rolling
   source: slack
+  note: Blobby sits on two wheels like a little rolling cart.
 blobby-out-of-the-loop:
   display_name: Out of the Loop Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: objects
   tags:
-  - retro
   - surprised
+  - retro
   - roller-coaster
   - pun
   source: slack
@@ -1523,7 +1568,7 @@ blobby-parton:
   display_name: Blobby Parton
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hat
   - dolly-parton
@@ -1537,6 +1582,7 @@ blobby-penguin:
   collection: animals
   tags:
   - penguin
+  - hat
   - costume
   source: slack
   note: Blobby wears a gray penguin costume with an orange beak.
@@ -1549,15 +1595,15 @@ blobby-pet:
   - animated
   - love
   - happy
-  - pet
   - headpat
+  - pet
   source: slack
   note: A hand pats Blobby on the head while Blobby smiles contentedly.
 blobby-philly:
   display_name: Philly Blobby
   generation: classic
   kind: emoji
-  collection: sports
+  collection: cities
   tags:
   - helmet
   - city
@@ -1569,9 +1615,14 @@ blobby-pill:
   display_name: Blobby Pill
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - happy
+  - doctor
+  - pill
+  - capsule
   source: slack
+  note: Blobby shaped as a smiling two-tone medicine capsule pill.
 blobby-pinch-cooked:
   display_name: Pinch Cooked Blobby
   generation: new
@@ -1609,7 +1660,7 @@ blobby-pirate:
   display_name: Pirate Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - pirate
   - hat
@@ -1641,9 +1692,9 @@ blobby-pizza:
   note: Blobby squints happily while eating a slice of pepperoni pizza.
 blobby-plush:
   display_name: Plush Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - happy
   - plush
@@ -1669,8 +1720,8 @@ blobby-polar-bear:
   tags:
   - bear
   - hat
-  - snowflake
   - polar-bear
+  - hood
   source: slack
   note: Blobby wears a white polar bear hood with ears and a nose.
 blobby-pray:
@@ -1687,10 +1738,11 @@ blobby-presentation:
   display_name: Presentation Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: omni
   tags:
   - office
   - data
+  - dashboard
   - presentation
   - whiteboard
   source: slack
@@ -1715,6 +1767,7 @@ blobby-pumpkin:
   tags:
   - halloween
   - pumpkin
+  - autumn
   source: slack
   note: Blobby peeks out from inside an orange jack-o'-lantern pumpkin.
 blobby-question:
@@ -1732,7 +1785,7 @@ blobby-reader:
   display_name: Reader Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - book
   - reading
@@ -1743,7 +1796,7 @@ blobby-reading:
   display_name: Reading Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - book
   - glasses
@@ -1754,7 +1807,7 @@ blobby-reads:
   display_name: Blobby Reads
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - book
   - glasses
@@ -1768,7 +1821,6 @@ blobby-reindeer:
   collection: holidays
   tags:
   - christmas
-  - hat
   - reindeer
   - scarf
   source: slack
@@ -1786,23 +1838,32 @@ blobby-right:
   note: Blobby shaped like a right-pointing arrow with a smiling face.
 blobby-rock-2:
   display_name: Blobby Rock 2
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - mountain
+  - rock
+  - pet-rock
   source: slack
+  note: Blobby as a smiling gray rock.
 blobby-rock:
   display_name: Blobby Rock
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - happy
+  - retro
+  - rock
+  - stone
   source: slack
+  note: Blobby as a gray textured rock with a pink smiling face.
 blobby-rocker:
   display_name: Rocker Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - hype
   - punk
@@ -1813,7 +1874,7 @@ blobby-rocket:
   display_name: Rocket Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - space
   - hype
@@ -1823,29 +1884,34 @@ blobby-rocket:
   note: Blobby rides a flaming rocket ship blasting off.
 blobby-roll-the-dice:
   display_name: Blobby Roll The Dice
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - happy
+  - dice
+  - gambling
   source: slack
+  note: Two Blobby faced dice tumble together, showing pips like a roll.
 blobby-roo:
   display_name: Roo Blobby
-  generation: classic
+  generation: new
   kind: emoji
   collection: animals
   tags:
   - kangaroo
   - wave
-  - costume
+  - onesie
   source: slack
   note: Blobby wears a kangaroo costume and waves hello.
 blobby-royalty:
   display_name: Royalty Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - crown
+  - hat
   - king
   - royalty
   source: slack
@@ -1854,7 +1920,7 @@ blobby-salute:
   display_name: Salute Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: costumes
   tags:
   - salute
   - captain
@@ -1931,9 +1997,9 @@ blobby-shine:
   note: Blobby smiles contentedly beside a bright shining sun.
 blobby-showgirl:
   display_name: Showgirl Blobby
-  generation: new
+  generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - hat
   - happy
@@ -1957,11 +2023,12 @@ blobby-slay-queen:
   display_name: Slay Queen Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - crown
   - glasses
   - hype
+  - love
   - slay
   - kiss
   source: slack
@@ -1996,8 +2063,8 @@ blobby-snowman:
   tags:
   - christmas
   - hat
-  - snowflake
   - snowman
+  - winter
   source: slack
   note: Three stacked Blobbies form a snowman wearing a black top hat.
 blobby-sparkle:
@@ -2015,23 +2082,36 @@ blobby-speaking-fast:
   display_name: Blobby Speaking Fast
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: reactions
+  tags:
+  - animated
+  - hype
+  - talking
+  - fast
   source: slack
+  note: Blobby talks rapidly with a quickly moving mouth.
 blobby-speaking-slow:
   display_name: Blobby Speaking Slow
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: reactions
+  tags:
+  - animated
+  - happy
+  - talking
+  - slow
   source: slack
+  note: Blobby smiles and talks slowly with a plain expression.
 blobby-speaking:
   display_name: Blobby Speaking
   generation: classic
   kind: animation
-  collection: unsorted
-  tags: []
+  collection: reactions
+  tags:
+  - speaking
+  - talking
   source: slack
+  note: Classic gradient Blobby smiling as if speaking or talking.
 blobby-spin:
   display_name: Spinning Blobby
   generation: classic
@@ -2039,7 +2119,6 @@ blobby-spin:
   collection: reactions
   tags:
   - animated
-  - happy
   - spin
   source: slack
   note: Smiling Blobby spinning around in a gradient circle.
@@ -2057,11 +2136,15 @@ blobby-spooky-szn:
   note: Blobby dressed as a ghost holding a jack-o'-lantern candy bucket.
 blobby-sun:
   display_name: Blobby Sun
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: objects
+  tags:
+  - happy
+  - sun
+  - sunshine
   source: slack
+  note: Smiling mint-green Blobby glows as a sun with orange rays.
 blobby-super-fire:
   display_name: Super Fire Blobby
   generation: classic
@@ -2077,9 +2160,10 @@ blobby-superhero:
   display_name: Superhero Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - superhero
+  - happy
   - cape
   - mask
   source: slack
@@ -2117,6 +2201,7 @@ blobby-sydney:
   - kangaroo
   - city
   - australia
+  - sydney
   source: slack
   note: Blobby wears a kangaroo costume with open arms for Sydney.
 blobby-table-flip:
@@ -2172,8 +2257,8 @@ blobby-thanksgiving:
   collection: holidays
   tags:
   - thanksgiving
-  - turkey
   - costume
+  - turkey
   source: slack
   note: Blobby wears a turkey costume with colorful tail feathers for Thanksgiving.
 blobby-the-bean:
@@ -2191,7 +2276,7 @@ blobby-the-builder:
   display_name: Blobby the Builder
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - helmet
   - hat
@@ -2203,7 +2288,7 @@ blobby-the-clown:
   display_name: Blobby the Clown
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - scared
@@ -2215,10 +2300,9 @@ blobby-the-doll:
   display_name: The Doll Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
-  - scared
   - chucky
   - doll
   source: slack
@@ -2241,6 +2325,7 @@ blobby-the-more-you-know:
   collection: pop-culture
   tags:
   - retro
+  - pride
   - shooting-star
   - rainbow
   source: slack
@@ -2249,10 +2334,11 @@ blobby-the-riveter:
   display_name: Blobby the Riveter
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hype
   - retro
+  - salute
   - rosie-the-riveter
   - bandana
   source: slack
@@ -2292,7 +2378,7 @@ blobby-topgumz:
   note: Blobby as a Top Gun pilot with aviator sunglasses, helmet, and mustache.
 blobby-toronto:
   display_name: Toronto Blobby
-  generation: classic
+  generation: new
   kind: emoji
   collection: cities
   tags:
@@ -2301,30 +2387,41 @@ blobby-toronto:
   - helmet
   - flag
   - canada
+  - maple-leaf
   source: slack
   note: Blobby in a red Canadian hockey jersey and helmet holding a hockey stick.
 blobby-trail-guide:
   display_name: Blobby Trail Guide
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: costumes
+  tags:
+  - hat
+  - mountain
+  - hiking
+  - trekking-pole
   source: slack
+  note: Blobby dressed as a hiker with bucket hat, trekking pole, and water bottle.
 blobby-train:
   display_name: Blobby Train
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: costumes
+  tags:
+  - hat
+  - retro
+  - train
+  - conductor
   source: slack
+  note: Blobby wears a conductor cap while riding a steam locomotive.
 blobby-tufted:
   display_name: Tufted Blobby
-  generation: new
+  generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
-  - happy
   - retro
+  - happy
   - tufted
   - rug
   source: slack
@@ -2333,10 +2430,9 @@ blobby-typing:
   display_name: Typing Blobby
   generation: classic
   kind: animation
-  collection: reactions
+  collection: objects
   tags:
   - office
-  - laptop
   - typing
   - keyboard
   source: slack
@@ -2345,7 +2441,7 @@ blobby-ultra-think:
   display_name: Ultra Think Blobby
   generation: classic
   kind: animation
-  collection: reactions
+  collection: omni
   tags:
   - thinking
   - ai
@@ -2375,7 +2471,7 @@ blobby-washington:
   display_name: Washington Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - george-washington
@@ -2410,6 +2506,7 @@ blobby-whale:
   collection: animals
   tags:
   - happy
+  - wave
   - whale
   - ocean
   source: slack
@@ -2421,7 +2518,6 @@ blobby-whats-in-the-box:
   collection: pop-culture
   tags:
   - gift
-  - surprised
   - se7en
   - box
   source: slack
@@ -2490,7 +2586,7 @@ blobby-yes:
   note: Blobby holds up a white sign that says YES in green.
 blobby-zombie:
   display_name: Zombie Blobby
-  generation: classic
+  generation: new
   kind: emoji
   collection: holidays
   tags:
@@ -2521,7 +2617,7 @@ blobby_boy:
   display_name: Lobby Boy Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hat
   - mustache
@@ -2532,7 +2628,7 @@ blobby_can_do:
   display_name: Can Do Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - thumbs-up
   - 'yes'
@@ -2545,7 +2641,7 @@ blobby_sleuth:
   display_name: Sleuth Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - hat
   - thinking
@@ -2567,9 +2663,9 @@ blobbyfox:
   note: Blobby wears an orange fox costume with ears and a tail.
 blobbys-world:
   display_name: Blobby's World
-  generation: new
+  generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - wave
   - retro
@@ -2582,11 +2678,12 @@ blobbysaurus-rex:
   display_name: Blobbysaurus Rex
   generation: classic
   kind: emoji
-  collection: animals
+  collection: costumes
   tags:
   - dinosaur
+  - wave
   - t-rex
-  - costume
+  - tie
   source: slack
   note: Blobby wears an orange dinosaur costume with a necktie.
 blobbysnowflake:
@@ -2639,11 +2736,10 @@ buckingham-blobby:
   display_name: Buckingham Blobby
   generation: classic
   kind: emoji
-  collection: cities
+  collection: costumes
   tags:
-  - city
   - hat
-  - salute
+  - city
   - london
   - royal-guard
   source: slack
@@ -2655,8 +2751,8 @@ bufo-loves-blobby:
   collection: pop-culture
   tags:
   - love
-  - bufo
   - frog
+  - bufo
   source: slack
   note: Bufo the frog hugs a smiling Blobby surrounded by hearts.
 bumblebee-blobby:
@@ -2677,7 +2773,6 @@ canadian-blobby:
   collection: cities
   tags:
   - flag
-  - happy
   - canada
   - maple-leaf
   source: slack
@@ -2704,7 +2799,7 @@ chicagodeepdishblobby:
   display_name: Chicago Deep Dish Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: cities
   tags:
   - pizza
   - city
@@ -2745,8 +2840,8 @@ deep-fried-blobby:
   tags:
   - hype
   - fire
-  - deep-fried
   - meme
+  - deep-fried
   source: slack
   note: Blobby in deep-fried meme style with glowing red laser eyes.
 delighted-blobby:
@@ -2765,7 +2860,7 @@ doctor-blobby:
   display_name: Doctor Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - doctor
   - stethoscope
@@ -2776,7 +2871,7 @@ dr-blobby:
   display_name: Dr. Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - doctor
   - stethoscope
@@ -2785,24 +2880,23 @@ dr-blobby:
   note: Blobby dressed as a doctor with a head mirror and white lab coat.
 dread-pirate-blobby:
   display_name: Dread Pirate Blobby
-  generation: classic
-  kind: emoji
-  collection: unsorted
-  tags:
-  - pirate
-  - hat
-  - captain
-  - eyepatch
-  - princess-bride
-  source: slack
-  note: Blobby as a pirate with skull hat, eyepatch, and red bandana.
-emo-blobby:
-  display_name: Emo Blobby
   generation: new
   kind: emoji
   collection: pop-culture
   tags:
-  - sad
+  - pirate
+  - hat
+  - captain
+  - princess-bride
+  - eyepatch
+  source: slack
+  note: Blobby as a pirate with skull hat, eyepatch, and red bandana.
+emo-blobby:
+  display_name: Emo Blobby
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags:
   - retro
   - emo
   - skull
@@ -2810,11 +2904,12 @@ emo-blobby:
   note: Blobby with emo side-swept black hair and a skull-print black jacket.
 evil-blobby:
   display_name: Evil Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: reactions
+  collection: costumes
   tags:
   - angry
+  - hat
   - evil
   - hood
   source: slack
@@ -2825,8 +2920,8 @@ facepalm_blobby:
   kind: emoji
   collection: reactions
   tags:
-  - sad
   - confused
+  - sad
   - facepalm
   - embarrassed
   source: slack
@@ -2835,7 +2930,7 @@ ferris-blobby:
   display_name: Ferris Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - ferris-bueller
@@ -2864,7 +2959,7 @@ flavortown_blobby:
   display_name: Flavortown Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - glasses
   - chef
@@ -2876,7 +2971,7 @@ french-blobby:
   display_name: French Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: cities
   tags:
   - wine
   - hat
@@ -2892,7 +2987,6 @@ galaxy_brain_blobby:
   tags:
   - thinking
   - space
-  - ai
   - galaxy-brain
   - meme
   source: slack
@@ -2902,11 +2996,11 @@ garretts-popcorn-blobby:
   display_name: Garrett's Popcorn Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: cities
   tags:
   - city
-  - brand
   - popcorn
+  - chicago
   source: slack
   note: Blobby as a striped bucket overflowing with Garrett's caramel popcorn.
 gold-star-blobby:
@@ -2915,22 +3009,22 @@ gold-star-blobby:
   kind: emoji
   collection: reactions
   tags:
-  - thumbs-up
-  - 'yes'
   - thanks
+  - 'yes'
+  - thumbs-up
   - gold-star
   - star
   source: slack
   note: Blobby sits inside a big smiling gold star, an award for good work.
 good-blobby:
   display_name: Good Blobby
-  generation: classic
+  generation: new
   kind: animation
   collection: reactions
   tags:
-  - happy
   - love
   - thanks
+  - animated
   - headpat
   source: slack
   note: A hand pats Blobby on the head as Blobby smiles contentedly.
@@ -2938,10 +3032,9 @@ guild-blobby:
   display_name: Guild Blobby
   generation: classic
   kind: emoji
-  collection: omni
+  collection: costumes
   tags:
   - hat
-  - book
   - graduation
   - guild
   source: slack
@@ -2950,7 +3043,7 @@ harry-caray-blobby:
   display_name: Harry Caray Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - glasses
   - baseball
@@ -2970,10 +3063,10 @@ heavy-metal-blobby:
   display_name: Heavy Metal Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: holidays
   tags:
-  - angry
   - halloween
+  - angry
   - pinhead
   - spikes
   source: slack
@@ -3031,7 +3124,7 @@ ibiza-final-blobby:
   collection: pop-culture
   tags:
   - glasses
-  - beach
+  - hat
   - ibiza-final-boss
   - beard
   source: slack
@@ -3040,7 +3133,7 @@ iblobby-shrek:
   display_name: Shrek Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - animated
   - shrek
@@ -3051,20 +3144,24 @@ jim-harblobby-umich:
   display_name: Jim Harblobby (Michigan)
   generation: classic
   kind: emoji
-  collection: sports
+  collection: pop-culture
   tags:
   - hat
-  - brand
   - football
+  - michigan
   source: slack
   note: Blobby as coach Jim Harbaugh wearing a Michigan cap and headset.
 kdh-derpy-blobby:
-  display_name: Kdh Derpy Blobby
+  display_name: KDH Derpy Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: pop-culture
+  tags:
+  - cat
+  - kpop-demon-hunters
+  - tiger
   source: slack
+  note: Blobby dressed as Derpy, the blue tiger from KPop Demon Hunters.
 laserbrain_blobby:
   display_name: Laserbrain_Blobby
   generation: classic
@@ -3076,11 +3173,12 @@ lions-dan-campblobby:
   display_name: Lions Dan Campblobby
   generation: new
   kind: emoji
-  collection: sports
+  collection: pop-culture
   tags:
   - hat
-  - brand
+  - glasses
   - detroit-lions
+  - dan-campbell
   source: slack
   slack_name: null
   note: Blobby as Lions coach Dan Campbell with cap, headset, and goatee.
@@ -3113,9 +3211,9 @@ miggeldy-blobby:
   source: slack
 monsieur-blobby:
   display_name: Monsieur Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - hat
   - beret
@@ -3129,8 +3227,8 @@ motherduck-blobby:
   collection: partners
   tags:
   - duck
-  - data
   - wave
+  - data
   - motherduck
   source: slack
   note: Blobby wears a white duck costume and waves, representing MotherDuck.
@@ -3138,7 +3236,7 @@ mr-blobby:
   display_name: Mr Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - wave
@@ -3150,10 +3248,10 @@ mrs-blobby:
   display_name: Mrs Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
-  - mr-blobby
+  - mrs-blobby
   - wig
   source: slack
   note: Blobby dressed as Mrs Blobby with blonde wig and yellow spotted bow.
@@ -3166,7 +3264,7 @@ nerd-gummy-cluster-blobby:
   source: slack
 old-man-yells-at-blobby:
   display_name: Old Man Yells at Blobby
-  generation: new
+  generation: classic
   kind: emoji
   collection: pop-culture
   tags:
@@ -3184,8 +3282,8 @@ omnopoly-blobby:
   tags:
   - hat
   - retro
-  - brand
   - monopoly
+  - money
   source: slack
   note: Blobby in a top hat on Monopoly-style Omnopoly play money.
 party-blobby:
@@ -3199,9 +3297,10 @@ peterblobby:
   display_name: Peter Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - glasses
+  - animated
   - peter-griffin
   - family-guy
   source: slack
@@ -3221,11 +3320,11 @@ pumpkin-spiced-blobby:
   display_name: Pumpkin Spiced Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: holidays
   tags:
   - coffee
-  - halloween
   - thanksgiving
+  - halloween
   - pumpkin-spice
   - mustache
   source: slack
@@ -3234,7 +3333,7 @@ ricky-blobby-driving:
   display_name: Ricky Blobby Driving
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - helmet
   - hype
@@ -3246,12 +3345,13 @@ ricky-blobby:
   display_name: Ricky Blobby
   generation: new
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - helmet
   - hype
-  - racing
+  - trophy
   - nascar
+  - talladega-nights
   source: slack
   note: Blobby as Ricky Bobby in a Wonder racing suit and helmet.
 sadblob:
@@ -3280,10 +3380,10 @@ sailor-blobby:
   display_name: Sailor Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - superhero
-  - hat
+  - crown
   - sailor-moon
   - anime
   source: slack
@@ -3346,7 +3446,7 @@ showgirl-blobby:
   display_name: Showgirl Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - hat
   - showgirl
@@ -3357,7 +3457,7 @@ snoop-blobby-blob:
   display_name: Snoop Blobby Blob
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - dog
   - snoop-dogg
@@ -3378,20 +3478,25 @@ snowflakeangelsblobby:
   slack_name: null
   note: 'Current Slack name: blobbysnowflake'
 sombrero_blobby:
-  display_name: Sombrero_Blobby
+  display_name: Sombrero Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: costumes
+  tags:
+  - hat
+  - sombrero
+  - mustache
   source: slack
+  note: Blobby wears a colorful sombrero and a black mustache.
 sophisticated_blobby:
   display_name: Sophisticated Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: costumes
   tags:
   - glasses
   - hat
+  - office
   - fedora
   - suit
   source: slack
@@ -3400,13 +3505,13 @@ space_blobby:
   display_name: Space Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: costumes
   tags:
   - space
   - helmet
   - knight
-  - lightsaber
-  - armor
+  - astronaut
+  - sword
   source: slack
   note: Blobby in blue space armor and helmet holding a glowing sword.
 squashed-blobby:
@@ -3438,7 +3543,7 @@ super-blobby:
   display_name: Super Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - superhero
   - superman
@@ -3449,7 +3554,7 @@ super-saiyan-blobby:
   display_name: Super Saiyan Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hype
   - fire
@@ -3462,12 +3567,12 @@ taytoblobby:
   display_name: Tayto Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: pop-culture
   tags:
   - hat
   - wave
-  - brand
   - crisps
+  - ireland
   source: slack
   slack_name: null
   note: Blobby dressed as Mr. Tayto in a bowler hat and red suit, waving.
@@ -3486,7 +3591,7 @@ time-flies-blobby:
   display_name: Time Flies Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - animated
   - alarm-clock
@@ -3502,6 +3607,7 @@ topgumz2blobby:
   - helmet
   - glasses
   - retro
+  - captain
   - top-gun
   - mustache
   source: slack
@@ -3523,11 +3629,15 @@ topgumzblobby:
   note: 'Current Slack name: blobby-topgumz'
 tophat-blobby:
   display_name: Tophat Blobby
-  generation: classic
+  generation: new
   kind: emoji
-  collection: unsorted
-  tags: []
+  collection: costumes
+  tags:
+  - hat
+  - top-hat
+  - gentleman
   source: slack
+  note: Blobby wears a black top hat and smiles.
 traitor-blobby:
   display_name: Traitor Blobby
   generation: classic
@@ -3539,18 +3649,18 @@ unicorn-blobby:
   display_name: Unicorn Blobby
   generation: classic
   kind: emoji
-  collection: animals
+  collection: costumes
   tags:
   - hat
-  - unicorn
   - costume
+  - unicorn
   source: slack
   note: Blobby wears a white unicorn hood with a golden horn and rainbow mane.
 vacation-blobby:
   display_name: Vacation Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags:
   - beach
   - hat
@@ -3567,15 +3677,15 @@ warriors-hat-blobby:
   tags:
   - basketball
   - hat
-  - brand
   - warriors
+  - golden-state
   source: slack
   note: Blobby wears a black Golden State Warriors baseball cap.
 wrong-blobby:
   display_name: Wrong Blobby
   generation: classic
   kind: animation
-  collection: unsorted
+  collection: pop-culture
   tags:
   - retro
   - wave
@@ -3602,7 +3712,7 @@ blobby-chicago-1:
   tags:
   - city
   - pizza
-  - deep-dish
+  - chicago
   source: figma-illustrations
   note: Blobby happily eats a big slice of pepperoni pizza.
 blobby-chicago-2:
@@ -3613,7 +3723,6 @@ blobby-chicago-2:
   tags:
   - city
   - hotdog
-  - happy
   - chicago-dog
   source: figma-illustrations
   note: Blobby nestled in a Chicago-style hot dog bun with toppings.
@@ -3636,15 +3745,15 @@ blobby-chicago:
   tags:
   - city
   - happy
-  - the-bean
   - chicago
+  - the-bean
   source: figma-illustrations
   note: Blobby peeks over Chicago's Cloud Gate Bean reflecting the city skyline.
 blobby-colonel:
   display_name: Colonel Blobby
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: costumes
   tags:
   - hat
   - captain
@@ -3659,8 +3768,8 @@ blobby-colorado-1:
   collection: cities
   tags:
   - city
-  - hat
   - flag
+  - hat
   - snowflake
   - snowboard
   - colorado
@@ -3674,7 +3783,6 @@ blobby-colorado-2:
   tags:
   - hockey
   - helmet
-  - brand
   - colorado-avalanche
   source: figma-illustrations
   note: Blobby wears a maroon Colorado Avalanche hockey helmet.
@@ -3682,12 +3790,13 @@ blobby-colorado-3:
   display_name: Colorado Blobby
   generation: new
   kind: illustration
-  collection: sports
+  collection: cities
   tags:
   - hockey
   - helmet
-  - brand
+  - city
   - avalanche
+  - colorado
   source: figma-illustrations
   note: Blobby wears a Colorado Avalanche helmet and swings a hockey stick at a puck.
 blobby-colorado:
@@ -3706,11 +3815,10 @@ blobby-computer:
   display_name: Computer Blobby
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: objects
   tags:
   - laptop
   - office
-  - happy
   - computer
   source: figma-illustrations
   note: Blobby smiles while working on a laptop with the Omni logo.
@@ -3718,7 +3826,7 @@ blobby-construction:
   display_name: Construction Blobby
   generation: new
   kind: illustration
-  collection: omni
+  collection: costumes
   tags:
   - hat
   - helmet
@@ -3734,7 +3842,6 @@ blobby-corgi:
   tags:
   - dog
   - corgi
-  - costume
   source: figma-illustrations
   note: Blobby wears a brown corgi dog costume hood with big ears.
 blobby-databricks-1:
@@ -3764,8 +3871,8 @@ blobby-databricks-3:
   collection: partners
   tags:
   - databricks
-  - data
   - laughing
+  - data
   source: figma-illustrations
   note: Squinting, grinning Blobby with an orange Databricks logo badge.
 blobby-databricks:
@@ -3839,7 +3946,7 @@ blobby-detective:
   display_name: Detective Blobby
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: costumes
   tags:
   - hat
   - glasses
@@ -3851,7 +3958,7 @@ blobby-drummer-2:
   display_name: Drummer Blobby
   generation: new
   kind: illustration
-  collection: pop-culture
+  collection: costumes
   tags:
   - hype
   - animated
@@ -3861,9 +3968,9 @@ blobby-drummer-2:
   note: Blobby happily plays a snare drum with two drumsticks.
 blobby-drummer:
   display_name: Drummer Blobby
-  generation: classic
+  generation: new
   kind: illustration
-  collection: pop-culture
+  collection: costumes
   tags:
   - hype
   - laughing
@@ -3875,7 +3982,7 @@ blobby-elvis-2:
   display_name: Elvis Blobby 2
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: pop-culture
   tags:
   - glasses
   - retro
@@ -3889,7 +3996,6 @@ blobby-escargot:
   kind: illustration
   collection: animals
   tags:
-  - happy
   - snail
   - shell
   source: figma-illustrations
@@ -3898,7 +4004,7 @@ blobby-from-the-black-lagoon-2:
   display_name: Blobby from the Black Lagoon
   generation: classic
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - retro
@@ -3910,7 +4016,7 @@ blobby-from-the-black-lagoon:
   display_name: Blobby from the Black Lagoon
   generation: classic
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - retro
@@ -3937,6 +4043,8 @@ blobby-german-2:
   collection: cities
   tags:
   - hat
+  - flag
+  - city
   - germany
   - pretzel
   source: figma-illustrations
@@ -3945,7 +4053,7 @@ blobby-german:
   display_name: German Blobby
   generation: new
   kind: illustration
-  collection: food
+  collection: cities
   tags:
   - flag
   - pretzel
@@ -3956,7 +4064,7 @@ blobby-graduate-book:
   display_name: Graduate Book Blobby
   generation: new
   kind: illustration
-  collection: omni
+  collection: costumes
   tags:
   - book
   - glasses
@@ -3966,13 +4074,12 @@ blobby-graduate-book:
   note: Blobby wears a graduation cap and glasses while reading a book.
 blobby-krueger:
   display_name: Krueger Blobby
-  generation: classic
+  generation: new
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - hat
-  - scared
   - freddy-krueger
   - horror
   source: figma-illustrations
@@ -3982,10 +4089,8 @@ blobby-lecter:
   display_name: Hannibal Lecter Blobby
   generation: classic
   kind: illustration
-  collection: unsorted
+  collection: pop-culture
   tags:
-  - halloween
-  - scared
   - hannibal-lecter
   - mask
   source: figma-illustrations
@@ -4097,7 +4202,7 @@ blobby-oogie-boogie:
   display_name: Oogie Boogie Blobby
   generation: classic
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - oogie-boogie
@@ -4133,7 +4238,7 @@ blobby-paris-3:
   display_name: Paris Blobby (Mona Lisa)
   generation: new
   kind: illustration
-  collection: cities
+  collection: pop-culture
   tags:
   - city
   - retro
@@ -4160,8 +4265,8 @@ blobby-paris-5:
   collection: cities
   tags:
   - city
-  - cookie
   - laughing
+  - cookie
   - macaron
   source: figma-illustrations
   note: Blobby happily eats colorful French macarons with crumbs flying.
@@ -4182,11 +4287,10 @@ blobby-pennywise:
   display_name: Pennywise Blobby
   generation: classic
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - balloon
-  - scared
   - clown
   - pennywise
   source: figma-illustrations
@@ -4195,7 +4299,7 @@ blobby-professor:
   display_name: Professor Blobby
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: costumes
   tags:
   - book
   - glasses
@@ -4212,9 +4316,9 @@ blobby-sally-1:
   source: figma-illustrations
 blobby-sally:
   display_name: Sally Blobby
-  generation: new
+  generation: classic
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - zombie
@@ -4226,16 +4330,21 @@ blobby-shine-1:
   display_name: Blobby Shine 1
   generation: new
   kind: illustration
-  collection: unsorted
-  tags: []
+  collection: food
+  tags:
+  - laughing
+  - hype
+  - bagel
+  - breakfast
   source: figma-illustrations
+  note: Blobby grins with squinted eyes while holding a big seeded bagel.
 blobby-shine-2:
   display_name: Shine Blobby
   generation: new
   kind: illustration
-  collection: reactions
+  collection: objects
   tags:
-  - beach
+  - happy
   - sun
   - sunshine
   source: figma-illustrations
@@ -4244,7 +4353,7 @@ blobby-skellington:
   display_name: Skellington Blobby
   generation: classic
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - halloween
   - christmas
@@ -4306,15 +4415,15 @@ blobby-snowflake:
   note: Smiling Blobby with the Snowflake partner logo badge.
 blobby-startup:
   display_name: Startup Blobby
-  generation: new
+  generation: classic
   kind: illustration
-  collection: omni
+  collection: objects
   tags:
   - laptop
   - coffee
   - office
-  - startup
   - headphones
+  - startup
   source: figma-illustrations
   note: Blobby wears headphones, works on a laptop, with a coffee cup.
 blobby-stockholm-1:
@@ -4352,8 +4461,8 @@ blobby-stockholm-3:
   - coffee
   - hat
   - flag
-  - scarf
   - fika
+  - scarf
   source: figma-illustrations
   note: Blobby in a yellow beanie and Swedish flag scarf holding coffee.
 blobby-stockholm:
@@ -4373,7 +4482,7 @@ blobby-swedish-meatballs:
   display_name: Swedish Meatballs Blobby
   generation: new
   kind: illustration
-  collection: food
+  collection: cities
   tags:
   - flag
   - laughing
@@ -4402,18 +4511,17 @@ blobby-texas-2:
   tags:
   - city
   - hat
-  - cowboy
   - texas
+  - cowboy
   source: figma-illustrations
   note: 'Blobby wears a cowboy hat beside cacti and a signpost: Don''t Mess With Texas.'
 blobby-texas:
   display_name: Texas Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: costumes
   tags:
   - hat
-  - city
   - cowboy
   - boot
   source: figma-illustrations
@@ -4435,10 +4543,10 @@ blobby-vegas-1:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: costumes
   tags:
-  - city
   - hat
+  - city
   - magician
   - magic-wand
   source: figma-illustrations
@@ -4450,7 +4558,6 @@ blobby-vegas-2:
   collection: cities
   tags:
   - city
-  - happy
   - vegas
   - cards
   source: figma-illustrations
@@ -4494,13 +4601,12 @@ blobby-vegas:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: costumes
   tags:
-  - city
   - hat
-  - wizard
+  - city
   - magician
-  - las-vegas
+  - magic-wand
   source: figma-illustrations
   note: Blobby dressed as a Las Vegas magician with top hat and wand.
 blobby-werewolf-2:
@@ -4512,24 +4618,26 @@ blobby-werewolf-2:
   - werewolf
   - halloween
   - fangs
+  - furry
   source: figma-stickers
   note: Blobby covered in brown fur as a werewolf with ears and fangs.
 blobby-werewolf:
   display_name: Werewolf Blobby
   generation: classic
   kind: illustration
-  collection: animals
+  collection: holidays
   tags:
   - werewolf
   - halloween
   - fangs
+  - fur
   source: figma-illustrations
   note: Blobby covered in brown werewolf fur with pointy ears and fangs.
 blobby-zero:
   display_name: Zero Blobby
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: holidays
   tags:
   - ghost
   - dog
@@ -4564,7 +4672,7 @@ omni-blobby-chef:
   display_name: Chef Blobby
   generation: new
   kind: illustration
-  collection: food
+  collection: costumes
   tags:
   - chef
   - hat
@@ -4574,11 +4682,11 @@ omni-blobby-coffee:
   display_name: Coffee Blobby
   generation: new
   kind: illustration
-  collection: food
+  collection: cities
   tags:
   - coffee
-  - ai
   - city
+  - ai
   - new-york
   - anthora-cup
   source: figma-illustrations
@@ -4587,9 +4695,10 @@ omni-blobby-cookie:
   display_name: Cookie Blobby
   generation: new
   kind: illustration
-  collection: food
+  collection: cities
   tags:
   - cookie
+  - city
   - black-and-white-cookie
   - new-york
   source: figma-illustrations
@@ -4610,7 +4719,7 @@ omni-blobby-queen-1:
   display_name: Queen Blobby
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: costumes
   tags:
   - crown
   - glasses
@@ -4622,7 +4731,7 @@ omni-blobby-queen:
   display_name: Queen Blobby
   generation: new
   kind: illustration
-  collection: reactions
+  collection: costumes
   tags:
   - crown
   - glasses
@@ -4638,15 +4747,16 @@ omni-blobby-santa-cruz:
   collection: sports
   tags:
   - hat
-  - brand
+  - surprised
   - skateboard
+  - santa-cruz
   source: figma-illustrations
   note: Blobby wears a Santa Cruz cap and holds a Screaming Hand skateboard.
 omni-blobby-show-girl:
   display_name: Show Girl Blobby
-  generation: classic
+  generation: new
   kind: illustration
-  collection: unsorted
+  collection: costumes
   tags:
   - hat
   - showgirl
@@ -4657,7 +4767,7 @@ omni-blobby-ticket:
   display_name: Ticket Blobby
   generation: new
   kind: illustration
-  collection: reactions
+  collection: objects
   tags:
   - sad
   - parking-ticket

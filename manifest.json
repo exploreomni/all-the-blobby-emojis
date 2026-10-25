@@ -46,8 +46,8 @@
   "svg": null,
   "tags": [
    "hat",
-   "brand",
-   "49ers"
+   "49ers",
+   "football"
   ],
   "width": 128
  },
@@ -57,7 +57,7 @@
   "bytes": 14725,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/agent-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Agent Blobby",
   "file": "all-the-slack-blobbies/agent-blobby.png",
   "frames": 1,
@@ -85,7 +85,7 @@
   "bytes": 14953,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/agent-blobby-salute.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Agent Blobby Salute",
   "file": "all-the-slack-blobbies/agent-blobby-salute.png",
   "frames": 1,
@@ -101,8 +101,8 @@
   "tags": [
    "agent",
    "glasses",
-   "salute",
-   "suit"
+   "suit",
+   "secret-agent"
   ],
   "width": 128
  },
@@ -112,7 +112,7 @@
   "bytes": 14635,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/agent-blobby-salute2.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Agent Blobby Salute",
   "file": "all-the-slack-blobbies/agent-blobby-salute2.png",
   "frames": 1,
@@ -144,7 +144,7 @@
   "display_name": "Agentic Blobby",
   "file": "all-the-slack-blobbies/agentic-blobby.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/agentic-blobby.png",
   "height": 128,
   "kind": "emoji",
@@ -193,7 +193,7 @@
   "bytes": 14670,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/baby-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Baby Blobby",
   "file": "all-the-slack-blobbies/baby-blobby.png",
   "frames": 1,
@@ -207,7 +207,6 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "happy",
    "baby",
    "pacifier"
   ],
@@ -219,7 +218,7 @@
   "bytes": 35197,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/baby-mr-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Baby Mr Blobby",
   "file": "all-the-slack-blobbies/baby-mr-blobby.png",
   "frames": 1,
@@ -273,7 +272,7 @@
   "bytes": 14171,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/beatnik-blobby.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Beatnik Blobby",
   "file": "all-the-slack-blobbies/beatnik-blobby.png",
   "frames": 1,
@@ -300,7 +299,7 @@
   "bytes": 19580,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/big_boi_blobby.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "pop-culture",
   "display_name": "Big Boi Blobby",
   "file": "all-the-slack-blobbies/big_boi_blobby.png",
   "frames": 1,
@@ -376,7 +375,7 @@
   "bytes": 11918,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobba-the-hutt.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobba the Hutt",
   "file": "all-the-slack-blobbies/blobba-the-hutt.png",
   "frames": 1,
@@ -390,6 +389,7 @@
   "source": "slack",
   "svg": null,
   "tags": [
+   "space",
    "star-wars",
    "jabba"
   ],
@@ -405,7 +405,7 @@
   "display_name": "Blobbee Flower",
   "file": "all-the-slack-blobbies/blobbee-flower.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobbee-flower.png",
   "height": 128,
   "kind": "emoji",
@@ -415,8 +415,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "bee",
-   "flower"
+   "flower",
+   "bee"
   ],
   "width": 128
  },
@@ -430,7 +430,7 @@
   "display_name": "Blobberonis",
   "file": "all-the-slack-blobbies/blobberonis.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobberonis.png",
   "height": 128,
   "kind": "emoji",
@@ -451,7 +451,7 @@
   "bytes": 19431,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobbies-walking-into-the-sunset.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobbies Walking Into The Sunset",
   "file": "all-the-slack-blobbies/blobbies-walking-into-the-sunset.png",
   "frames": 1,
@@ -459,12 +459,16 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobbies-walking-into-the-sunset.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Two blobbies, pink and blue, walk hand in hand toward a sunset.",
   "slack_name": "blobbies-walking-into-the-sunset",
   "slug": "blobbies-walking-into-the-sunset",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "love",
+   "sunset",
+   "friends"
+  ],
   "width": 128
  },
  {
@@ -473,7 +477,7 @@
   "bytes": 17739,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobbo-libre.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobbo Libre",
   "file": "all-the-slack-blobbies/blobbo-libre.png",
   "frames": 1,
@@ -530,7 +534,7 @@
   "display_name": "100 Blobby",
   "file": "all-the-slack-blobbies/blobby-100.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-100.png",
   "height": 128,
   "kind": "emoji",
@@ -607,7 +611,7 @@
   "bytes": 17719,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-98.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "partners",
   "display_name": "Blobby 98",
   "file": "all-the-slack-blobbies/blobby-98.png",
   "frames": 1,
@@ -625,7 +629,7 @@
    "pixel",
    "flag",
    "windows-98",
-   "brand"
+   "microsoft"
   ],
   "width": 128
  },
@@ -714,7 +718,7 @@
   "bytes": 15570,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-announce.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Announce Blobby",
   "file": "all-the-slack-blobbies/blobby-announce.png",
   "frames": 1,
@@ -740,7 +744,7 @@
   "bytes": 13419,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-announce-2.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Announce Blobby",
   "file": "all-the-slack-blobbies/blobby-announce-2.png",
   "frames": 1,
@@ -830,7 +834,7 @@
   "svg": null,
   "tags": [
    "hat",
-   "flag",
+   "city",
    "australia",
    "bush-hat"
   ],
@@ -867,7 +871,7 @@
   "bytes": 10086,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-balloon.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Balloon Blobby",
   "file": "all-the-slack-blobbies/blobby-balloon.png",
   "frames": 1,
@@ -882,7 +886,7 @@
   "svg": null,
   "tags": [
    "balloon",
-   "party"
+   "floating"
   ],
   "width": 128
  },
@@ -918,7 +922,7 @@
   "bytes": 10572,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-bat.png",
   "cdn_pinned": null,
-  "collection": "animals",
+  "collection": "holidays",
   "display_name": "Bat Blobby",
   "file": "all-the-slack-blobbies/blobby-bat.png",
   "frames": 1,
@@ -961,7 +965,9 @@
   "tags": [
    "laptop",
    "coffee",
-   "beaver"
+   "office",
+   "beaver",
+   "busy"
   ],
   "width": 128
  },
@@ -986,8 +992,8 @@
   "svg": null,
   "tags": [
    "dog",
-   "benny",
-   "puppy"
+   "puppy",
+   "benny"
   ],
   "width": 128
  },
@@ -1199,7 +1205,7 @@
   "bytes": 21659,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-boucher.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Bobby Boucher Blobby",
   "file": "all-the-slack-blobbies/blobby-boucher.png",
   "frames": 1,
@@ -1225,7 +1231,7 @@
   "bytes": 12765,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-bride.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Bride Blobby",
   "file": "all-the-slack-blobbies/blobby-bride.png",
   "frames": 1,
@@ -1252,7 +1258,7 @@
   "bytes": 13124,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-bubbles.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Bubbles",
   "file": "all-the-slack-blobbies/blobby-bubbles.png",
   "frames": 1,
@@ -1260,12 +1266,16 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-bubbles.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby blows soap bubbles shaped like smaller Blobbies with a wand.",
   "slack_name": "blobby-bubbles",
   "slug": "blobby-bubbles",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "balloon",
+   "bubbles",
+   "bubble-wand"
+  ],
   "width": 128
  },
  {
@@ -1274,7 +1284,7 @@
   "bytes": 19038,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-bumble.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Bumble Blobby",
   "file": "all-the-slack-blobbies/blobby-bumble.png",
   "frames": 1,
@@ -1289,7 +1299,6 @@
   "svg": "svg/blobby-bumble.svg",
   "tags": [
    "christmas",
-   "snowflake",
    "laughing",
    "yeti",
    "abominable-snowman"
@@ -1374,7 +1383,7 @@
   "bytes": 12362,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-captain.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Captain Blobby",
   "file": "all-the-slack-blobbies/blobby-captain.png",
   "frames": 1,
@@ -1427,7 +1436,7 @@
   "bytes": 19820,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-cheese-steak.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Cheese Steak Blobby",
   "file": "all-the-slack-blobbies/blobby-cheese-steak.png",
   "frames": 1,
@@ -1469,8 +1478,8 @@
   "tags": [
    "city",
    "happy",
-   "the-bean",
-   "chicago"
+   "chicago",
+   "the-bean"
   ],
   "width": 251
  },
@@ -1496,7 +1505,7 @@
   "tags": [
    "city",
    "pizza",
-   "deep-dish"
+   "chicago"
   ],
   "width": 246
  },
@@ -1522,7 +1531,6 @@
   "tags": [
    "city",
    "hotdog",
-   "happy",
    "chicago-dog"
   ],
   "width": 272
@@ -1559,11 +1567,11 @@
   "bytes": 16841,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-chicago-dog.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Chicago Dog Blobby",
   "file": "all-the-slack-blobbies/blobby-chicago-dog.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-chicago-dog.png",
   "height": 128,
   "kind": "emoji",
@@ -1585,7 +1593,7 @@
   "bytes": 16643,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-chicago-dog-drool.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Chicago Dog Drool Blobby",
   "file": "all-the-slack-blobbies/blobby-chicago-dog-drool.png",
   "frames": 1,
@@ -1612,20 +1620,24 @@
   "bytes": 14939,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-chill.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Chill",
   "file": "all-the-slack-blobbies/blobby-chill.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-chill.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby relaxes at a spa with a face mask, cucumbers, and towel.",
   "slack_name": "blobby-chill",
   "slug": "blobby-chill",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "sleepy",
+   "spa",
+   "face-mask"
+  ],
   "width": 128
  },
  {
@@ -1660,11 +1672,11 @@
   "bytes": 9868,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-clippy.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Clippy Blobby",
   "file": "all-the-slack-blobbies/blobby-clippy.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-clippy.png",
   "height": 128,
   "kind": "emoji",
@@ -1678,7 +1690,7 @@
    "retro",
    "ai",
    "paperclip",
-   "brand"
+   "clippy"
   ],
   "width": 128
  },
@@ -1728,7 +1740,6 @@
   "source": "slack",
   "svg": "svg/blobby-cold-face.svg",
   "tags": [
-   "snowflake",
    "cold",
    "freezing"
   ],
@@ -1740,7 +1751,7 @@
   "bytes": 2804,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-colonel.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Colonel Blobby",
   "file": null,
   "frames": 1,
@@ -1809,8 +1820,8 @@
   "svg": "svg/blobby-colorado-1.svg",
   "tags": [
    "city",
-   "hat",
    "flag",
+   "hat",
    "snowflake",
    "snowboard",
    "colorado"
@@ -1839,7 +1850,6 @@
   "tags": [
    "hockey",
    "helmet",
-   "brand",
    "colorado-avalanche"
   ],
   "width": 300
@@ -1850,7 +1860,7 @@
   "bytes": 24697,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-colorado-3.svg",
   "cdn_pinned": null,
-  "collection": "sports",
+  "collection": "cities",
   "display_name": "Colorado Blobby",
   "file": null,
   "frames": 1,
@@ -1866,8 +1876,9 @@
   "tags": [
    "hockey",
    "helmet",
-   "brand",
-   "avalanche"
+   "city",
+   "avalanche",
+   "colorado"
   ],
   "width": 302
  },
@@ -1877,7 +1888,7 @@
   "bytes": 5362,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-computer.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Computer Blobby",
   "file": null,
   "frames": 1,
@@ -1893,7 +1904,6 @@
   "tags": [
    "laptop",
    "office",
-   "happy",
    "computer"
   ],
   "width": 253
@@ -1926,7 +1936,7 @@
   "bytes": 11242,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-construction.svg",
   "cdn_pinned": null,
-  "collection": "omni",
+  "collection": "costumes",
   "display_name": "Construction Blobby",
   "file": null,
   "frames": 1,
@@ -1968,7 +1978,7 @@
   "svg": null,
   "tags": [
    "yes",
-   "happy",
+   "thumbs-up",
    "copy",
    "sign"
   ],
@@ -1995,8 +2005,7 @@
   "svg": "svg/blobby-corgi.svg",
   "tags": [
    "dog",
-   "corgi",
-   "costume"
+   "corgi"
   ],
   "width": 224
  },
@@ -2006,7 +2015,7 @@
   "bytes": 12937,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-cube.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Cube Blobby",
   "file": "all-the-slack-blobbies/blobby-cube.png",
   "frames": 1,
@@ -2148,8 +2157,8 @@
   "svg": "svg/blobby-databricks-3.svg",
   "tags": [
    "databricks",
-   "data",
-   "laughing"
+   "laughing",
+   "data"
   ],
   "width": 206
  },
@@ -2174,8 +2183,8 @@
   "svg": "svg/blobby-dbt.svg",
   "tags": [
    "dbt",
-   "data",
-   "hat"
+   "hat",
+   "data"
   ],
   "width": 128
  },
@@ -2339,20 +2348,26 @@
   "bytes": 43127,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-dealwithit.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
-  "display_name": "Blobby Dealwithit",
+  "collection": "pop-culture",
+  "display_name": "Blobby Deal With It",
   "file": "all-the-slack-blobbies/blobby-dealwithit.gif",
   "frames": 11,
   "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-dealwithit.gif",
   "height": 128,
   "kind": "animation",
-  "note": null,
+  "note": "Blobby smiles in the Deal With It sunglasses meme.",
   "slack_name": "blobby-dealwithit",
   "slug": "blobby-dealwithit",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "glasses",
+   "animated",
+   "retro",
+   "deal-with-it",
+   "meme"
+  ],
   "width": 128
  },
  {
@@ -2376,7 +2391,6 @@
   "svg": null,
   "tags": [
    "confused",
-   "laughing",
    "derp",
    "silly"
   ],
@@ -2388,7 +2402,7 @@
   "bytes": 7673,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-detective.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Detective Blobby",
   "file": null,
   "frames": 1,
@@ -2469,11 +2483,11 @@
   "bytes": 16627,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-drummer.svg",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Drummer Blobby",
   "file": null,
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-drummer.svg",
   "height": 314,
   "kind": "illustration",
@@ -2496,7 +2510,7 @@
   "bytes": 16643,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-drummer-2.svg",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Drummer Blobby",
   "file": null,
   "frames": 1,
@@ -2598,7 +2612,7 @@
   "bytes": 14003,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-elevated-business-casual.png",
   "cdn_pinned": null,
-  "collection": "omni",
+  "collection": "costumes",
   "display_name": "Elevated Business Casual Blobby",
   "file": "all-the-slack-blobbies/blobby-elevated-business-casual.png",
   "frames": 1,
@@ -2650,7 +2664,7 @@
   "bytes": 14615,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-elvis.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Elvis Blobby",
   "file": "all-the-slack-blobbies/blobby-elvis.png",
   "frames": 1,
@@ -2677,7 +2691,7 @@
   "bytes": 5971,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-elvis-2.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Elvis Blobby 2",
   "file": null,
   "frames": 1,
@@ -2719,7 +2733,8 @@
   "svg": null,
   "tags": [
    "angry",
-   "furious"
+   "furious",
+   "mad"
   ],
   "width": 128
  },
@@ -2743,7 +2758,6 @@
   "source": "figma-illustrations",
   "svg": "svg/blobby-escargot.svg",
   "tags": [
-   "happy",
    "snail",
    "shell"
   ],
@@ -2803,20 +2817,25 @@
   "bytes": 15131,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-family.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Family",
   "file": "all-the-slack-blobbies/blobby-family.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-family.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby family portrait with a glasses-wearing parent, a bearded parent, and a baby with a pacifier.",
   "slack_name": "blobby-family",
   "slug": "blobby-family",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "glasses",
+   "love",
+   "family",
+   "baby"
+  ],
   "width": 128
  },
  {
@@ -2825,7 +2844,7 @@
   "bytes": 15998,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-fancy.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "costumes",
   "display_name": "Fancy Blobby",
   "file": "all-the-slack-blobbies/blobby-fancy.png",
   "frames": 1,
@@ -2851,7 +2870,7 @@
   "bytes": 62648,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-fire.gif",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "pop-culture",
   "display_name": "Fire Blobby",
   "file": "all-the-slack-blobbies/blobby-fire.gif",
   "frames": 21,
@@ -2867,6 +2886,7 @@
   "tags": [
    "fire",
    "surprised",
+   "animated",
    "this-is-fine"
   ],
   "width": 128
@@ -2918,6 +2938,7 @@
   "svg": null,
   "tags": [
    "hype",
+   "happy",
    "flex",
    "muscles"
   ],
@@ -2929,11 +2950,11 @@
   "bytes": 35844,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-for-president.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Blobby for President",
   "file": "all-the-slack-blobbies/blobby-for-president.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-for-president.png",
   "height": 128,
   "kind": "emoji",
@@ -2959,7 +2980,7 @@
   "display_name": "Frankenstein Blobby",
   "file": "all-the-slack-blobbies/blobby-frankenstein.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-frankenstein.png",
   "height": 128,
   "kind": "emoji",
@@ -2982,7 +3003,7 @@
   "bytes": 10018,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-from-the-black-lagoon.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Blobby from the Black Lagoon",
   "file": null,
   "frames": 1,
@@ -3009,7 +3030,7 @@
   "bytes": 10015,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-from-the-black-lagoon-2.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Blobby from the Black Lagoon",
   "file": null,
   "frames": 1,
@@ -3036,7 +3057,7 @@
   "bytes": 22110,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-fsm.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Flying Spaghetti Monster Blobby",
   "file": "all-the-slack-blobbies/blobby-fsm.png",
   "frames": 1,
@@ -3062,7 +3083,7 @@
   "bytes": 25147,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-german.svg",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "German Blobby",
   "file": null,
   "frames": 1,
@@ -3130,6 +3151,8 @@
   "svg": "svg/blobby-german-2.svg",
   "tags": [
    "hat",
+   "flag",
+   "city",
    "germany",
    "pretzel"
   ],
@@ -3145,7 +3168,7 @@
   "display_name": "Ghost Blobby",
   "file": "all-the-slack-blobbies/blobby-ghost.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-ghost.png",
   "height": 128,
   "kind": "emoji",
@@ -3192,7 +3215,7 @@
   "bytes": 17366,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-graduate.png",
   "cdn_pinned": null,
-  "collection": "omni",
+  "collection": "costumes",
   "display_name": "Graduate Blobby",
   "file": "all-the-slack-blobbies/blobby-graduate.png",
   "frames": 1,
@@ -3207,8 +3230,8 @@
   "svg": null,
   "tags": [
    "hat",
-   "book",
-   "graduation"
+   "graduation",
+   "mortarboard"
   ],
   "width": 128
  },
@@ -3218,7 +3241,7 @@
   "bytes": 4446,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-graduate-book.svg",
   "cdn_pinned": null,
-  "collection": "omni",
+  "collection": "costumes",
   "display_name": "Graduate Book Blobby",
   "file": null,
   "frames": 1,
@@ -3261,6 +3284,7 @@
   "tags": [
    "scared",
    "confused",
+   "surprised",
    "grimace",
    "awkward"
   ],
@@ -3272,7 +3296,7 @@
   "bytes": 19942,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-gritty.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Gritty Blobby",
   "file": "all-the-slack-blobbies/blobby-gritty.png",
   "frames": 1,
@@ -3315,7 +3339,6 @@
   "tags": [
    "beer",
    "st-patricks",
-   "brand",
    "guinness"
   ],
   "width": 128
@@ -3326,7 +3349,7 @@
   "bytes": 19628,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-hallucinates.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "omni",
   "display_name": "Hallucinates Blobby",
   "file": "all-the-slack-blobbies/blobby-hallucinates.png",
   "frames": 1,
@@ -3340,8 +3363,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "confused",
    "ai",
+   "confused",
    "dizzy",
    "hallucinating"
   ],
@@ -3353,7 +3376,7 @@
   "bytes": 10284,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-hat-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Hat Blobby",
   "file": "all-the-slack-blobbies/blobby-hat-blobby.png",
   "frames": 1,
@@ -3368,6 +3391,7 @@
   "svg": null,
   "tags": [
    "hat",
+   "baseball",
    "happy",
    "baseball-cap"
   ],
@@ -3534,7 +3558,7 @@
   "bytes": 14794,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-hill.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobby Hill",
   "file": "all-the-slack-blobbies/blobby-hill.png",
   "frames": 1,
@@ -3560,7 +3584,7 @@
   "bytes": 27346,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-horns.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Horns Blobby",
   "file": "all-the-slack-blobbies/blobby-horns.png",
   "frames": 1,
@@ -3577,7 +3601,7 @@
    "hype",
    "retro",
    "rock-on",
-   "headband"
+   "rocker"
   ],
   "width": 128
  },
@@ -3628,6 +3652,7 @@
   "tags": [
    "hype",
    "wave",
+   "happy",
    "hands-up"
   ],
   "width": 112
@@ -3664,7 +3689,7 @@
   "bytes": 16178,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-imp.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Imp Blobby",
   "file": "all-the-slack-blobbies/blobby-imp.png",
   "frames": 1,
@@ -3690,7 +3715,7 @@
   "bytes": 20340,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-in-the-lab.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Blobby in the Lab",
   "file": "all-the-slack-blobbies/blobby-in-the-lab.png",
   "frames": 1,
@@ -3767,7 +3792,7 @@
   "bytes": 24422,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-jammies.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Blobby Jammies",
   "file": "all-the-slack-blobbies/blobby-jammies.gif",
   "frames": 10,
@@ -3775,12 +3800,16 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-jammies.gif",
   "height": 112,
   "kind": "animation",
-  "note": null,
+  "note": "Blobby wears teal button-up pajamas and a white cap while waving.",
   "slack_name": "blobby-jammies",
   "slug": "blobby-jammies",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "hat",
+   "wave",
+   "pajamas"
+  ],
   "width": 112
  },
  {
@@ -3832,7 +3861,7 @@
    "koala",
    "wave",
    "bear",
-   "costume"
+   "onesie"
   ],
   "width": 128
  },
@@ -3842,11 +3871,11 @@
   "bytes": 16466,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-krueger.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Krueger Blobby",
   "file": null,
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-krueger.svg",
   "height": 237,
   "kind": "illustration",
@@ -3858,7 +3887,6 @@
   "tags": [
    "halloween",
    "hat",
-   "scared",
    "freddy-krueger",
    "horror"
   ],
@@ -3895,7 +3923,7 @@
   "bytes": 8209,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-lecter.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Hannibal Lecter Blobby",
   "file": null,
   "frames": 1,
@@ -3909,8 +3937,6 @@
   "source": "figma-illustrations",
   "svg": "svg/blobby-lecter.svg",
   "tags": [
-   "halloween",
-   "scared",
    "hannibal-lecter",
    "mask"
   ],
@@ -3948,7 +3974,7 @@
   "bytes": 18285,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-leia.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Leia Blobby",
   "file": "all-the-slack-blobbies/blobby-leia.png",
   "frames": 1,
@@ -3963,7 +3989,6 @@
   "svg": null,
   "tags": [
    "space",
-   "happy",
    "star-wars",
    "princess-leia"
   ],
@@ -3975,7 +4000,7 @@
   "bytes": 24039,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-lightyear.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobby Lightyear",
   "file": "all-the-slack-blobbies/blobby-lightyear.png",
   "frames": 1,
@@ -4131,7 +4156,7 @@
   "bytes": 21426,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-loves-hockey.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Loves Hockey Blobby",
   "file": "all-the-slack-blobbies/blobby-loves-hockey.png",
   "frames": 1,
@@ -4145,8 +4170,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "hockey",
    "halloween",
+   "hockey",
    "scared",
    "jason-voorhees",
    "mask"
@@ -4159,7 +4184,7 @@
   "bytes": 8816,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-lyft.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "partners",
   "display_name": "Lyft Blobby",
   "file": "all-the-slack-blobbies/blobby-lyft.png",
   "frames": 1,
@@ -4174,8 +4199,8 @@
   "svg": null,
   "tags": [
    "retro",
-   "brand",
-   "car"
+   "car",
+   "mustache"
   ],
   "width": 128
  },
@@ -4185,7 +4210,7 @@
   "bytes": 46226,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-math.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Math",
   "file": "all-the-slack-blobbies/blobby-math.gif",
   "frames": 10,
@@ -4193,12 +4218,16 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-math.gif",
   "height": 112,
   "kind": "animation",
-  "note": null,
+  "note": "Smiling Blobby covered in handwritten math equations and a square root formula.",
   "slack_name": "blobby-math",
   "slug": "blobby-math",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "data",
+   "math",
+   "equation"
+  ],
   "width": 112
  },
  {
@@ -4221,7 +4250,6 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "happy",
    "meatballs",
    "fork"
   ],
@@ -4249,7 +4277,8 @@
   "tags": [
    "sad",
    "sleepy",
-   "melting"
+   "melting",
+   "tired"
   ],
   "width": 128
  },
@@ -4259,7 +4288,7 @@
   "bytes": 14609,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-monalisa.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Mona Lisa Blobby",
   "file": "all-the-slack-blobbies/blobby-monalisa.png",
   "frames": 1,
@@ -4311,7 +4340,7 @@
   "bytes": 9717,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-mouse.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Mouse Blobby",
   "file": "all-the-slack-blobbies/blobby-mouse.png",
   "frames": 1,
@@ -4326,8 +4355,9 @@
   "svg": null,
   "tags": [
    "hat",
-   "mouse",
-   "mickey-mouse"
+   "happy",
+   "mickey-mouse",
+   "mouse-ears"
   ],
   "width": 128
  },
@@ -4337,11 +4367,11 @@
   "bytes": 12880,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-movie-projector.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "objects",
   "display_name": "Movie Projector Blobby",
   "file": "all-the-slack-blobbies/blobby-movie-projector.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-movie-projector.png",
   "height": 128,
   "kind": "emoji",
@@ -4352,7 +4382,6 @@
   "svg": null,
   "tags": [
    "retro",
-   "animated",
    "movie",
    "projector"
   ],
@@ -4379,7 +4408,6 @@
   "svg": "svg/blobby-mummy.svg",
   "tags": [
    "halloween",
-   "zombie",
    "mummy",
    "bandages"
   ],
@@ -4391,7 +4419,7 @@
   "bytes": 14066,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-naut.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Blobbynaut",
   "file": "all-the-slack-blobbies/blobby-naut.png",
   "frames": 1,
@@ -4435,6 +4463,7 @@
    "new-year",
    "wine",
    "hype",
+   "crown",
    "champagne",
    "2026"
   ],
@@ -4461,8 +4490,8 @@
   "svg": null,
   "tags": [
    "yes",
-   "thumbs-up",
    "hype",
+   "thumbs-up",
    "nice",
    "sign"
   ],
@@ -4474,7 +4503,7 @@
   "bytes": 31429,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-no.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "reactions",
   "display_name": "Blobby No",
   "file": "all-the-slack-blobbies/blobby-no.gif",
   "frames": 40,
@@ -4482,12 +4511,16 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-no.gif",
   "height": 128,
   "kind": "animation",
-  "note": null,
+  "note": "Blobby with a closed-eye smug smile, saying no.",
   "slack_name": "blobby-no",
   "slug": "blobby-no",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "no",
+   "sleepy",
+   "smug"
+  ],
   "width": 128
  },
  {
@@ -4511,8 +4544,9 @@
   "svg": null,
   "tags": [
    "cat",
+   "halloween",
    "black-cat",
-   "pet"
+   "fluffy"
   ],
   "width": 128
  },
@@ -4707,7 +4741,7 @@
   "bytes": 12058,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-offers-google-sheets.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "partners",
   "display_name": "Blobby Offers Google Sheets",
   "file": "all-the-slack-blobbies/blobby-offers-google-sheets.png",
   "frames": 1,
@@ -4723,7 +4757,7 @@
   "tags": [
    "data",
    "office",
-   "brand",
+   "google-sheets",
    "spreadsheet"
   ],
   "width": 128
@@ -4734,11 +4768,11 @@
   "bytes": 11706,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-on-a-date.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Blobby on a Date",
   "file": "all-the-slack-blobbies/blobby-on-a-date.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-on-a-date.png",
   "height": 128,
   "kind": "emoji",
@@ -4760,7 +4794,7 @@
   "bytes": 19547,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-on-holiday.png",
   "cdn_pinned": null,
-  "collection": "holidays",
+  "collection": "objects",
   "display_name": "Blobby on Holiday",
   "file": "all-the-slack-blobbies/blobby-on-holiday.png",
   "frames": 1,
@@ -4788,7 +4822,7 @@
   "bytes": 16677,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-on-the-phone.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Blobby on the Phone",
   "file": "all-the-slack-blobbies/blobby-on-the-phone.png",
   "frames": 1,
@@ -4814,7 +4848,7 @@
   "bytes": 17896,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-on-wheels.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby On Wheels",
   "file": "all-the-slack-blobbies/blobby-on-wheels.png",
   "frames": 1,
@@ -4822,12 +4856,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-on-wheels.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby sits on two wheels like a little rolling cart.",
   "slack_name": "blobby-on-wheels",
   "slug": "blobby-on-wheels",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "happy",
+   "retro",
+   "wheels",
+   "rolling"
+  ],
   "width": 127
  },
  {
@@ -4836,7 +4875,7 @@
   "bytes": 10215,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-oogie-boogie.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Oogie Boogie Blobby",
   "file": null,
   "frames": 1,
@@ -4886,7 +4925,7 @@
   "bytes": 19606,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-out-of-the-loop.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "objects",
   "display_name": "Out of the Loop Blobby",
   "file": "all-the-slack-blobbies/blobby-out-of-the-loop.png",
   "frames": 1,
@@ -4900,8 +4939,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "retro",
    "surprised",
+   "retro",
    "roller-coaster",
    "pun"
   ],
@@ -4996,7 +5035,7 @@
   "bytes": 33067,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-paris-3.svg",
   "cdn_pinned": null,
-  "collection": "cities",
+  "collection": "pop-culture",
   "display_name": "Paris Blobby (Mona Lisa)",
   "file": null,
   "frames": 1,
@@ -5065,8 +5104,8 @@
   "svg": "svg/blobby-paris-5.svg",
   "tags": [
    "city",
-   "cookie",
    "laughing",
+   "cookie",
    "macaron"
   ],
   "width": 217
@@ -5077,7 +5116,7 @@
   "bytes": 24706,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-parton.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobby Parton",
   "file": "all-the-slack-blobbies/blobby-parton.png",
   "frames": 1,
@@ -5118,6 +5157,7 @@
   "svg": "svg/blobby-penguin.svg",
   "tags": [
    "penguin",
+   "hat",
    "costume"
   ],
   "width": 128
@@ -5128,7 +5168,7 @@
   "bytes": 23823,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-pennywise.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Pennywise Blobby",
   "file": null,
   "frames": 1,
@@ -5144,7 +5184,6 @@
   "tags": [
    "halloween",
    "balloon",
-   "scared",
    "clown",
    "pennywise"
   ],
@@ -5173,8 +5212,8 @@
    "animated",
    "love",
    "happy",
-   "pet",
-   "headpat"
+   "headpat",
+   "pet"
   ],
   "width": 112
  },
@@ -5184,7 +5223,7 @@
   "bytes": 18074,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-philly.png",
   "cdn_pinned": null,
-  "collection": "sports",
+  "collection": "cities",
   "display_name": "Philly Blobby",
   "file": "all-the-slack-blobbies/blobby-philly.png",
   "frames": 1,
@@ -5211,7 +5250,7 @@
   "bytes": 10487,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-pill.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Pill",
   "file": "all-the-slack-blobbies/blobby-pill.png",
   "frames": 1,
@@ -5219,12 +5258,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-pill.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby shaped as a smiling two-tone medicine capsule pill.",
   "slack_name": "blobby-pill",
   "slug": "blobby-pill",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "happy",
+   "doctor",
+   "pill",
+   "capsule"
+  ],
   "width": 128
  },
  {
@@ -5311,7 +5355,7 @@
   "bytes": 10266,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-pirate.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Pirate Blobby",
   "file": "all-the-slack-blobbies/blobby-pirate.png",
   "frames": 1,
@@ -5390,11 +5434,11 @@
   "bytes": 21088,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-plush.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Plush Blobby",
   "file": "all-the-slack-blobbies/blobby-plush.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-plush.png",
   "height": 128,
   "kind": "emoji",
@@ -5458,8 +5502,8 @@
   "tags": [
    "bear",
    "hat",
-   "snowflake",
-   "polar-bear"
+   "polar-bear",
+   "hood"
   ],
   "width": 128
  },
@@ -5494,7 +5538,7 @@
   "bytes": 16311,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-presentation.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "omni",
   "display_name": "Presentation Blobby",
   "file": "all-the-slack-blobbies/blobby-presentation.png",
   "frames": 1,
@@ -5510,6 +5554,7 @@
   "tags": [
    "office",
    "data",
+   "dashboard",
    "presentation",
    "whiteboard"
   ],
@@ -5548,7 +5593,7 @@
   "bytes": 3175,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-professor.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Professor Blobby",
   "file": null,
   "frames": 1,
@@ -5590,7 +5635,8 @@
   "svg": null,
   "tags": [
    "halloween",
-   "pumpkin"
+   "pumpkin",
+   "autumn"
   ],
   "width": 128
  },
@@ -5650,7 +5696,7 @@
   "bytes": 15645,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-reader.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Reader Blobby",
   "file": "all-the-slack-blobbies/blobby-reader.png",
   "frames": 1,
@@ -5676,7 +5722,7 @@
   "bytes": 14973,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-reading.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Reading Blobby",
   "file": "all-the-slack-blobbies/blobby-reading.png",
   "frames": 1,
@@ -5702,7 +5748,7 @@
   "bytes": 11871,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-reads.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Blobby Reads",
   "file": "all-the-slack-blobbies/blobby-reads.png",
   "frames": 1,
@@ -5743,7 +5789,6 @@
   "svg": "svg/blobby-reindeer.svg",
   "tags": [
    "christmas",
-   "hat",
    "reindeer",
    "scarf"
   ],
@@ -5781,7 +5826,7 @@
   "bytes": 2591,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-rock.jpg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Rock",
   "file": "all-the-slack-blobbies/blobby-rock.jpg",
   "frames": 1,
@@ -5789,12 +5834,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-rock.jpg",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby as a gray textured rock with a pink smiling face.",
   "slack_name": "blobby-rock",
   "slug": "blobby-rock",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "happy",
+   "retro",
+   "rock",
+   "stone"
+  ],
   "width": 128
  },
  {
@@ -5803,20 +5853,24 @@
   "bytes": 10069,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-rock-2.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Rock 2",
   "file": "all-the-slack-blobbies/blobby-rock-2.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-rock-2.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby as a smiling gray rock.",
   "slack_name": "blobby-rock-2",
   "slug": "blobby-rock-2",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "mountain",
+   "rock",
+   "pet-rock"
+  ],
   "width": 128
  },
  {
@@ -5825,7 +5879,7 @@
   "bytes": 13907,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-rocker.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Rocker Blobby",
   "file": "all-the-slack-blobbies/blobby-rocker.png",
   "frames": 1,
@@ -5851,7 +5905,7 @@
   "bytes": 14148,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-rocket.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Rocket Blobby",
   "file": "all-the-slack-blobbies/blobby-rocket.png",
   "frames": 1,
@@ -5878,20 +5932,24 @@
   "bytes": 22704,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-roll-the-dice.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Roll The Dice",
   "file": "all-the-slack-blobbies/blobby-roll-the-dice.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-roll-the-dice.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Two Blobby faced dice tumble together, showing pips like a roll.",
   "slack_name": "blobby-roll-the-dice",
   "slug": "blobby-roll-the-dice",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "happy",
+   "dice",
+   "gambling"
+  ],
   "width": 128
  },
  {
@@ -5904,7 +5962,7 @@
   "display_name": "Roo Blobby",
   "file": "all-the-slack-blobbies/blobby-roo.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-roo.png",
   "height": 128,
   "kind": "emoji",
@@ -5916,7 +5974,7 @@
   "tags": [
    "kangaroo",
    "wave",
-   "costume"
+   "onesie"
   ],
   "width": 128
  },
@@ -5926,11 +5984,11 @@
   "bytes": 18590,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-royalty.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Royalty Blobby",
   "file": "all-the-slack-blobbies/blobby-royalty.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-royalty.png",
   "height": 128,
   "kind": "emoji",
@@ -5941,6 +5999,7 @@
   "svg": null,
   "tags": [
    "crown",
+   "hat",
    "king",
    "royalty"
   ],
@@ -5952,11 +6011,11 @@
   "bytes": 12115,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-sally.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Sally Blobby",
   "file": null,
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-sally.svg",
   "height": 233,
   "kind": "illustration",
@@ -6001,7 +6060,7 @@
   "bytes": 20509,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-salute.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "costumes",
   "display_name": "Salute Blobby",
   "file": "all-the-slack-blobbies/blobby-salute.png",
   "frames": 1,
@@ -6185,7 +6244,7 @@
   "bytes": 82569,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-shine-1.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "food",
   "display_name": "Blobby Shine 1",
   "file": null,
   "frames": 1,
@@ -6193,12 +6252,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-shine-1.svg",
   "height": 235,
   "kind": "illustration",
-  "note": null,
+  "note": "Blobby grins with squinted eyes while holding a big seeded bagel.",
   "slack_name": null,
   "slug": "blobby-shine-1",
   "source": "figma-illustrations",
   "svg": "svg/blobby-shine-1.svg",
-  "tags": [],
+  "tags": [
+   "laughing",
+   "hype",
+   "bagel",
+   "breakfast"
+  ],
   "width": 213
  },
  {
@@ -6207,7 +6271,7 @@
   "bytes": 7199,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-shine-2.svg",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Shine Blobby",
   "file": null,
   "frames": 1,
@@ -6221,7 +6285,7 @@
   "source": "figma-illustrations",
   "svg": "svg/blobby-shine-2.svg",
   "tags": [
-   "beach",
+   "happy",
    "sun",
    "sunshine"
   ],
@@ -6233,11 +6297,11 @@
   "bytes": 15247,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-showgirl.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Showgirl Blobby",
   "file": "all-the-slack-blobbies/blobby-showgirl.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-showgirl.png",
   "height": 128,
   "kind": "emoji",
@@ -6287,7 +6351,7 @@
   "bytes": 12108,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-skellington.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Skellington Blobby",
   "file": null,
   "frames": 1,
@@ -6314,7 +6378,7 @@
   "bytes": 14033,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-slay-queen.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Slay Queen Blobby",
   "file": "all-the-slack-blobbies/blobby-slay-queen.png",
   "frames": 1,
@@ -6331,6 +6395,7 @@
    "crown",
    "glasses",
    "hype",
+   "love",
    "slay",
    "kiss"
   ],
@@ -6537,8 +6602,8 @@
   "tags": [
    "christmas",
    "hat",
-   "snowflake",
-   "snowman"
+   "snowman",
+   "winter"
   ],
   "width": 128
  },
@@ -6574,7 +6639,7 @@
   "bytes": 77706,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-speaking.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "reactions",
   "display_name": "Blobby Speaking",
   "file": "all-the-slack-blobbies/blobby-speaking.gif",
   "frames": 111,
@@ -6582,12 +6647,15 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-speaking.gif",
   "height": 128,
   "kind": "animation",
-  "note": null,
+  "note": "Classic gradient Blobby smiling as if speaking or talking.",
   "slack_name": "blobby-speaking",
   "slug": "blobby-speaking",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "speaking",
+   "talking"
+  ],
   "width": 128
  },
  {
@@ -6596,7 +6664,7 @@
   "bytes": 77386,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-speaking-fast.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "reactions",
   "display_name": "Blobby Speaking Fast",
   "file": "all-the-slack-blobbies/blobby-speaking-fast.gif",
   "frames": 111,
@@ -6604,12 +6672,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-speaking-fast.gif",
   "height": 128,
   "kind": "animation",
-  "note": null,
+  "note": "Blobby talks rapidly with a quickly moving mouth.",
   "slack_name": "blobby-speaking-fast",
   "slug": "blobby-speaking-fast",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "animated",
+   "hype",
+   "talking",
+   "fast"
+  ],
   "width": 128
  },
  {
@@ -6618,7 +6691,7 @@
   "bytes": 77386,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-speaking-slow.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "reactions",
   "display_name": "Blobby Speaking Slow",
   "file": "all-the-slack-blobbies/blobby-speaking-slow.gif",
   "frames": 111,
@@ -6626,12 +6699,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-speaking-slow.gif",
   "height": 128,
   "kind": "animation",
-  "note": null,
+  "note": "Blobby smiles and talks slowly with a plain expression.",
   "slack_name": "blobby-speaking-slow",
   "slug": "blobby-speaking-slow",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "animated",
+   "happy",
+   "talking",
+   "slow"
+  ],
   "width": 128
  },
  {
@@ -6655,7 +6733,6 @@
   "svg": null,
   "tags": [
    "animated",
-   "happy",
    "spin"
   ],
   "width": 128
@@ -6715,11 +6792,11 @@
   "bytes": 22282,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-startup.svg",
   "cdn_pinned": null,
-  "collection": "omni",
+  "collection": "objects",
   "display_name": "Startup Blobby",
   "file": null,
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-startup.svg",
   "height": 207,
   "kind": "illustration",
@@ -6732,8 +6809,8 @@
    "laptop",
    "coffee",
    "office",
-   "startup",
-   "headphones"
+   "headphones",
+   "startup"
   ],
   "width": 256
  },
@@ -6844,8 +6921,8 @@
    "coffee",
    "hat",
    "flag",
-   "scarf",
-   "fika"
+   "fika",
+   "scarf"
   ],
   "width": 229
  },
@@ -6855,20 +6932,24 @@
   "bytes": 10351,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-sun.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Blobby Sun",
   "file": "all-the-slack-blobbies/blobby-sun.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-sun.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Smiling mint-green Blobby glows as a sun with orange rays.",
   "slack_name": "blobby-sun",
   "slug": "blobby-sun",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "happy",
+   "sun",
+   "sunshine"
+  ],
   "width": 128
  },
  {
@@ -6903,7 +6984,7 @@
   "bytes": 13097,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-superhero.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Superhero Blobby",
   "file": "all-the-slack-blobbies/blobby-superhero.png",
   "frames": 1,
@@ -6918,6 +6999,7 @@
   "svg": null,
   "tags": [
    "superhero",
+   "happy",
    "cape",
    "mask"
   ],
@@ -6983,7 +7065,7 @@
   "bytes": 33562,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-swedish-meatballs.svg",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Swedish Meatballs Blobby",
   "file": null,
   "frames": 1,
@@ -7026,7 +7108,8 @@
   "tags": [
    "kangaroo",
    "city",
-   "australia"
+   "australia",
+   "sydney"
   ],
   "width": 128
  },
@@ -7141,7 +7224,7 @@
   "bytes": 11158,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-texas.svg",
   "cdn_pinned": null,
-  "collection": "cities",
+  "collection": "costumes",
   "display_name": "Texas Blobby",
   "file": null,
   "frames": 1,
@@ -7156,7 +7239,6 @@
   "svg": "svg/blobby-texas.svg",
   "tags": [
    "hat",
-   "city",
    "cowboy",
    "boot"
   ],
@@ -7212,8 +7294,8 @@
   "tags": [
    "city",
    "hat",
-   "cowboy",
-   "texas"
+   "texas",
+   "cowboy"
   ],
   "width": 275
  },
@@ -7263,8 +7345,8 @@
   "svg": null,
   "tags": [
    "thanksgiving",
-   "turkey",
-   "costume"
+   "costume",
+   "turkey"
   ],
   "width": 128
  },
@@ -7300,7 +7382,7 @@
   "bytes": 15430,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-the-builder.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobby the Builder",
   "file": "all-the-slack-blobbies/blobby-the-builder.png",
   "frames": 1,
@@ -7327,7 +7409,7 @@
   "bytes": 19305,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-the-clown.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Blobby the Clown",
   "file": "all-the-slack-blobbies/blobby-the-clown.png",
   "frames": 1,
@@ -7354,7 +7436,7 @@
   "bytes": 18571,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-the-doll.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "The Doll Blobby",
   "file": "all-the-slack-blobbies/blobby-the-doll.png",
   "frames": 1,
@@ -7369,7 +7451,6 @@
   "svg": null,
   "tags": [
    "halloween",
-   "scared",
    "chucky",
    "doll"
   ],
@@ -7422,6 +7503,7 @@
   "svg": "svg/blobby-the-more-you-know.svg",
   "tags": [
    "retro",
+   "pride",
    "shooting-star",
    "rainbow"
   ],
@@ -7433,7 +7515,7 @@
   "bytes": 15316,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-the-riveter.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobby the Riveter",
   "file": "all-the-slack-blobbies/blobby-the-riveter.png",
   "frames": 1,
@@ -7449,6 +7531,7 @@
   "tags": [
    "hype",
    "retro",
+   "salute",
    "rosie-the-riveter",
    "bandana"
   ],
@@ -7542,7 +7625,7 @@
   "display_name": "Toronto Blobby",
   "file": "all-the-slack-blobbies/blobby-toronto.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-toronto.png",
   "height": 128,
   "kind": "emoji",
@@ -7556,7 +7639,8 @@
    "hockey",
    "helmet",
    "flag",
-   "canada"
+   "canada",
+   "maple-leaf"
   ],
   "width": 128
  },
@@ -7594,7 +7678,7 @@
   "bytes": 16252,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-trail-guide.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Blobby Trail Guide",
   "file": "all-the-slack-blobbies/blobby-trail-guide.png",
   "frames": 1,
@@ -7602,12 +7686,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-trail-guide.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby dressed as a hiker with bucket hat, trekking pole, and water bottle.",
   "slack_name": "blobby-trail-guide",
   "slug": "blobby-trail-guide",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "hat",
+   "mountain",
+   "hiking",
+   "trekking-pole"
+  ],
   "width": 128
  },
  {
@@ -7616,7 +7705,7 @@
   "bytes": 17605,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-train.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Blobby Train",
   "file": "all-the-slack-blobbies/blobby-train.png",
   "frames": 1,
@@ -7624,12 +7713,17 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-train.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby wears a conductor cap while riding a steam locomotive.",
   "slack_name": "blobby-train",
   "slug": "blobby-train",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "hat",
+   "retro",
+   "train",
+   "conductor"
+  ],
   "width": 128
  },
  {
@@ -7638,11 +7732,11 @@
   "bytes": 30075,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-tufted.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "objects",
   "display_name": "Tufted Blobby",
   "file": "all-the-slack-blobbies/blobby-tufted.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-tufted.png",
   "height": 127,
   "kind": "emoji",
@@ -7652,8 +7746,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "happy",
    "retro",
+   "happy",
    "tufted",
    "rug"
   ],
@@ -7665,7 +7759,7 @@
   "bytes": 10814,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-typing.gif",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Typing Blobby",
   "file": "all-the-slack-blobbies/blobby-typing.gif",
   "frames": 2,
@@ -7680,7 +7774,6 @@
   "svg": null,
   "tags": [
    "office",
-   "laptop",
    "typing",
    "keyboard"
   ],
@@ -7692,7 +7785,7 @@
   "bytes": 26612,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-ultra-think.gif",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "omni",
   "display_name": "Ultra Think Blobby",
   "file": "all-the-slack-blobbies/blobby-ultra-think.gif",
   "frames": 8,
@@ -7745,7 +7838,7 @@
   "bytes": 11995,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-vegas.svg",
   "cdn_pinned": null,
-  "collection": "cities",
+  "collection": "costumes",
   "display_name": "Vegas Blobby",
   "file": null,
   "frames": 1,
@@ -7759,11 +7852,10 @@
   "source": "figma-illustrations",
   "svg": "svg/blobby-vegas.svg",
   "tags": [
-   "city",
    "hat",
-   "wizard",
+   "city",
    "magician",
-   "las-vegas"
+   "magic-wand"
   ],
   "width": 209
  },
@@ -7773,7 +7865,7 @@
   "bytes": 12687,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-vegas-1.svg",
   "cdn_pinned": null,
-  "collection": "cities",
+  "collection": "costumes",
   "display_name": "Vegas Blobby",
   "file": null,
   "frames": 1,
@@ -7787,8 +7879,8 @@
   "source": "figma-illustrations",
   "svg": "svg/blobby-vegas-1.svg",
   "tags": [
-   "city",
    "hat",
+   "city",
    "magician",
    "magic-wand"
   ],
@@ -7815,7 +7907,6 @@
   "svg": "svg/blobby-vegas-2.svg",
   "tags": [
    "city",
-   "happy",
    "vegas",
    "cards"
   ],
@@ -7929,7 +8020,7 @@
   "bytes": 15172,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-washington.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Washington Blobby",
   "file": "all-the-slack-blobbies/blobby-washington.png",
   "frames": 1,
@@ -8006,7 +8097,7 @@
   "bytes": 12157,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-werewolf.svg",
   "cdn_pinned": null,
-  "collection": "animals",
+  "collection": "holidays",
   "display_name": "Werewolf Blobby",
   "file": null,
   "frames": 1,
@@ -8022,7 +8113,8 @@
   "tags": [
    "werewolf",
    "halloween",
-   "fangs"
+   "fangs",
+   "fur"
   ],
   "width": 202
  },
@@ -8048,7 +8140,8 @@
   "tags": [
    "werewolf",
    "halloween",
-   "fangs"
+   "fangs",
+   "furry"
   ],
   "width": 671
  },
@@ -8073,6 +8166,7 @@
   "svg": null,
   "tags": [
    "happy",
+   "wave",
    "whale",
    "ocean"
   ],
@@ -8099,7 +8193,6 @@
   "svg": "svg/blobby-whats-in-the-box.svg",
   "tags": [
    "gift",
-   "surprised",
    "se7en",
    "box"
   ],
@@ -8263,7 +8356,7 @@
   "bytes": 8932,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-zero.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Zero Blobby",
   "file": null,
   "frames": 1,
@@ -8294,7 +8387,7 @@
   "display_name": "Zombie Blobby",
   "file": "all-the-slack-blobbies/blobby-zombie.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-zombie.png",
   "height": 128,
   "kind": "emoji",
@@ -8338,7 +8431,7 @@
   "bytes": 11655,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby_boy.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Lobby Boy Blobby",
   "file": "all-the-slack-blobbies/blobby_boy.png",
   "frames": 1,
@@ -8364,7 +8457,7 @@
   "bytes": 20715,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby_can_do.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Can Do Blobby",
   "file": "all-the-slack-blobbies/blobby_can_do.png",
   "frames": 1,
@@ -8392,7 +8485,7 @@
   "bytes": 13522,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby_sleuth.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Sleuth Blobby",
   "file": "all-the-slack-blobbies/blobby_sleuth.png",
   "frames": 1,
@@ -8445,11 +8538,11 @@
   "bytes": 16281,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobbys-world.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Blobby's World",
   "file": "all-the-slack-blobbies/blobbys-world.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobbys-world.png",
   "height": 128,
   "kind": "emoji",
@@ -8473,7 +8566,7 @@
   "bytes": 17034,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobbysaurus-rex.png",
   "cdn_pinned": null,
-  "collection": "animals",
+  "collection": "costumes",
   "display_name": "Blobbysaurus Rex",
   "file": "all-the-slack-blobbies/blobbysaurus-rex.png",
   "frames": 1,
@@ -8488,8 +8581,9 @@
   "svg": null,
   "tags": [
    "dinosaur",
+   "wave",
    "t-rex",
-   "costume"
+   "tie"
   ],
   "width": 128
  },
@@ -8604,7 +8698,7 @@
   "bytes": 13257,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/buckingham-blobby.png",
   "cdn_pinned": null,
-  "collection": "cities",
+  "collection": "costumes",
   "display_name": "Buckingham Blobby",
   "file": "all-the-slack-blobbies/buckingham-blobby.png",
   "frames": 1,
@@ -8618,9 +8712,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "city",
    "hat",
-   "salute",
+   "city",
    "london",
    "royal-guard"
   ],
@@ -8647,8 +8740,8 @@
   "svg": null,
   "tags": [
    "love",
-   "bufo",
-   "frog"
+   "frog",
+   "bufo"
   ],
   "width": 94
  },
@@ -8699,7 +8792,6 @@
   "svg": null,
   "tags": [
    "flag",
-   "happy",
    "canada",
    "maple-leaf"
   ],
@@ -8759,7 +8851,7 @@
   "bytes": 18028,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/chicagodeepdishblobby.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Chicago Deep Dish Blobby",
   "file": "all-the-slack-blobbies/chicagodeepdishblobby.png",
   "frames": 1,
@@ -8856,8 +8948,8 @@
   "tags": [
    "hype",
    "fire",
-   "deep-fried",
-   "meme"
+   "meme",
+   "deep-fried"
   ],
   "width": 128
  },
@@ -8894,7 +8986,7 @@
   "bytes": 20932,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/doctor-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Doctor Blobby",
   "file": "all-the-slack-blobbies/doctor-blobby.png",
   "frames": 1,
@@ -8920,7 +9012,7 @@
   "bytes": 16628,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/dr-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Dr. Blobby",
   "file": "all-the-slack-blobbies/dr-blobby.png",
   "frames": 1,
@@ -8946,11 +9038,11 @@
   "bytes": 15902,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/dread-pirate-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Dread Pirate Blobby",
   "file": "all-the-slack-blobbies/dread-pirate-blobby.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/dread-pirate-blobby.png",
   "height": 128,
   "kind": "emoji",
@@ -8963,8 +9055,8 @@
    "pirate",
    "hat",
    "captain",
-   "eyepatch",
-   "princess-bride"
+   "princess-bride",
+   "eyepatch"
   ],
   "width": 128
  },
@@ -8974,11 +9066,11 @@
   "bytes": 15890,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/emo-blobby.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Emo Blobby",
   "file": "all-the-slack-blobbies/emo-blobby.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/emo-blobby.png",
   "height": 128,
   "kind": "emoji",
@@ -8988,7 +9080,6 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "sad",
    "retro",
    "emo",
    "skull"
@@ -9001,11 +9092,11 @@
   "bytes": 12738,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/evil-blobby.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "costumes",
   "display_name": "Evil Blobby",
   "file": "all-the-slack-blobbies/evil-blobby.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/evil-blobby.png",
   "height": 128,
   "kind": "emoji",
@@ -9016,6 +9107,7 @@
   "svg": null,
   "tags": [
    "angry",
+   "hat",
    "evil",
    "hood"
   ],
@@ -9041,8 +9133,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "sad",
    "confused",
+   "sad",
    "facepalm",
    "embarrassed"
   ],
@@ -9054,7 +9146,7 @@
   "bytes": 14991,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/ferris-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Ferris Blobby",
   "file": "all-the-slack-blobbies/ferris-blobby.png",
   "frames": 1,
@@ -9128,7 +9220,7 @@
   "bytes": 12534,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/flavortown_blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Flavortown Blobby",
   "file": "all-the-slack-blobbies/flavortown_blobby.png",
   "frames": 1,
@@ -9155,7 +9247,7 @@
   "bytes": 15115,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/french-blobby.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "French Blobby",
   "file": "all-the-slack-blobbies/french-blobby.png",
   "frames": 1,
@@ -9198,7 +9290,6 @@
   "tags": [
    "thinking",
    "space",
-   "ai",
    "galaxy-brain",
    "meme"
   ],
@@ -9210,7 +9301,7 @@
   "bytes": 20246,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/garretts-popcorn-blobby.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Garrett's Popcorn Blobby",
   "file": "all-the-slack-blobbies/garretts-popcorn-blobby.png",
   "frames": 1,
@@ -9225,8 +9316,8 @@
   "svg": null,
   "tags": [
    "city",
-   "brand",
-   "popcorn"
+   "popcorn",
+   "chicago"
   ],
   "width": 128
  },
@@ -9250,9 +9341,9 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "thumbs-up",
-   "yes",
    "thanks",
+   "yes",
+   "thumbs-up",
    "gold-star",
    "star"
   ],
@@ -9268,7 +9359,7 @@
   "display_name": "Good Blobby",
   "file": "all-the-slack-blobbies/good-blobby.gif",
   "frames": 10,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/good-blobby.gif",
   "height": 112,
   "kind": "animation",
@@ -9278,9 +9369,9 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "happy",
    "love",
    "thanks",
+   "animated",
    "headpat"
   ],
   "width": 112
@@ -9291,7 +9382,7 @@
   "bytes": 15912,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/guild-blobby.png",
   "cdn_pinned": null,
-  "collection": "omni",
+  "collection": "costumes",
   "display_name": "Guild Blobby",
   "file": "all-the-slack-blobbies/guild-blobby.png",
   "frames": 1,
@@ -9306,7 +9397,6 @@
   "svg": null,
   "tags": [
    "hat",
-   "book",
    "graduation",
    "guild"
   ],
@@ -9318,7 +9408,7 @@
   "bytes": 19947,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/harry-caray-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Harry Caray Blobby",
   "file": "all-the-slack-blobbies/harry-caray-blobby.png",
   "frames": 1,
@@ -9367,7 +9457,7 @@
   "bytes": 24505,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/heavy-metal-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "holidays",
   "display_name": "Heavy Metal Blobby",
   "file": "all-the-slack-blobbies/heavy-metal-blobby.png",
   "frames": 1,
@@ -9381,8 +9471,8 @@
   "source": "slack",
   "svg": null,
   "tags": [
-   "angry",
    "halloween",
+   "angry",
    "pinhead",
    "spikes"
   ],
@@ -9515,7 +9605,7 @@
   "svg": null,
   "tags": [
    "glasses",
-   "beach",
+   "hat",
    "ibiza-final-boss",
    "beard"
   ],
@@ -9527,7 +9617,7 @@
   "bytes": 17937,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/iblobby-shrek.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Shrek Blobby",
   "file": "all-the-slack-blobbies/iblobby-shrek.png",
   "frames": 1,
@@ -9553,7 +9643,7 @@
   "bytes": 18039,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/jim-harblobby-umich.png",
   "cdn_pinned": null,
-  "collection": "sports",
+  "collection": "pop-culture",
   "display_name": "Jim Harblobby (Michigan)",
   "file": "all-the-slack-blobbies/jim-harblobby-umich.png",
   "frames": 1,
@@ -9568,8 +9658,8 @@
   "svg": null,
   "tags": [
    "hat",
-   "brand",
-   "football"
+   "football",
+   "michigan"
   ],
   "width": 128
  },
@@ -9579,20 +9669,24 @@
   "bytes": 24714,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/kdh-derpy-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
-  "display_name": "Kdh Derpy Blobby",
+  "collection": "pop-culture",
+  "display_name": "KDH Derpy Blobby",
   "file": "all-the-slack-blobbies/kdh-derpy-blobby.png",
   "frames": 1,
   "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/kdh-derpy-blobby.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby dressed as Derpy, the blue tiger from KPop Demon Hunters.",
   "slack_name": "kdh-derpy-blobby",
   "slug": "kdh-derpy-blobby",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "cat",
+   "kpop-demon-hunters",
+   "tiger"
+  ],
   "width": 128
  },
  {
@@ -9623,7 +9717,7 @@
   "bytes": 17977,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/lions-dan-campblobby.png",
   "cdn_pinned": null,
-  "collection": "sports",
+  "collection": "pop-culture",
   "display_name": "Lions Dan Campblobby",
   "file": "all-the-slack-blobbies/lions-dan-campblobby.png",
   "frames": 1,
@@ -9638,8 +9732,9 @@
   "svg": null,
   "tags": [
    "hat",
-   "brand",
-   "detroit-lions"
+   "glasses",
+   "detroit-lions",
+   "dan-campbell"
   ],
   "width": 128
  },
@@ -9721,11 +9816,11 @@
   "bytes": 17040,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/monsieur-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Monsieur Blobby",
   "file": "all-the-slack-blobbies/monsieur-blobby.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/monsieur-blobby.png",
   "height": 128,
   "kind": "emoji",
@@ -9762,8 +9857,8 @@
   "svg": null,
   "tags": [
    "duck",
-   "data",
    "wave",
+   "data",
    "motherduck"
   ],
   "width": 128
@@ -9774,7 +9869,7 @@
   "bytes": 5495,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/mr-blobby.jpg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Mr Blobby",
   "file": "all-the-slack-blobbies/mr-blobby.jpg",
   "frames": 1,
@@ -9801,7 +9896,7 @@
   "bytes": 2810,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/mrs-blobby.jpg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Mrs Blobby",
   "file": "all-the-slack-blobbies/mrs-blobby.jpg",
   "frames": 1,
@@ -9816,7 +9911,7 @@
   "svg": null,
   "tags": [
    "retro",
-   "mr-blobby",
+   "mrs-blobby",
    "wig"
   ],
   "width": 86
@@ -9853,7 +9948,7 @@
   "display_name": "Old Man Yells at Blobby",
   "file": "all-the-slack-blobbies/old-man-yells-at-blobby.png",
   "frames": 1,
-  "generation": "new",
+  "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/old-man-yells-at-blobby.png",
   "height": 128,
   "kind": "emoji",
@@ -9929,7 +10024,7 @@
   "bytes": 4003,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-chef.svg",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "costumes",
   "display_name": "Chef Blobby",
   "file": null,
   "frames": 1,
@@ -9954,7 +10049,7 @@
   "bytes": 64519,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-coffee.svg",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Coffee Blobby",
   "file": null,
   "frames": 1,
@@ -9969,8 +10064,8 @@
   "svg": "svg/omni-blobby-coffee.svg",
   "tags": [
    "coffee",
-   "ai",
    "city",
+   "ai",
    "new-york",
    "anthora-cup"
   ],
@@ -9982,7 +10077,7 @@
   "bytes": 2453527,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-cookie.svg",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "cities",
   "display_name": "Cookie Blobby",
   "file": null,
   "frames": 1,
@@ -9997,6 +10092,7 @@
   "svg": "svg/omni-blobby-cookie.svg",
   "tags": [
    "cookie",
+   "city",
    "black-and-white-cookie",
    "new-york"
   ],
@@ -10035,7 +10131,7 @@
   "bytes": 8126,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-queen.svg",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "costumes",
   "display_name": "Queen Blobby",
   "file": null,
   "frames": 1,
@@ -10063,7 +10159,7 @@
   "bytes": 8126,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-queen-1.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Queen Blobby",
   "file": null,
   "frames": 1,
@@ -10105,8 +10201,9 @@
   "svg": "svg/omni-blobby-santa-cruz.svg",
   "tags": [
    "hat",
-   "brand",
-   "skateboard"
+   "surprised",
+   "skateboard",
+   "santa-cruz"
   ],
   "width": 250
  },
@@ -10116,11 +10213,11 @@
   "bytes": 11230,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-show-girl.svg",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Show Girl Blobby",
   "file": null,
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/omni-blobby-show-girl.svg",
   "height": 274,
   "kind": "illustration",
@@ -10142,7 +10239,7 @@
   "bytes": 44583,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/omni-blobby-ticket.svg",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Ticket Blobby",
   "file": null,
   "frames": 1,
@@ -10184,8 +10281,8 @@
   "tags": [
    "hat",
    "retro",
-   "brand",
-   "monopoly"
+   "monopoly",
+   "money"
   ],
   "width": 128
  },
@@ -10217,7 +10314,7 @@
   "bytes": 18956,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/peterblobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Peter Blobby",
   "file": "all-the-slack-blobbies/peterblobby.png",
   "frames": 1,
@@ -10232,6 +10329,7 @@
   "svg": null,
   "tags": [
    "glasses",
+   "animated",
    "peter-griffin",
    "family-guy"
   ],
@@ -10268,7 +10366,7 @@
   "bytes": 15215,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/pumpkin-spiced-blobby.png",
   "cdn_pinned": null,
-  "collection": "food",
+  "collection": "holidays",
   "display_name": "Pumpkin Spiced Blobby",
   "file": "all-the-slack-blobbies/pumpkin-spiced-blobby.png",
   "frames": 1,
@@ -10283,8 +10381,8 @@
   "svg": null,
   "tags": [
    "coffee",
-   "halloween",
    "thanksgiving",
+   "halloween",
    "pumpkin-spice",
    "mustache"
   ],
@@ -10296,7 +10394,7 @@
   "bytes": 18406,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/ricky-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Ricky Blobby",
   "file": "all-the-slack-blobbies/ricky-blobby.png",
   "frames": 1,
@@ -10312,8 +10410,9 @@
   "tags": [
    "helmet",
    "hype",
-   "racing",
-   "nascar"
+   "trophy",
+   "nascar",
+   "talladega-nights"
   ],
   "width": 128
  },
@@ -10323,7 +10422,7 @@
   "bytes": 17581,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/ricky-blobby-driving.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Ricky Blobby Driving",
   "file": "all-the-slack-blobbies/ricky-blobby-driving.png",
   "frames": 1,
@@ -10402,7 +10501,7 @@
   "bytes": 20150,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/sailor-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Sailor Blobby",
   "file": "all-the-slack-blobbies/sailor-blobby.png",
   "frames": 1,
@@ -10417,7 +10516,7 @@
   "svg": null,
   "tags": [
    "superhero",
-   "hat",
+   "crown",
    "sailor-moon",
    "anime"
   ],
@@ -10557,7 +10656,7 @@
   "bytes": 13024,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/showgirl-blobby.png",
   "cdn_pinned": null,
-  "collection": "pop-culture",
+  "collection": "costumes",
   "display_name": "Showgirl Blobby",
   "file": "all-the-slack-blobbies/showgirl-blobby.png",
   "frames": 1,
@@ -10583,7 +10682,7 @@
   "bytes": 14583,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/snoop-blobby-blob.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Snoop Blobby Blob",
   "file": "all-the-slack-blobbies/snoop-blobby-blob.png",
   "frames": 1,
@@ -10636,20 +10735,24 @@
   "bytes": 14351,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/sombrero_blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
-  "display_name": "Sombrero_Blobby",
+  "collection": "costumes",
+  "display_name": "Sombrero Blobby",
   "file": "all-the-slack-blobbies/sombrero_blobby.png",
   "frames": 1,
   "generation": "classic",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/sombrero_blobby.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby wears a colorful sombrero and a black mustache.",
   "slack_name": "sombrero_blobby",
   "slug": "sombrero_blobby",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "hat",
+   "sombrero",
+   "mustache"
+  ],
   "width": 128
  },
  {
@@ -10658,7 +10761,7 @@
   "bytes": 10352,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/sophisticated_blobby.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "costumes",
   "display_name": "Sophisticated Blobby",
   "file": "all-the-slack-blobbies/sophisticated_blobby.png",
   "frames": 1,
@@ -10674,6 +10777,7 @@
   "tags": [
    "glasses",
    "hat",
+   "office",
    "fedora",
    "suit"
   ],
@@ -10685,7 +10789,7 @@
   "bytes": 24347,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/space_blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Space Blobby",
   "file": "all-the-slack-blobbies/space_blobby.png",
   "frames": 1,
@@ -10702,8 +10806,8 @@
    "space",
    "helmet",
    "knight",
-   "lightsaber",
-   "armor"
+   "astronaut",
+   "sword"
   ],
   "width": 128
  },
@@ -10767,7 +10871,7 @@
   "bytes": 11510,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/super-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Super Blobby",
   "file": "all-the-slack-blobbies/super-blobby.png",
   "frames": 1,
@@ -10793,7 +10897,7 @@
   "bytes": 17425,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/super-saiyan-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Super Saiyan Blobby",
   "file": "all-the-slack-blobbies/super-saiyan-blobby.png",
   "frames": 1,
@@ -10821,7 +10925,7 @@
   "bytes": 15710,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/taytoblobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Tayto Blobby",
   "file": "all-the-slack-blobbies/taytoblobby.png",
   "frames": 1,
@@ -10837,8 +10941,8 @@
   "tags": [
    "hat",
    "wave",
-   "brand",
-   "crisps"
+   "crisps",
+   "ireland"
   ],
   "width": 128
  },
@@ -10874,7 +10978,7 @@
   "bytes": 20171,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/time-flies-blobby.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Time Flies Blobby",
   "file": "all-the-slack-blobbies/time-flies-blobby.png",
   "frames": 1,
@@ -10917,6 +11021,7 @@
    "helmet",
    "glasses",
    "retro",
+   "captain",
    "top-gun",
    "mustache"
   ],
@@ -10956,20 +11061,24 @@
   "bytes": 11571,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/tophat-blobby.png",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "costumes",
   "display_name": "Tophat Blobby",
   "file": "all-the-slack-blobbies/tophat-blobby.png",
   "frames": 1,
-  "generation": "classic",
+  "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/tophat-blobby.png",
   "height": 128,
   "kind": "emoji",
-  "note": null,
+  "note": "Blobby wears a black top hat and smiles.",
   "slack_name": "tophat-blobby",
   "slug": "tophat-blobby",
   "source": "slack",
   "svg": null,
-  "tags": [],
+  "tags": [
+   "hat",
+   "top-hat",
+   "gentleman"
+  ],
   "width": 127
  },
  {
@@ -11000,7 +11109,7 @@
   "bytes": 16515,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/unicorn-blobby.png",
   "cdn_pinned": null,
-  "collection": "animals",
+  "collection": "costumes",
   "display_name": "Unicorn Blobby",
   "file": "all-the-slack-blobbies/unicorn-blobby.png",
   "frames": 1,
@@ -11015,8 +11124,8 @@
   "svg": null,
   "tags": [
    "hat",
-   "unicorn",
-   "costume"
+   "costume",
+   "unicorn"
   ],
   "width": 128
  },
@@ -11026,7 +11135,7 @@
   "bytes": 19547,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/vacation-blobby.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Vacation Blobby",
   "file": "all-the-slack-blobbies/vacation-blobby.png",
   "frames": 1,
@@ -11070,8 +11179,8 @@
   "tags": [
    "basketball",
    "hat",
-   "brand",
-   "warriors"
+   "warriors",
+   "golden-state"
   ],
   "width": 128
  },
@@ -11081,7 +11190,7 @@
   "bytes": 127205,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/wrong-blobby.gif",
   "cdn_pinned": null,
-  "collection": "unsorted",
+  "collection": "pop-culture",
   "display_name": "Wrong Blobby",
   "file": "all-the-slack-blobbies/wrong-blobby.gif",
   "frames": 39,
