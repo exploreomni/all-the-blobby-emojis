@@ -5,7 +5,8 @@ Usage:
     python3 scripts/apply_proposals.py backfill-proposals.csv
 
 Only applies rows where keep == 'y', and only to entries whose collection
-is still 'unsorted' in items.yaml.  Rewrites items.yaml in place.
+is not 'core' in items.yaml.  Rewrites items.yaml in place.
+Never sets collection to 'core' regardless of what the CSV says.
 """
 
 from __future__ import annotations
@@ -56,11 +57,19 @@ def main() -> int:
                 confidence = 0.0
             # Merge free_tags into tags (after vocab tags), deduplicating.
             all_tags = tags + [t for t in free_tags if t not in tags]
+            target_collection = row["collection"]
+            # Guard: never set collection to core via proposals.
+            if target_collection == "core":
+                print(
+                    f"  SKIP {row['slug']}: proposals may not set collection to 'core'",
+                    file=sys.stderr,
+                )
+                continue
             proposals.append(
                 Proposal(
                     slug=row["slug"],
                     display_name=row["display_name"],
-                    collection=row["collection"],
+                    collection=target_collection,
                     tags=all_tags,
                     generation=row["generation"],
                     confidence=confidence,

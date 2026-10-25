@@ -32,7 +32,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 CSV_COLUMNS = [
     "slug", "keep", "display_name", "collection", "tags", "free_tags",
-    "description", "generation", "confidence", "current_display_name",
+    "description", "generation", "confidence", "moved", "reason",
+    "current_display_name",
 ]
 
 
@@ -164,13 +165,15 @@ def _append_row(out_path: Path, proposal: Proposal, current_display_name: str) -
             "description": proposal.description,
             "generation": proposal.generation,
             "confidence": f"{proposal.confidence:.3f}",
+            "moved": "true" if proposal.moved else "false",
+            "reason": proposal.reason,
             "current_display_name": current_display_name,
         })
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Vision-assisted tag backfill for unsorted Blobby items.",
+        description="Vision-assisted tag backfill for Blobby items.",
     )
     parser.add_argument(
         "--out",
@@ -181,7 +184,13 @@ def parse_args() -> argparse.Namespace:
         "--limit",
         type=int,
         default=None,
-        help="Process at most N unsorted records.",
+        help="Process at most N records.",
+    )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        dest="all_records",
+        help="Process ALL records whose collection is not 'core' (not only unsorted).",
     )
     return parser.parse_args()
 
@@ -193,10 +202,13 @@ def main() -> int:
         out_path = REPO_ROOT / out_path
 
     records = _load_records()
-    unsorted = [r for r in records if r.get("collection") == "unsorted"]
+    if args.all_records:
+        eligible = [r for r in records if r.get("collection") != "core"]
+    else:
+        eligible = [r for r in records if r.get("collection") == "unsorted"]
 
     existing = _load_existing_slugs(out_path)
-    pending = [r for r in unsorted if r["slug"] not in existing]
+    pending = [r for r in eligible if r["slug"] not in existing]
 
     if args.limit is not None:
         pending = pending[: args.limit]

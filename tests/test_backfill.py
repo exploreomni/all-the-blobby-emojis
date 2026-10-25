@@ -218,9 +218,9 @@ def test_prompt_contains_slug():
 
 
 def test_prompt_contains_example_slugs():
-    """_build_prompt includes all four worked-example slugs."""
+    """_build_prompt includes all four worked-example slugs (updated for v3)."""
     prompt = _build_prompt({"slug": "blobby-any"}, VOCAB)
-    for example_slug in ("blobby-paris-2", "blobby-dbt", "blobby-gingerbread", "blobby-yells-at-jonny"):
+    for example_slug in ("blobby-paris-2", "blobby-dbt", "blobby-jack-o-lantern", "blobby-yells-at-jonny"):
         assert example_slug in prompt, f"Example slug {example_slug!r} missing from prompt"
 
 
@@ -228,3 +228,147 @@ def test_propose_tolerates_trailing_text_after_json():
     ask = lambda *a: '{"display_name":"Bee","collection":"animals","tags":["bee"],"generation":"new","confidence":0.8}\n\nNote: cute.'
     p = propose({"slug": "bumblebee-blobby", "file": "x.png"}, b"", VOCAB, ask)
     assert p.collection == "animals" and p.confidence == 0.8
+
+# ---------------------------------------------------------------------------
+# New tests for v3 keep-or-move prompt
+# ---------------------------------------------------------------------------
+
+def test_prompt_contains_current_label_block():
+    """_build_prompt includes the current label block with collection and display_name."""
+    record = {"slug": "blobby-test", "collection": "reactions", "display_name": "Test Blobby", "tags": ["happy"]}
+    prompt = _build_prompt(record, VOCAB)
+    assert "Current label:" in prompt
+    assert "reactions" in prompt
+    assert "Test Blobby" in prompt
+
+
+def test_prompt_contains_precedence_rule():
+    """_build_prompt includes the precedence rule text."""
+    prompt = _build_prompt({"slug": "blobby-any"}, VOCAB)
+    assert "lowest number" in prompt
+
+
+def test_propose_parses_moved_and_reason():
+    """propose() parses moved and reason from the model response."""
+    ask = lambda *a: (
+        '{"display_name":"Hockey Blobby","collection":"sports","tags":["hockey"],'
+        '"free_tags":[],"description":"Blobby wears a hockey helmet.","generation":"new",'
+        '"confidence":0.9,"moved":true,"reason":"sports item fits sports collection"}'
+    )
+    record = {"slug": "hockey-blobby", "collection": "unsorted"}
+    p = propose(record, b"", VOCAB, ask)
+    assert p.moved is True
+    assert p.reason == "sports item fits sports collection"
+
+
+def test_propose_moved_false_when_collection_unchanged():
+    """propose() sets moved=False when the collection does not change."""
+    ask = lambda *a: (
+        '{"display_name":"Sports Blobby","collection":"sports","tags":["hockey"],'
+        '"free_tags":[],"description":"Blobby plays hockey.","generation":"new",'
+        '"confidence":0.9,"moved":false,"reason":"already in sports"}'
+    )
+    record = {"slug": "sports-blobby", "collection": "sports"}
+    p = propose(record, b"", VOCAB, ask)
+    assert p.moved is False
+    assert p.collection == "sports"
+
+
+def test_propose_core_reply_keeps_current_collection():
+    """A model reply with collection 'core' must keep the current collection and moved=False."""
+    ask = lambda *a: (
+        '{"display_name":"X","collection":"core","tags":["happy"],'
+        '"generation":"new","confidence":0.8,"moved":true,"reason":"looks core"}'
+    )
+    record = {"slug": "blobby-test", "collection": "reactions"}
+    p = propose(record, b"", VOCAB, ask)
+    assert p.collection == "reactions"
+    assert p.moved is False
+
+
+def test_propose_unsorted_reply_keeps_current_non_unsorted():
+    """A 'unsorted' reply must not move a non-unsorted item; current collection is kept."""
+    ask = lambda *a: (
+        '{"display_name":"X","collection":"unsorted","tags":[],'
+        '"generation":"new","confidence":0.3,"moved":true,"reason":"cant figure it out"}'
+    )
+    record = {"slug": "blobby-pizza", "collection": "food"}
+    p = propose(record, b"", VOCAB, ask)
+    assert p.collection == "food"
+    assert p.moved is False
+
+
+def test_propose_unsorted_reply_allowed_for_unsorted_item():
+    """A 'unsorted' reply is fine when the item is already unsorted."""
+    ask = lambda *a: (
+        '{"display_name":"Yells at Jonny","collection":"unsorted","tags":[],'
+        '"free_tags":["jonny"],"description":"Blobby yells at Jonny.","generation":"new",'
+        '"confidence":0.3,"moved":false,"reason":"internal in-joke"}'
+    )
+    record = {"slug": "blobby-yells-at-jonny", "collection": "unsorted"}
+    p = propose(record, b"", VOCAB, ask)
+    assert p.collection == "unsorted"
+    assert p.moved is False
+
+
+def test_merge_applies_to_non_core_entries():
+    """merge_proposals applies to any non-core entry, not just unsorted."""
+    text = (
+        "a:\n"
+        "  display_name: A\n"
+        "  generation: classic\n"
+        "  kind: emoji\n"
+        "  collection: reactions\n"
+        "  tags: []\n"
+        "  source: slack\n"
+        "b:\n"
+        "  display_name: B\n"
+        "  generation: new\n"
+        "  kind: emoji\n"
+        "  collection: core\n"
+        "  tags: []\n"
+        "  source: slack\n"
+    )
+    out = merge_proposals(
+        text,
+        [
+            Proposal("a", "A!", "sports", ["hockey"], "new", 0.9),
+            Proposal("b", "B!", "food", ["pizza"], "classic", 0.9),
+        ],
+    )
+    data = __import__("yaml").safe_load(out)
+    assert data["a"]["collection"] == "sports"
+    assert data["b"]["collection"] == "core"  # core entry must not be touched
+
+
+def test_merge_never_sets_core():
+    """merge_proposals must not set collection to core even if a Proposal says so."""
+    text = (
+        "a:\n"
+        "  display_name: A\n"
+        "  generation: classic\n"
+        "  kind: emoji\n"
+        "  collection: unsorted\n"
+        "  tags: []\n"
+        "  source: slack\n"
+    )
+    out = merge_proposals(
+        text,
+        [Proposal("a", "A!", "core", [], "new", 0.9)],
+    )
+    data = __import__("yaml").safe_load(out)
+    assert data["a"]["collection"] == "unsorted"
+
+
+def test_core_item_count_after_migration():
+    """Exactly 9 items should be in core after the migration (3 existing + 6 masters)."""
+    import yaml
+    from pathlib import Path
+    repo_root = Path(__file__).resolve().parents[1]
+    with open(repo_root / "items.yaml") as f:
+        data = yaml.safe_load(f)
+    core_slugs = [k for k, v in data.items() if v and v.get("collection") == "core"]
+    assert len(core_slugs) == 9, f"Expected 9 core items, got {len(core_slugs)}: {sorted(core_slugs)}"
+    # The 3 pre-existing core items must be present
+    for slug in ("blobby", "blobby-big-eyes", "omni-blobby-face"):
+        assert slug in core_slugs, f"{slug!r} should be in core"
