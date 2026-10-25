@@ -31,8 +31,8 @@ from blobbylib.vocab import VOCAB  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 CSV_COLUMNS = [
-    "slug", "keep", "display_name", "collection", "tags",
-    "generation", "confidence", "current_display_name",
+    "slug", "keep", "display_name", "collection", "tags", "free_tags",
+    "description", "generation", "confidence", "current_display_name",
 ]
 
 
@@ -160,6 +160,8 @@ def _append_row(out_path: Path, proposal: Proposal, current_display_name: str) -
             "display_name": proposal.display_name,
             "collection": proposal.collection,
             "tags": "|".join(proposal.tags),
+            "free_tags": "|".join(proposal.free_tags),
+            "description": proposal.description,
             "generation": proposal.generation,
             "confidence": f"{proposal.confidence:.3f}",
             "current_display_name": current_display_name,

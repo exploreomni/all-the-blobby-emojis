@@ -4,20 +4,24 @@ import io
 import json
 import os
 
-from blobbylib.backfill import propose, merge_proposals, Proposal, _make_ask_urllib
+from blobbylib.backfill import propose, merge_proposals, Proposal, _make_ask_urllib, _build_prompt
 from blobbylib.vocab import VOCAB
 
 
 def test_propose_parses_model_json():
-    ask = lambda prompt, img, mt: '{"display_name":"Hockey Blobby","collection":"sports","tags":["hockey","helmet"],"generation":"new","confidence":0.9}'
+    ask = lambda prompt, img, mt: '{"display_name":"Hockey Blobby","collection":"sports","tags":["hockey","helmet"],"free_tags":[],"description":"Blobby wears a hockey helmet.","generation":"new","confidence":0.9}'
     p = propose({"slug": "hockey-blobby", "file": "x.png"}, b"png", VOCAB, ask)
     assert (p.collection, p.tags, p.generation, p.confidence) == ("sports", ["hockey", "helmet"], "new", 0.9)
+    assert p.free_tags == []
+    assert p.description == "Blobby wears a hockey helmet."
 
 
 def test_propose_drops_tags_outside_vocab_and_bad_collection():
     ask = lambda *a: '{"display_name":"X","collection":"nope","tags":["hockey","zzz"],"generation":"new","confidence":0.5}'
     p = propose({"slug": "x", "file": "x.png"}, b"", VOCAB, ask)
-    assert p.collection == "unsorted" and p.tags == ["hockey"]
+    assert p.collection == "unsorted"
+    assert p.tags == ["hockey"]
+    assert "zzz" in p.free_tags
 
 
 def test_merge_only_touches_unsorted_entries():
@@ -89,7 +93,9 @@ def test_make_ask_urllib_path(monkeypatch):
     headers_lower = {k.lower(): v for k, v in captured["headers"].items()}
     assert headers_lower.get("x-api-key") == "test-key-123"
     assert headers_lower.get("anthropic-version") == "2023-06-01"
-    assert captured["body"]["model"] == "claude-haiku-5-5"
+    assert captured["body"]["model"] == "claude-opus-5-5"
+    assert captured["body"]["max_tokens"] == 1024
+    assert captured["body"].get("output_config") == {"effort": "low"}
     content = captured["body"]["messages"][0]["content"]
     image_block = next(b for b in content if b["type"] == "image")
     assert image_block["source"]["media_type"] == "image/png"
@@ -114,3 +120,105 @@ def test_merge_preserves_slack_name_null_and_note():
     assert data["a"]["note"] == "keep me"
     assert data["a"]["collection"] == "sports"
     assert data["a"]["display_name"] == "A!"
+
+
+# ---------------------------------------------------------------------------
+# New tests for v2 features
+# ---------------------------------------------------------------------------
+
+def test_propose_free_tag_capture():
+    """Non-vocab tags from the model's `tags` field move to free_tags."""
+    ask = lambda *a: '{"display_name":"X","collection":"cities","tags":["city","paris-vibes"],"free_tags":[],"generation":"new","confidence":0.8}'
+    p = propose({"slug": "blobby-paris-2"}, b"", VOCAB, ask)
+    assert "city" in p.tags
+    assert "paris-vibes" not in p.tags
+    assert "paris-vibes" in p.free_tags
+
+
+def test_propose_free_tag_cap():
+    """free_tags is capped at 2 items even if more are returned."""
+    ask = lambda *a: '{"display_name":"X","collection":"cities","tags":["nontag1","nontag2","nontag3"],"free_tags":["nontag4"],"generation":"new","confidence":0.7}'
+    p = propose({"slug": "blobby-test"}, b"", VOCAB, ask)
+    assert len(p.free_tags) <= 2
+
+
+def test_propose_free_tag_dedup_against_vocab():
+    """Words from the vocab must not appear in free_tags."""
+    ask = lambda *a: '{"display_name":"X","collection":"sports","tags":["hockey"],"free_tags":["hockey","new-word"],"generation":"new","confidence":0.7}'
+    p = propose({"slug": "blobby-hockey"}, b"", VOCAB, ask)
+    assert "hockey" not in p.free_tags
+    assert "new-word" in p.free_tags
+
+
+def test_propose_description_truncation():
+    """Description is truncated to 120 characters."""
+    long_desc = "a" * 200
+    ask = lambda *a: json.dumps({
+        "display_name": "X",
+        "collection": "core",
+        "tags": ["happy"],
+        "free_tags": [],
+        "description": long_desc,
+        "generation": "new",
+        "confidence": 0.5,
+    })
+    p = propose({"slug": "blobby-test"}, b"", VOCAB, ask)
+    assert len(p.description) == 120
+    assert p.description == "a" * 120
+
+
+def test_propose_description_stripped():
+    """Description has leading/trailing whitespace stripped before truncation."""
+    ask = lambda *a: '{"display_name":"X","collection":"core","tags":[],"free_tags":[],"description":"  hello world  ","generation":"new","confidence":0.5}'
+    p = propose({"slug": "blobby-test"}, b"", VOCAB, ask)
+    assert p.description == "hello world"
+
+
+def test_merge_writes_note_when_empty():
+    """merge_proposals writes description into note when entry has no note."""
+    text = (
+        "a:\n"
+        "  display_name: A\n"
+        "  generation: classic\n"
+        "  kind: emoji\n"
+        "  collection: unsorted\n"
+        "  tags: []\n"
+        "  source: slack\n"
+    )
+    proposal = Proposal("a", "A!", "sports", ["hockey"], "new", 0.9,
+                        description="Blobby wearing a hockey helmet.")
+    out = merge_proposals(text, [proposal])
+    data = __import__("yaml").safe_load(out)
+    assert data["a"]["note"] == "Blobby wearing a hockey helmet."
+
+
+def test_merge_does_not_overwrite_existing_note():
+    """merge_proposals leaves an existing note untouched even when description is set."""
+    text = (
+        "a:\n"
+        "  display_name: A\n"
+        "  generation: classic\n"
+        "  kind: emoji\n"
+        "  collection: unsorted\n"
+        "  tags: []\n"
+        "  source: slack\n"
+        "  note: existing note\n"
+    )
+    proposal = Proposal("a", "A!", "sports", ["hockey"], "new", 0.9,
+                        description="New description that should not overwrite.")
+    out = merge_proposals(text, [proposal])
+    data = __import__("yaml").safe_load(out)
+    assert data["a"]["note"] == "existing note"
+
+
+def test_prompt_contains_slug():
+    """_build_prompt includes the slug."""
+    prompt = _build_prompt({"slug": "blobby-wizard-test"}, VOCAB)
+    assert "blobby-wizard-test" in prompt
+
+
+def test_prompt_contains_example_slugs():
+    """_build_prompt includes all four worked-example slugs."""
+    prompt = _build_prompt({"slug": "blobby-any"}, VOCAB)
+    for example_slug in ("blobby-paris-2", "blobby-dbt", "blobby-gingerbread", "blobby-yells-at-jonny"):
+        assert example_slug in prompt, f"Example slug {example_slug!r} missing from prompt"

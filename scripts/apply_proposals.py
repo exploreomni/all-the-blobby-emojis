@@ -47,18 +47,24 @@ def main() -> int:
                 continue
             tags_raw = row.get("tags", "")
             tags = [t for t in tags_raw.split("|") if t]
+            free_tags_raw = row.get("free_tags", "")
+            free_tags = [t for t in free_tags_raw.split("|") if t]
+            description = row.get("description", "").strip()
             try:
                 confidence = float(row.get("confidence", "0"))
             except ValueError:
                 confidence = 0.0
+            # Merge free_tags into tags (after vocab tags), deduplicating.
+            all_tags = tags + [t for t in free_tags if t not in tags]
             proposals.append(
                 Proposal(
                     slug=row["slug"],
                     display_name=row["display_name"],
                     collection=row["collection"],
-                    tags=tags,
+                    tags=all_tags,
                     generation=row["generation"],
                     confidence=confidence,
+                    description=description,
                 )
             )
 
