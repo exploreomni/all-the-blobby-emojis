@@ -115,10 +115,13 @@ def propose(
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
-        # Fallback: extract JSON substring if the model added text around it.
+        # Fallback: decode the first JSON object even if the model added text
+        # before or after it (raw_decode stops at the object's closing brace).
         start = raw.find("{")
-        end = raw.rfind("}") + 1
-        data = json.loads(raw[start:end]) if start != -1 else {}
+        try:
+            data = json.JSONDecoder().raw_decode(raw[start:])[0] if start != -1 else {}
+        except json.JSONDecodeError:
+            data = {}
 
     display_name: str = str(data.get("display_name", record.get("slug", "unknown")))
     raw_collection: str = str(data.get("collection", "unsorted"))

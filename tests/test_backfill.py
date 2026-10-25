@@ -222,3 +222,9 @@ def test_prompt_contains_example_slugs():
     prompt = _build_prompt({"slug": "blobby-any"}, VOCAB)
     for example_slug in ("blobby-paris-2", "blobby-dbt", "blobby-gingerbread", "blobby-yells-at-jonny"):
         assert example_slug in prompt, f"Example slug {example_slug!r} missing from prompt"
+
+
+def test_propose_tolerates_trailing_text_after_json():
+    ask = lambda *a: '{"display_name":"Bee","collection":"animals","tags":["bee"],"generation":"new","confidence":0.8}\n\nNote: cute.'
+    p = propose({"slug": "bumblebee-blobby", "file": "x.png"}, b"", VOCAB, ask)
+    assert p.collection == "animals" and p.confidence == 0.8
