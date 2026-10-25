@@ -1,55 +1,40 @@
 #!/usr/bin/env python3
+"""Generate README.md from the manifest and write manifest.json.
+
+Usage:
+    python3 scripts/generate_readme.py [--readme README.md] [--ref main]
+
+Builds the manifest from items.yaml and image files, validates records
+(non-strict), writes manifest.json, then regenerates the generated section
+inside README.md.  Exits 1 if validation errors are found.
+"""
 
 from __future__ import annotations
 
 import argparse
-import html
+import json
 import os
 import re
 import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 # Allow running from the repo root without installing the package.
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from blobbylib.urls import (  # noqa: E402
-    build_github_blob_url,
-    build_jsdelivr_url,
-    list_tracked_images,
-    parse_github_remote,
-    run_git,
-)
+from blobbylib.items import load_collections, load_items  # noqa: E402
+from blobbylib.manifest import build_manifest  # noqa: E402
+from blobbylib.readme import render_sections  # noqa: E402
+from blobbylib.urls import parse_github_remote, run_git  # noqa: E402
+from blobbylib.validate import validate, warnings as collect_warnings  # noqa: E402
 
 BEGIN_MARKER = "<!-- BEGIN GENERATED EMOJI TABLE -->"
 END_MARKER = "<!-- END GENERATED EMOJI TABLE -->"
 INSERT_BEFORE_HEADING = "## Internal Instructions"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_README = REPO_ROOT / "README.md"
-
-
-def render_table(owner: str, repo: str, ref: str, image_paths: list[str]) -> str:
-    lines = [
-        "## Emoji Hotlinks",
-        "",
-        "Generated from tracked image files by `scripts/generate_readme.py`.",
-        "",
-        "To refresh this automatically on commit, enable the checked-in hook with `git config core.hooksPath .githooks`.",
-        "",
-        "| Preview | jsDelivr URL | Repo file |",
-        "| --- | --- | --- |",
-    ]
-
-    for path in image_paths:
-        file_name = Path(path).name
-        cdn_url = build_jsdelivr_url(owner, repo, ref, path)
-        blob_url = build_github_blob_url(owner, repo, ref, path)
-        preview = f'<img src="{html.escape(cdn_url, quote=True)}" alt="{html.escape(file_name, quote=True)}" width="48">'
-        hotlink = f'<a href="{html.escape(cdn_url, quote=True)}"><code>{html.escape(cdn_url)}</code></a>'
-        repo_link = f'[`{file_name}`]({blob_url})'
-        lines.append(f"| {preview} | {hotlink} | {repo_link} |")
-
-    return "\n".join(lines)
+DEFAULT_MANIFEST = REPO_ROOT / "manifest.json"
 
 
 def replace_or_insert_section(readme_text: str, generated_section: str) -> str:
@@ -77,7 +62,7 @@ def replace_or_insert_section(readme_text: str, generated_section: str) -> str:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate README hotlinks for tracked image files.",
+        description="Generate README from manifest and write manifest.json.",
     )
     parser.add_argument(
         "--readme",
@@ -101,14 +86,70 @@ def main() -> int:
     args = parse_args()
     readme_path = Path(args.readme).resolve()
 
+    items_path = REPO_ROOT / "items.yaml"
+    collections_path = REPO_ROOT / "collections.yaml"
+
     try:
-        owner, repo = parse_github_remote(run_git("remote", "get-url", args.remote))
-        image_paths = list_tracked_images()
-    except (subprocess.CalledProcessError, ValueError) as error:
-        print(f"error: {error}", file=sys.stderr)
+        items = load_items(items_path)
+    except Exception as err:
+        print(f"error loading items.yaml: {err}", file=sys.stderr)
         return 1
 
-    generated_section = render_table(owner, repo, args.ref, image_paths)
+    try:
+        collections = load_collections(collections_path)
+    except Exception as err:
+        print(f"error loading collections.yaml: {err}", file=sys.stderr)
+        return 1
+
+    try:
+        owner, repo = parse_github_remote(run_git("remote", "get-url", args.remote))
+    except (subprocess.CalledProcessError, ValueError):
+        owner = "exploreomni"
+        repo = REPO_ROOT.name
+
+    records = build_manifest(
+        root=REPO_ROOT,
+        items=items,
+        owner=owner,
+        repo=repo,
+        ref=args.ref,
+        pinned_ref=None,
+        today=date.today(),
+    )
+
+    # Collect files_on_disk for validation (tracked images + untracked in watched dirs).
+    from blobbylib.urls import IMAGE_SUFFIXES  # noqa: E402
+
+    _WATCHED_DIRS = ("all-the-slack-blobbies", "svg")
+    files_on_disk: set[str] = set()
+    try:
+        from blobbylib.urls import list_tracked_images  # noqa: E402
+        files_on_disk = set(list_tracked_images(cwd=REPO_ROOT))
+    except Exception:
+        pass
+    for dirname in _WATCHED_DIRS:
+        folder = REPO_ROOT / dirname
+        if folder.is_dir():
+            for fpath in folder.rglob("*"):
+                if fpath.is_file() and fpath.suffix.lower() in IMAGE_SUFFIXES:
+                    files_on_disk.add(fpath.relative_to(REPO_ROOT).as_posix())
+
+    errors = validate(records, items, collections, files_on_disk, strict=False)
+    if errors:
+        for err in errors:
+            print(err, file=sys.stderr)
+        return 1
+
+    for warn in collect_warnings(records):
+        print(f"warning: {warn}", file=sys.stderr)
+
+    # Write manifest.json to the repo root (always, regardless of --readme path).
+    DEFAULT_MANIFEST.write_text(
+        json.dumps(records, indent=1, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+    generated_section = render_sections(records, collections)
 
     try:
         existing_readme = readme_path.read_text(encoding="utf-8")

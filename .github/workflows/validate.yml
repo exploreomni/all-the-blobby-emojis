@@ -1,0 +1,33 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python3 -m pytest -q
+
+      - name: Validate manifest
+        run: python3 scripts/validate.py
+
+      - name: Check manifest is up to date
+        run: |
+          python3 scripts/build_manifest.py --out /tmp/manifest.json
+          diff -q /tmp/manifest.json manifest.json

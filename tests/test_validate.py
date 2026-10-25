@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from blobbylib.items import Collection, Item
-from blobbylib.validate import validate
+from blobbylib.validate import validate, warnings
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -83,11 +83,15 @@ def test_oversize_emoji_fails():
     )
 
 
-def test_gif_over_50_frames_fails():
+def test_gif_over_50_frames_warns():
     rec = base_record(frames=51, file="all-the-slack-blobbies/x.gif")
-    assert any(
+    assert not any(
         "frames" in e
         for e in validate([rec], items_for(rec), COLS, {rec["file"]}, False)
+    )
+    assert any(
+        "frames" in w
+        for w in warnings([rec])
     )
 
 

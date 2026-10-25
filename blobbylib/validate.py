@@ -9,7 +9,7 @@ from blobbylib.items import Collection, Item
 
 _SLACK_NAME_RE = re.compile(r"^[a-z0-9_-]+$")
 _BYTES_LIMIT = 131072
-_FRAMES_LIMIT = 50
+_FRAMES_GUIDANCE = 50
 _RASTER_KINDS = {"emoji", "animation"}
 _WATCHED_PREFIXES = ("all-the-slack-blobbies/", "svg/")
 
@@ -45,14 +45,6 @@ def validate(
             if size is not None and size > _BYTES_LIMIT:
                 errors.append(
                     f"{slug}: {size} bytes exceeds {_BYTES_LIMIT} bytes limit"
-                )
-
-        # --- Frames limit (raster file present) ---
-        if file_path is not None:
-            frames = rec.get("frames")
-            if frames is not None and frames > _FRAMES_LIMIT:
-                errors.append(
-                    f"{slug}: {frames} frames exceeds {_FRAMES_LIMIT} frames limit"
                 )
 
         # --- Slack name: lowercase + charset ---
@@ -96,3 +88,22 @@ def validate(
                 errors.append(f"{path}: orphaned file has no record")
 
     return errors
+
+
+def warnings(records: list[dict[str, Any]]) -> list[str]:
+    """Return advisory warnings for records that exceed the frames guidance.
+
+    Returns a list of ``"<slug>: <frames> frames, over the 50-frame guidance"``
+    strings.  These are never errors; callers should print them to stderr and
+    continue.
+    """
+    result: list[str] = []
+    for rec in records:
+        file_path: str | None = rec.get("file")
+        if file_path is not None:
+            frames = rec.get("frames")
+            if frames is not None and frames > _FRAMES_GUIDANCE:
+                result.append(
+                    f"{rec['slug']}: {frames} frames, over the {_FRAMES_GUIDANCE}-frame guidance"
+                )
+    return result
