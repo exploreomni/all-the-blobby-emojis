@@ -360,15 +360,13 @@ def test_merge_never_sets_core():
     assert data["a"]["collection"] == "unsorted"
 
 
-def test_core_item_count_after_migration():
-    """Exactly 9 items should be in core after the migration (3 existing + 6 masters)."""
+def test_core_holds_the_master_blobbies():
+    """Core must contain the six master files and the base Blobby; curation may add more."""
     import yaml
     from pathlib import Path
     repo_root = Path(__file__).resolve().parents[1]
     with open(repo_root / "items.yaml") as f:
         data = yaml.safe_load(f)
-    core_slugs = [k for k, v in data.items() if v and v.get("collection") == "core"]
-    assert len(core_slugs) == 9, f"Expected 9 core items, got {len(core_slugs)}: {sorted(core_slugs)}"
-    # The 3 pre-existing core items must be present
-    for slug in ("blobby", "blobby-big-eyes", "omni-blobby-face"):
+    core_slugs = {k for k, v in data.items() if v and v.get("collection") == "core"}
+    for slug in ("blobby", "blobby-standard", "blobby-dynamic", "blobby-ouch", "blobby-puppy-eyes", "blobby-teary", "blobby-blushed"):
         assert slug in core_slugs, f"{slug!r} should be in core"

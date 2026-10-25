@@ -24,7 +24,7 @@ agent-blobby-salute:
   display_name: Agent Blobby Salute
   generation: classic
   kind: emoji
-  collection: costumes
+  collection: reactions
   tags:
   - agent
   - glasses
@@ -36,7 +36,7 @@ agent-blobby-salute2:
   display_name: Agent Blobby Salute
   generation: classic
   kind: emoji
-  collection: costumes
+  collection: reactions
   tags:
   - agent
   - salute
@@ -301,7 +301,7 @@ blobby-announce-2:
   display_name: Announce Blobby
   generation: classic
   kind: emoji
-  collection: objects
+  collection: reactions
   tags:
   - hype
   - megaphone
@@ -312,7 +312,7 @@ blobby-announce:
   display_name: Announce Blobby
   generation: classic
   kind: emoji
-  collection: objects
+  collection: reactions
   tags:
   - hype
   - megaphone
@@ -335,7 +335,7 @@ blobby-around-the-world:
   display_name: Blobby Around The World
   generation: classic
   kind: animation
-  collection: unsorted
+  collection: objects
   tags: []
   source: slack
 blobby-aussie:
@@ -385,7 +385,7 @@ blobby-bat:
   display_name: Bat Blobby
   generation: new
   kind: emoji
-  collection: holidays
+  collection: animals
   tags:
   - halloween
   - vampire
@@ -431,7 +431,7 @@ blobby-blindy:
   display_name: Blobby Blindy
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags: []
   source: slack
 blobby-boba:
@@ -539,7 +539,7 @@ blobby-but-its-us:
   display_name: Blobby But Its Us
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags: []
   source: slack
 blobby-cake:
@@ -579,7 +579,7 @@ blobby-cheese-steak:
   display_name: Cheese Steak Blobby
   generation: classic
   kind: emoji
-  collection: cities
+  collection: food
   tags:
   - city
   - cheesesteak
@@ -669,7 +669,7 @@ blobby-conga:
   display_name: Blobby Conga
   generation: classic
   kind: animation
-  collection: unsorted
+  collection: reactions
   tags: []
   source: slack
 blobby-copy:
@@ -728,7 +728,7 @@ blobby-dealwithit:
   display_name: Blobby Deal With It
   generation: classic
   kind: animation
-  collection: pop-culture
+  collection: reactions
   tags:
   - glasses
   - animated
@@ -752,7 +752,7 @@ blobby-dont-panic:
   display_name: Don't Panic Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: pop-culture
   tags:
   - scared
   - surprised
@@ -799,7 +799,7 @@ blobby-elevated-business-casual:
   display_name: Elevated Business Casual Blobby
   generation: classic
   kind: emoji
-  collection: costumes
+  collection: objects
   tags:
   - office
   - business-casual
@@ -855,7 +855,7 @@ blobby-explo:
   display_name: Blobby Explo
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: partners
   tags: []
   source: slack
 blobby-family:
@@ -886,7 +886,7 @@ blobby-fire:
   display_name: Fire Blobby
   generation: classic
   kind: animation
-  collection: pop-culture
+  collection: reactions
   tags:
   - fire
   - surprised
@@ -1001,7 +1001,7 @@ blobby-gritty:
   display_name: Gritty Blobby
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: sports
   tags:
   - hockey
   - helmet
@@ -1024,7 +1024,7 @@ blobby-hallucinates:
   display_name: Hallucinates Blobby
   generation: classic
   kind: emoji
-  collection: omni
+  collection: reactions
   tags:
   - ai
   - confused
@@ -1047,7 +1047,7 @@ blobby-hat-blobby-hat-blobby:
   display_name: Hat Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags:
   - hat
   - baseball-cap
@@ -1169,7 +1169,7 @@ blobby-imp:
   display_name: Imp Blobby
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: costumes
   tags:
   - halloween
   - imp
@@ -1180,7 +1180,7 @@ blobby-in-the-lab:
   display_name: Blobby in the Lab
   generation: classic
   kind: emoji
-  collection: costumes
+  collection: objects
   tags:
   - glasses
   - data
@@ -1192,7 +1192,7 @@ blobby-intensifies:
   display_name: Blobby Intensifies
   generation: classic
   kind: animation
-  collection: pop-culture
+  collection: reactions
   tags:
   - animated
   - hype
@@ -1205,7 +1205,7 @@ blobby-jam:
   display_name: Blobby Jam
   generation: classic
   kind: animation
-  collection: unsorted
+  collection: reactions
   tags: []
   source: slack
 blobby-jammies:
@@ -1298,7 +1298,7 @@ blobby-loves-hockey:
   display_name: Loves Hockey Blobby
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: costumes
   tags:
   - halloween
   - hockey
@@ -1312,7 +1312,7 @@ blobby-lyft:
   display_name: Lyft Blobby
   generation: new
   kind: emoji
-  collection: objects
+  collection: costumes
   tags:
   - retro
   - car
@@ -1323,7 +1323,7 @@ blobby-math:
   display_name: Blobby Math
   generation: classic
   kind: animation
-  collection: objects
+  collection: reactions
   tags:
   - data
   - math
@@ -1401,7 +1401,7 @@ blobby-mummy:
   display_name: Mummy Blobby
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: costumes
   tags:
   - halloween
   - mummy
@@ -1497,7 +1497,7 @@ blobby-offers-google-sheets:
   display_name: Blobby Offers Google Sheets
   generation: classic
   kind: emoji
-  collection: partners
+  collection: omni
   tags:
   - data
   - office
@@ -1556,7 +1556,7 @@ blobby-out-of-the-loop:
   display_name: Out of the Loop Blobby
   generation: classic
   kind: emoji
-  collection: objects
+  collection: reactions
   tags:
   - surprised
   - retro
@@ -1603,7 +1603,7 @@ blobby-philly:
   display_name: Philly Blobby
   generation: classic
   kind: emoji
-  collection: cities
+  collection: sports
   tags:
   - helmet
   - city
@@ -1751,7 +1751,7 @@ blobby-pride:
   display_name: Pride Blobby
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: objects
   tags:
   - pride
   - flag
@@ -1874,7 +1874,7 @@ blobby-rocket:
   display_name: Rocket Blobby
   generation: classic
   kind: emoji
-  collection: objects
+  collection: reactions
   tags:
   - space
   - hype
@@ -1920,7 +1920,7 @@ blobby-salute:
   display_name: Salute Blobby
   generation: classic
   kind: emoji
-  collection: costumes
+  collection: reactions
   tags:
   - salute
   - captain
@@ -2047,7 +2047,7 @@ blobby-snow-globe:
   display_name: Snow Globe Blobby
   generation: new
   kind: emoji
-  collection: holidays
+  collection: objects
   tags:
   - christmas
   - snowflake
@@ -2172,7 +2172,7 @@ blobby-surfs-up:
   display_name: Surf's Up Blobby
   generation: classic
   kind: emoji
-  collection: sports
+  collection: objects
   tags:
   - surfing
   - beach
@@ -2232,7 +2232,7 @@ blobby-taxi:
   display_name: Taxi Blobby
   generation: classic
   kind: emoji
-  collection: cities
+  collection: objects
   tags:
   - city
   - wave
@@ -2276,7 +2276,7 @@ blobby-the-builder:
   display_name: Blobby the Builder
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - helmet
   - hat
@@ -2322,7 +2322,7 @@ blobby-the-more-you-know:
   display_name: The More You Know Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - retro
   - pride
@@ -2380,7 +2380,7 @@ blobby-toronto:
   display_name: Toronto Blobby
   generation: new
   kind: emoji
-  collection: cities
+  collection: sports
   tags:
   - city
   - hockey
@@ -2430,7 +2430,7 @@ blobby-typing:
   display_name: Typing Blobby
   generation: classic
   kind: animation
-  collection: objects
+  collection: reactions
   tags:
   - office
   - typing
@@ -2441,7 +2441,7 @@ blobby-ultra-think:
   display_name: Ultra Think Blobby
   generation: classic
   kind: animation
-  collection: omni
+  collection: reactions
   tags:
   - thinking
   - ai
@@ -2464,7 +2464,7 @@ blobby-wall:
   display_name: Blobby Wall
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags: []
   source: slack
 blobby-washington:
@@ -2515,7 +2515,7 @@ blobby-whats-in-the-box:
   display_name: What's in the Box Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - gift
   - se7en
@@ -2724,7 +2724,7 @@ brewski-blobby:
   display_name: Brewski Blobby
   generation: classic
   kind: emoji
-  collection: food
+  collection: costumes
   tags:
   - beer
   - confused
@@ -2759,7 +2759,7 @@ bumblebee-blobby:
   display_name: Bumblebee Blobby
   generation: classic
   kind: emoji
-  collection: animals
+  collection: costumes
   tags:
   - animated
   - bee
@@ -2824,7 +2824,7 @@ cool-blobby:
   display_name: Cool Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - glasses
   - pixel
@@ -2836,7 +2836,7 @@ deep-fried-blobby:
   display_name: Deep Fried Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - hype
   - fire
@@ -2882,7 +2882,7 @@ dread-pirate-blobby:
   display_name: Dread Pirate Blobby
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - pirate
   - hat
@@ -2906,7 +2906,7 @@ evil-blobby:
   display_name: Evil Blobby
   generation: new
   kind: emoji
-  collection: costumes
+  collection: reactions
   tags:
   - angry
   - hat
@@ -2952,7 +2952,7 @@ flat-blobby:
   display_name: Flat Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: objects
   tags: []
   source: slack
 flavortown_blobby:
@@ -2983,7 +2983,7 @@ galaxy_brain_blobby:
   display_name: Galaxy Brain Blobby
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - thinking
   - space
@@ -3063,7 +3063,7 @@ heavy-metal-blobby:
   display_name: Heavy Metal Blobby
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: pop-culture
   tags:
   - halloween
   - angry
@@ -3075,7 +3075,7 @@ hide-the-pain-blobby:
   display_name: Hide the Pain Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - scared
   - sad
@@ -3144,7 +3144,7 @@ jim-harblobby-umich:
   display_name: Jim Harblobby (Michigan)
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: sports
   tags:
   - hat
   - football
@@ -3166,14 +3166,14 @@ laserbrain_blobby:
   display_name: Laserbrain_Blobby
   generation: classic
   kind: emoji
-  collection: unsorted
+  collection: reactions
   tags: []
   source: slack
 lions-dan-campblobby:
   display_name: Lions Dan Campblobby
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: sports
   tags:
   - hat
   - glasses
@@ -3186,7 +3186,7 @@ ludicrous-speed-blobby:
   display_name: Ludicrous Speed Blobby
   generation: new
   kind: emoji
-  collection: pop-culture
+  collection: reactions
   tags:
   - space
   - hype
@@ -3213,7 +3213,7 @@ monsieur-blobby:
   display_name: Monsieur Blobby
   generation: new
   kind: emoji
-  collection: costumes
+  collection: cities
   tags:
   - hat
   - beret
@@ -3224,7 +3224,7 @@ motherduck-blobby:
   display_name: MotherDuck Blobby
   generation: classic
   kind: emoji
-  collection: partners
+  collection: animals
   tags:
   - duck
   - wave
@@ -3290,7 +3290,7 @@ party-blobby:
   display_name: Party Blobby
   generation: classic
   kind: animation
-  collection: unsorted
+  collection: reactions
   tags: []
   source: slack
 peterblobby:
@@ -3320,7 +3320,7 @@ pumpkin-spiced-blobby:
   display_name: Pumpkin Spiced Blobby
   generation: classic
   kind: emoji
-  collection: holidays
+  collection: food
   tags:
   - coffee
   - thanksgiving
@@ -3392,7 +3392,7 @@ sasquatchblobby:
   display_name: Sasquatch Blobby
   generation: new
   kind: emoji
-  collection: animals
+  collection: pop-culture
   tags:
   - bear
   - sasquatch
@@ -3415,14 +3415,14 @@ shipit-blobby-intensifies:
   display_name: Shipit Blobby Intensifies
   generation: classic
   kind: animation
-  collection: unsorted
+  collection: reactions
   tags: []
   source: slack
 shipit-blobby:
   display_name: Ship It Blobby
   generation: classic
   kind: emoji
-  collection: omni
+  collection: reactions
   tags:
   - hat
   - hype
@@ -3457,7 +3457,7 @@ snoop-blobby-blob:
   display_name: Snoop Blobby Blob
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: animals
   tags:
   - dog
   - snoop-dogg
@@ -3529,7 +3529,7 @@ statue-of-liblobby:
   display_name: Statue of Liblobby
   generation: classic
   kind: emoji
-  collection: cities
+  collection: costumes
   tags:
   - city
   - crown
@@ -3543,7 +3543,7 @@ super-blobby:
   display_name: Super Blobby
   generation: classic
   kind: emoji
-  collection: pop-culture
+  collection: costumes
   tags:
   - superhero
   - superman
@@ -3580,7 +3580,7 @@ the-blobbies:
   display_name: The Blobbies
   generation: new
   kind: emoji
-  collection: omni
+  collection: objects
   tags:
   - trophy
   - award
@@ -3591,7 +3591,7 @@ time-flies-blobby:
   display_name: Time Flies Blobby
   generation: classic
   kind: emoji
-  collection: objects
+  collection: reactions
   tags:
   - animated
   - alarm-clock
@@ -3697,7 +3697,7 @@ blobby-big-eyes:
   display_name: Big Eyes Blobby
   generation: new
   kind: illustration
-  collection: core
+  collection: reactions
   tags:
   - surprised
   - big-eyes
@@ -3790,7 +3790,7 @@ blobby-colorado-3:
   display_name: Colorado Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: sports
   tags:
   - hockey
   - helmet
@@ -3920,7 +3920,7 @@ blobby-deal-with-it-1:
   display_name: Deal With It Blobby
   generation: new
   kind: illustration
-  collection: pop-culture
+  collection: reactions
   tags:
   - glasses
   - pixel
@@ -3933,7 +3933,7 @@ blobby-deal-with-it-2:
   display_name: Deal With It Blobby
   generation: new
   kind: illustration
-  collection: pop-culture
+  collection: reactions
   tags:
   - glasses
   - pixel
@@ -3958,7 +3958,7 @@ blobby-drummer-2:
   display_name: Drummer Blobby
   generation: new
   kind: illustration
-  collection: costumes
+  collection: objects
   tags:
   - hype
   - animated
@@ -3970,7 +3970,7 @@ blobby-drummer:
   display_name: Drummer Blobby
   generation: new
   kind: illustration
-  collection: costumes
+  collection: objects
   tags:
   - hype
   - laughing
@@ -3994,7 +3994,7 @@ blobby-escargot:
   display_name: Escargot Blobby
   generation: new
   kind: illustration
-  collection: animals
+  collection: food
   tags:
   - snail
   - shell
@@ -4028,7 +4028,7 @@ blobby-german-1:
   display_name: German Blobby
   generation: new
   kind: illustration
-  collection: holidays
+  collection: cities
   tags:
   - beer
   - hat
@@ -4238,7 +4238,7 @@ blobby-paris-3:
   display_name: Paris Blobby (Mona Lisa)
   generation: new
   kind: illustration
-  collection: pop-culture
+  collection: cities
   tags:
   - city
   - retro
@@ -4311,7 +4311,7 @@ blobby-sally-1:
   display_name: Blobby Sally 1
   generation: new
   kind: illustration
-  collection: unsorted
+  collection: pop-culture
   tags: []
   source: figma-illustrations
 blobby-sally:
@@ -4342,7 +4342,7 @@ blobby-shine-2:
   display_name: Shine Blobby
   generation: new
   kind: illustration
-  collection: objects
+  collection: reactions
   tags:
   - happy
   - sun
@@ -4519,7 +4519,7 @@ blobby-texas:
   display_name: Texas Blobby
   generation: new
   kind: illustration
-  collection: costumes
+  collection: cities
   tags:
   - hat
   - cowboy
@@ -4530,7 +4530,7 @@ blobby-toronto-1:
   display_name: Toronto Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: sports
   tags:
   - city
   - hockey
@@ -4543,7 +4543,7 @@ blobby-vegas-1:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: costumes
+  collection: partners
   tags:
   - hat
   - city
@@ -4555,7 +4555,7 @@ blobby-vegas-2:
   display_name: Vegas Blobby 2
   generation: new
   kind: illustration
-  collection: cities
+  collection: partners
   tags:
   - city
   - vegas
@@ -4566,7 +4566,7 @@ blobby-vegas-3:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: partners
   tags:
   - city
   - happy
@@ -4578,7 +4578,7 @@ blobby-vegas-4:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: partners
   tags:
   - city
   - slot-machine
@@ -4589,7 +4589,7 @@ blobby-vegas-5:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: partners
   tags:
   - city
   - retro
@@ -4601,7 +4601,7 @@ blobby-vegas:
   display_name: Vegas Blobby
   generation: new
   kind: illustration
-  collection: costumes
+  collection: partners
   tags:
   - hat
   - city
@@ -4682,7 +4682,7 @@ omni-blobby-coffee:
   display_name: Coffee Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: food
   tags:
   - coffee
   - city
@@ -4695,7 +4695,7 @@ omni-blobby-cookie:
   display_name: Cookie Blobby
   generation: new
   kind: illustration
-  collection: cities
+  collection: food
   tags:
   - cookie
   - city
@@ -4707,7 +4707,7 @@ omni-blobby-face:
   display_name: Blobby Face
   generation: new
   kind: illustration
-  collection: core
+  collection: reactions
   tags:
   - happy
   - surprised
@@ -4744,7 +4744,7 @@ omni-blobby-santa-cruz:
   display_name: Santa Cruz Blobby
   generation: new
   kind: illustration
-  collection: sports
+  collection: cities
   tags:
   - hat
   - surprised
@@ -4826,3 +4826,1361 @@ blobby-teary:
   - expression
   source: master
   note: Official master file
+2-blobs-in-a-pod:
+  display_name: 2 Blobs In A Pod
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+allblacks-blobby:
+  display_name: Allblacks Blobby
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+balloon-blobby:
+  display_name: Balloon Blobby
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+big-ben-blobby:
+  display_name: Big Ben Blobby
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+blinged-out-deal-with-it-blobby:
+  display_name: Blinged Out Deal With It Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blob-alert:
+  display_name: Blob Alert
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blob-barker:
+  display_name: Blob Barker
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-bee-mail:
+  display_name: Blob Bee Mail
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blob-dole:
+  display_name: Blob Dole
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-happy-1:
+  display_name: Blob Happy 1
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-happy-2:
+  display_name: Blob Happy 2
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-happy-3:
+  display_name: Blob Happy 3
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-hug:
+  display_name: Blob Hug
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blob-is-life:
+  display_name: Blob Is Life
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+blob-loblaw:
+  display_name: Blob Loblaw
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-marley:
+  display_name: Blob Marley
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-mitosis:
+  display_name: Blob Mitosis
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blob-pilot-1:
+  display_name: Blob Pilot 1
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blob-pilot-2:
+  display_name: Blob Pilot 2
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blob-pilot-3:
+  display_name: Blob Pilot 3
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blob-ross:
+  display_name: Blob Ross
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-sad-1:
+  display_name: Blob Sad 1
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-sad-2:
+  display_name: Blob Sad 2
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-sad-3:
+  display_name: Blob Sad 3
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-to-the-bone:
+  display_name: Blob To The Bone
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blob-to-the-future:
+  display_name: Blob To The Future
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-wayne:
+  display_name: Blob Wayne
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blob-zombie:
+  display_name: Blob Zombie
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+blob_fat:
+  display_name: Blob_Fat
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blob_nom_1:
+  display_name: Blob_Nom_1
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blob_nom_2:
+  display_name: Blob_Nom_2
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blob_nom_3:
+  display_name: Blob_Nom_3
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blob_wow:
+  display_name: Blob_Wow
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobacado:
+  display_name: Blobacado
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blobbly-exclamation:
+  display_name: Blobbly Exclamation
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-base-baller:
+  display_name: Blobby Base Baller
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+blobby-big-nope:
+  display_name: Blobby Big Nope
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-bonk:
+  display_name: Blobby Bonk
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-bounce:
+  display_name: Blobby Bounce
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-bowie:
+  display_name: Blobby Bowie
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby-box:
+  display_name: Blobby Box
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-breaking-news:
+  display_name: Blobby Breaking News
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-builder:
+  display_name: Blobby Builder
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-captain-2:
+  display_name: Blobby Captain 2
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-check:
+  display_name: Blobby Check
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-chef-2:
+  display_name: Blobby Chef 2
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-chef-3:
+  display_name: Blobby Chef 3
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-chef:
+  display_name: Blobby Chef
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-coffee-cup:
+  display_name: Blobby Coffee Cup
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blobby-cookie:
+  display_name: Blobby Cookie
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blobby-creepin:
+  display_name: Blobby Creepin
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-cup:
+  display_name: Blobby Cup
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+blobby-dead:
+  display_name: Blobby Dead
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-diamond-ring:
+  display_name: Blobby Diamond Ring
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-enjoyed-paddies:
+  display_name: Blobby Enjoyed Paddies
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+blobby-exclamation:
+  display_name: Blobby Exclamation
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-explo-2:
+  display_name: Blobby Explo 2
+  generation: classic
+  kind: emoji
+  collection: partners
+  tags: []
+  source: slack
+blobby-eyebrows-zoom:
+  display_name: Blobby Eyebrows Zoom
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-eyebrows:
+  display_name: Blobby Eyebrows
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-eyes:
+  display_name: Blobby Eyes
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-face-crazy:
+  display_name: Blobby Face Crazy
+  generation: classic
+  kind: emoji
+  collection: core
+  tags: []
+  source: slack
+blobby-fieri-chef-kiss:
+  display_name: Blobby Fieri Chef Kiss
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-fieri:
+  display_name: Blobby Fieri
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby-flash:
+  display_name: Blobby Flash
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-ghost-2:
+  display_name: Blobby Ghost 2
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+blobby-gift:
+  display_name: Blobby Gift
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-glitch:
+  display_name: Blobby Glitch
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-heart-face:
+  display_name: Blobby Heart Face
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-helmet-blobby:
+  display_name: Blobby Helmet Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-hits-the-slopes:
+  display_name: Blobby Hits The Slopes
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-injured:
+  display_name: Blobby Injured
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-intensifies-2:
+  display_name: Blobby Intensifies 2
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-is-clauding:
+  display_name: Blobby Is Clauding
+  generation: classic
+  kind: emoji
+  collection: omni
+  tags: []
+  source: slack
+blobby-jail:
+  display_name: Blobby Jail
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-kangaroo-face:
+  display_name: Blobby Kangaroo Face
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-knight:
+  display_name: Blobby Knight
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-loading:
+  display_name: Blobby Loading
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-locks:
+  display_name: Blobby Locks
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-london-telephone:
+  display_name: Blobby London Telephone
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+blobby-loves-nyc:
+  display_name: Blobby Loves Nyc
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+blobby-lurk:
+  display_name: Blobby Lurk
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-matrix-rain:
+  display_name: Blobby Matrix Rain
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-may-i-have-some-tokens:
+  display_name: Blobby May I Have Some Tokens
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-mega-bounce:
+  display_name: Blobby Mega Bounce
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-mr-blobby:
+  display_name: Blobby Mr Blobby
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby-ms-pacman:
+  display_name: Blobby Ms Pacman
+  generation: classic
+  kind: animation
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby-muscle-dab:
+  display_name: Blobby Muscle Dab
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-music-to-my-ears:
+  display_name: Blobby Music To My Ears
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-nope:
+  display_name: Blobby Nope
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-nysus:
+  display_name: Blobby Nysus
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blobby-on-fire:
+  display_name: Blobby On Fire
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+blobby-pacman:
+  display_name: Blobby Pacman
+  generation: classic
+  kind: animation
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby-pirate-2:
+  display_name: Blobby Pirate 2
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-pixel:
+  display_name: Blobby Pixel
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-plushie:
+  display_name: Blobby Plushie
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-polish:
+  display_name: Blobby Polish
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-pray-2:
+  display_name: Blobby Pray 2
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-present:
+  display_name: Blobby Present
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+blobby-queen:
+  display_name: Blobby Queen
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-raincloud:
+  display_name: Blobby Raincloud
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-reports-intensifies:
+  display_name: Blobby Reports Intensifies
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-reports:
+  display_name: Blobby Reports
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-salute-2:
+  display_name: Blobby Salute 2
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-salute-3:
+  display_name: Blobby Salute 3
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-santa-cruz-2:
+  display_name: Blobby Santa Cruz 2
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+blobby-show-girl:
+  display_name: Blobby Show Girl
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby-slot-machine:
+  display_name: Blobby Slot Machine
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-sparkle-color:
+  display_name: Blobby Sparkle Color
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+blobby-star:
+  display_name: Blobby Star
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-stonks:
+  display_name: Blobby Stonks
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-tai-fighter:
+  display_name: Blobby Tai Fighter
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby-thread-police-v2:
+  display_name: Blobby Thread Police V2
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-thread-police:
+  display_name: Blobby Thread Police
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+blobby-tiki-cup:
+  display_name: Blobby Tiki Cup
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+blobby-trophy:
+  display_name: Blobby Trophy
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-vibes:
+  display_name: Blobby Vibes
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobby-volley-baller:
+  display_name: Blobby Volley Baller
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+blobby-xmas:
+  display_name: Blobby Xmas
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+blobby_badcop:
+  display_name: Blobby_Badcop
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby_chicken:
+  display_name: Blobby_Chicken
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby_goodcop:
+  display_name: Blobby_Goodcop
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+blobby_mario_wave:
+  display_name: Blobby_Mario_Wave
+  generation: classic
+  kind: animation
+  collection: pop-culture
+  tags: []
+  source: slack
+blobby_went_rogue:
+  display_name: Blobby_Went_Rogue
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobbycorn:
+  display_name: Blobbycorn
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobbytakesoverthenordics:
+  display_name: Blobbytakesoverthenordics
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+blobcho-man:
+  display_name: Blobcho Man
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobe:
+  display_name: Blobe
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobert-longlegs:
+  display_name: Blobert Longlegs
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobko---no7-thundersalmon-and-pylon-purple:
+  display_name: Blobko   No7 Thundersalmon And Pylon Purple
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobogna:
+  display_name: Blobogna
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+blobs-r-us:
+  display_name: Blobs R Us
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobstein:
+  display_name: Blobstein
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+blobster:
+  display_name: Blobster
+  generation: classic
+  kind: emoji
+  collection: animals
+  tags: []
+  source: slack
+blobtoberfest:
+  display_name: Blobtoberfest
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+blobtopus:
+  display_name: Blobtopus
+  generation: classic
+  kind: emoji
+  collection: animals
+  tags: []
+  source: slack
+bolota-blobby:
+  display_name: Bolota Blobby
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+branch_blobby:
+  display_name: Branch_Blobby
+  generation: classic
+  kind: emoji
+  collection: omni
+  tags: []
+  source: slack
+bronze-medal-blobby:
+  display_name: Bronze Medal Blobby
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+catalytic-converter-blobby:
+  display_name: Catalytic Converter Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+chef-blob-ardee:
+  display_name: Chef Blob Ardee
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+chicken_blobby:
+  display_name: Chicken_Blobby
+  generation: classic
+  kind: emoji
+  collection: animals
+  tags: []
+  source: slack
+chicken_fillet_roll_blobby:
+  display_name: Chicken_Fillet_Roll_Blobby
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+continuous-discoblob:
+  display_name: Continuous Discoblob
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+crossfit-blob:
+  display_name: Crossfit Blob
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+dbt-cards-blobby:
+  display_name: Dbt Cards Blobby
+  generation: classic
+  kind: emoji
+  collection: partners
+  tags: []
+  source: slack
+dbt-magician-blobby:
+  display_name: Dbt Magician Blobby
+  generation: classic
+  kind: emoji
+  collection: partners
+  tags: []
+  source: slack
+dbt-slot-machine-blobby:
+  display_name: Dbt Slot Machine Blobby
+  generation: classic
+  kind: emoji
+  collection: partners
+  tags: []
+  source: slack
+dread-pirate-bloberts:
+  display_name: Dread Pirate Bloberts
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+drumroll-blobby:
+  display_name: Drumroll Blobby
+  generation: classic
+  kind: animation
+  collection: objects
+  tags: []
+  source: slack
+educated-blob:
+  display_name: Educated Blob
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+expressionless-blobby:
+  display_name: Expressionless Blobby
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+flying-blobghetti-monster:
+  display_name: Flying Blobghetti Monster
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+giga-blobby:
+  display_name: Giga Blobby
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+goat_blobby:
+  display_name: Goat_Blobby
+  generation: classic
+  kind: emoji
+  collection: animals
+  tags: []
+  source: slack
+gold-medal-blobby:
+  display_name: Gold Medal Blobby
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+howdy-blobby-boot:
+  display_name: Howdy Blobby Boot
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+howdy-blobby:
+  display_name: Howdy Blobby
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+inspector-blobby:
+  display_name: Inspector Blobby
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+karl-the-blob:
+  display_name: Karl The Blob
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+leave-blobby-alone:
+  display_name: Leave Blobby Alone
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+lime-blobby:
+  display_name: Lime Blobby
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+mad-hatter-blobby-:
+  display_name: 'Mad Hatter Blobby '
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+magic-blobby:
+  display_name: Magic Blobby
+  generation: classic
+  kind: emoji
+  collection: core
+  tags: []
+  source: slack
+meat-crayon-blobby:
+  display_name: Meat Crayon Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+mezcal-blobby:
+  display_name: Mezcal Blobby
+  generation: classic
+  kind: emoji
+  collection: food
+  tags: []
+  source: slack
+moon-blobby:
+  display_name: Moon Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+mustachioed-blobby:
+  display_name: Mustachioed Blobby
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+new-blobby:
+  display_name: New Blobby
+  generation: classic
+  kind: emoji
+  collection: core
+  tags: []
+  source: slack
+nod-blobby:
+  display_name: Nod Blobby
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+nyan-blob:
+  display_name: Nyan Blob
+  generation: classic
+  kind: animation
+  collection: pop-culture
+  tags: []
+  source: slack
+omni-blobby-black-cat:
+  display_name: Omni Blobby Black Cat
+  generation: classic
+  kind: emoji
+  collection: animals
+  tags: []
+  source: slack
+pisces-blobby:
+  display_name: Pisces Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+pondering-blobby:
+  display_name: Pondering Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+pool-blobby:
+  display_name: Pool Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+r2-blob2:
+  display_name: R2 Blob2
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+remblob-rembrandt-blobby:
+  display_name: Remblob Rembrandt Blobby
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+see-more-blobby:
+  display_name: See More Blobby
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+sherblob-holmes:
+  display_name: Sherblob Holmes
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+silver-medal-blobby:
+  display_name: Silver Medal Blobby
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+st-paddys-blobby:
+  display_name: St Paddys Blobby
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+st-patricks-blobby:
+  display_name: St Patricks Blobby
+  generation: classic
+  kind: emoji
+  collection: holidays
+  tags: []
+  source: slack
+startup-blobby:
+  display_name: Startup Blobby
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+swedish-blobby:
+  display_name: Swedish Blobby
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+tennisblob:
+  display_name: Tennisblob
+  generation: classic
+  kind: emoji
+  collection: sports
+  tags: []
+  source: slack
+texas-blobby:
+  display_name: Texas Blobby
+  generation: classic
+  kind: emoji
+  collection: cities
+  tags: []
+  source: slack
+tgif-blobby:
+  display_name: Tgif Blobby
+  generation: classic
+  kind: emoji
+  collection: reactions
+  tags: []
+  source: slack
+the-big-leblobski:
+  display_name: The Big Leblobski
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+the-blob-signal:
+  display_name: The Blob Signal
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+the-blobby-button:
+  display_name: The Blobby Button
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+this-blob-is-on-fire:
+  display_name: This Blob Is On Fire
+  generation: classic
+  kind: animation
+  collection: reactions
+  tags: []
+  source: slack
+vibe-coder-blobby:
+  display_name: Vibe Coder Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
+vikingblobby:
+  display_name: Vikingblobby
+  generation: classic
+  kind: emoji
+  collection: costumes
+  tags: []
+  source: slack
+windows98-blobby:
+  display_name: Windows98 Blobby
+  generation: classic
+  kind: emoji
+  collection: pop-culture
+  tags: []
+  source: slack
+yoyo-blobby:
+  display_name: Yoyo Blobby
+  generation: classic
+  kind: emoji
+  collection: objects
+  tags: []
+  source: slack
