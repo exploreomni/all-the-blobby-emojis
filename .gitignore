@@ -1,4 +1,4 @@
-backfill-proposals.csv
+backfill-proposals*.csv
 dist/
 __pycache__/
 .pytest_cache/
