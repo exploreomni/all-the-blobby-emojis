@@ -368,5 +368,5 @@ def test_core_holds_the_master_blobbies():
     with open(repo_root / "items.yaml") as f:
         data = yaml.safe_load(f)
     core_slugs = {k for k, v in data.items() if v and v.get("collection") == "core"}
-    for slug in ("blobby-standard", "blobby-classic", "blobby-angry", "blobby-blushed-master", "blobby-cheeky", "blobby-chuffed", "blobby-content", "blobby-cute-yawn", "blobby-dazed", "blobby-displeased", "blobby-ouch", "blobby-puppy-eyes", "blobby-scrunched", "blobby-starstruck", "blobby-teary", "blobby-yawn"):
+    for slug in ("blobby-dynamic", "blobby-classic", "blobby-angry", "blobby-blushed-master", "blobby-cheeky", "blobby-chuffed", "blobby-content", "blobby-cute-yawn", "blobby-dazed", "blobby-displeased", "blobby-ouch", "blobby-puppy-eyes", "blobby-scrunched", "blobby-starstruck", "blobby-teary", "blobby-yawn"):
         assert slug in core_slugs, f"{slug!r} should be in core"

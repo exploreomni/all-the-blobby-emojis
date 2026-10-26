@@ -3260,7 +3260,7 @@
    "classic",
    "original"
   ],
-  "unlisted_reason": "duplicate of blobby-standard",
+  "unlisted_reason": "duplicate of blobby-dynamic",
   "width": 963
  },
  {
@@ -4565,6 +4565,35 @@
   ],
   "unlisted_reason": null,
   "width": 128
+ },
+ {
+  "added": "2026-10-24",
+  "author": null,
+  "bytes": 2482,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-dynamic.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Dynamic Blobby",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-dynamic.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-dynamic",
+  "source": "master",
+  "svg": "svg/blobby-dynamic.svg",
+  "tags": [
+   "expression",
+   "standard",
+   "default",
+   "dynamic"
+  ],
+  "unlisted_reason": null,
+  "width": 729
  },
  {
   "added": "2026-02-06",
@@ -10609,34 +10638,6 @@
  {
   "added": "2026-10-24",
   "author": null,
-  "bytes": 2482,
-  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-standard.svg",
-  "cdn_pinned": null,
-  "collection": "core",
-  "display_name": "Blobby Standard",
-  "file": null,
-  "frames": 1,
-  "generation": "new",
-  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-standard.svg",
-  "height": 727,
-  "kind": "illustration",
-  "listed": true,
-  "note": "Official master file",
-  "slack_name": null,
-  "slug": "blobby-standard",
-  "source": "master",
-  "svg": "svg/blobby-standard.svg",
-  "tags": [
-   "expression",
-   "standard",
-   "default"
-  ],
-  "unlisted_reason": null,
-  "width": 729
- },
- {
-  "added": "2026-10-24",
-  "author": null,
   "bytes": 9381,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-star.png",
   "cdn_pinned": null,
@@ -15777,7 +15778,7 @@
   "source": "slack",
   "svg": null,
   "tags": [],
-  "unlisted_reason": "duplicate of blobby-standard",
+  "unlisted_reason": "duplicate of blobby-dynamic",
   "width": 128
  },
  {

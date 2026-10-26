@@ -801,6 +801,18 @@ blobby-duck:
   - costume
   source: slack
   note: Blobby wears a white duck costume and waves a wing.
+blobby-dynamic:
+  display_name: Dynamic Blobby
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - standard
+  - default
+  - dynamic
+  source: master
+  note: Official master file
 blobby-elevated-business-casual:
   display_name: Elevated Business Casual Blobby
   generation: classic
@@ -4889,17 +4901,6 @@ blobby-puppy-eyes:
   - pleading
   source: master
   note: Official master file
-blobby-standard:
-  display_name: Blobby Standard
-  generation: new
-  kind: illustration
-  collection: core
-  tags:
-  - expression
-  - standard
-  - default
-  source: master
-  note: Official master file
 blobby-teary:
   display_name: Blobby Teary
   generation: new
@@ -6842,7 +6843,7 @@ new-blobby:
   tags: []
   source: slack
   listed: false
-  unlisted_reason: duplicate of blobby-standard
+  unlisted_reason: duplicate of blobby-dynamic
 nod-blobby:
   display_name: Nod Blobby
   generation: new
@@ -7286,4 +7287,4 @@ blobby-classic:
   source: master
   note: Official master file, the original flat Blobby
   listed: false
-  unlisted_reason: duplicate of blobby-standard
+  unlisted_reason: duplicate of blobby-dynamic
