@@ -4891,6 +4891,8 @@ blobby-blushed:
   - expression
   source: slack
   note: Slack emoji of the blushed expression (master file is blobby-blushed-master)
+  listed: false
+  unlisted_reason: duplicate of blobby-blushed-master
 blobby-ouch:
   display_name: Blobby Ouch
   generation: new
@@ -7186,8 +7188,6 @@ blobby-blushed-master:
   - shy
   source: master
   note: Official master file
-  listed: false
-  unlisted_reason: duplicate of blobby-blushed
 blobby-cheeky:
   display_name: Blobby Cheeky
   generation: new

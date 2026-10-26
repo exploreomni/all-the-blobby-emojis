@@ -2239,7 +2239,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-blushed.png",
   "height": 1454,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Slack emoji of the blushed expression (master file is blobby-blushed-master)",
   "slack_name": "blobby-blushed",
   "slug": "blobby-blushed",
@@ -2248,7 +2248,7 @@
   "tags": [
    "expression"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-blushed-master",
   "width": 1458
  },
  {
@@ -2265,7 +2265,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-blushed-master.svg",
   "height": 727,
   "kind": "illustration",
-  "listed": false,
+  "listed": true,
   "note": "Official master file",
   "slack_name": null,
   "slug": "blobby-blushed-master",
@@ -2276,7 +2276,7 @@
    "blush",
    "shy"
   ],
-  "unlisted_reason": "duplicate of blobby-blushed",
+  "unlisted_reason": null,
   "width": 729
  },
  {
@@ -10608,7 +10608,7 @@
   "width": 128
  },
  {
-  "added": "2026-10-24",
+  "added": "2026-10-25",
   "author": null,
   "bytes": 1402,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-standard.svg",
