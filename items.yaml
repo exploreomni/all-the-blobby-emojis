@@ -2162,6 +2162,18 @@ blobby-spooky-szn:
   - pumpkin
   source: slack
   note: Blobby dressed as a ghost holding a jack-o'-lantern candy bucket.
+blobby-standard:
+  display_name: Standard Blobby
+  generation: classic
+  kind: illustration
+  collection: core
+  tags:
+  - standard
+  - classic
+  - original
+  - flat
+  source: master
+  note: Official master file, the original flat Blobby
 blobby-sun:
   display_name: Blobby Sun
   generation: new
@@ -7275,16 +7287,3 @@ blobby-yawn:
   - tired
   source: master
   note: Official master file
-blobby-classic:
-  display_name: Standard Blobby (classic)
-  generation: classic
-  kind: illustration
-  collection: core
-  tags:
-  - standard
-  - classic
-  - original
-  source: master
-  note: Official master file, the original flat Blobby
-  listed: false
-  unlisted_reason: duplicate of blobby-dynamic

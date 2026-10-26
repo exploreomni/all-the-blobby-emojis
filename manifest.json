@@ -3236,34 +3236,6 @@
   "width": 729
  },
  {
-  "added": "2026-10-25",
-  "author": null,
-  "bytes": 1402,
-  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-classic.svg",
-  "cdn_pinned": null,
-  "collection": "core",
-  "display_name": "Standard Blobby (classic)",
-  "file": null,
-  "frames": 1,
-  "generation": "classic",
-  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-classic.svg",
-  "height": 966,
-  "kind": "illustration",
-  "listed": false,
-  "note": "Official master file, the original flat Blobby",
-  "slack_name": null,
-  "slug": "blobby-classic",
-  "source": "master",
-  "svg": "svg/blobby-classic.svg",
-  "tags": [
-   "standard",
-   "classic",
-   "original"
-  ],
-  "unlisted_reason": "duplicate of blobby-dynamic",
-  "width": 963
- },
- {
   "added": "2026-02-06",
   "author": null,
   "bytes": 13653,
@@ -10634,6 +10606,35 @@
   ],
   "unlisted_reason": null,
   "width": 128
+ },
+ {
+  "added": "2026-10-24",
+  "author": null,
+  "bytes": 1402,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-standard.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Standard Blobby",
+  "file": null,
+  "frames": 1,
+  "generation": "classic",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-standard.svg",
+  "height": 966,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file, the original flat Blobby",
+  "slack_name": null,
+  "slug": "blobby-standard",
+  "source": "master",
+  "svg": "svg/blobby-standard.svg",
+  "tags": [
+   "standard",
+   "classic",
+   "original",
+   "flat"
+  ],
+  "unlisted_reason": null,
+  "width": 963
  },
  {
   "added": "2026-10-24",

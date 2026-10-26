@@ -11,7 +11,7 @@ Download the full pack: [https://github.com/exploreomni/all-the-blobby-emojis/re
 
 Usage terms: [LICENSE.md](LICENSE.md)
 
-59 items are kept in the repo for link stability but not listed here.
+58 items are kept in the repo for link stability but not listed here.
 
 ## Core
 
@@ -30,6 +30,7 @@ The official master Blobbies, hand-picked only, never assigned by the model.
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-ouch.svg" alt="blobby-ouch" width="48"> | Blobby Ouch |  | new | [blobby-ouch.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-ouch.svg) |
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-puppy-eyes.svg" alt="blobby-puppy-eyes" width="48"> | Blobby Puppy Eyes |  | new | [blobby-puppy-eyes.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-puppy-eyes.svg) |
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-scrunched.svg" alt="blobby-scrunched" width="48"> | Blobby Scrunched |  | new | [blobby-scrunched.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-scrunched.svg) |
+| <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-standard.svg" alt="blobby-standard" width="48"> | Standard Blobby |  | classic | [blobby-standard.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-standard.svg) |
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-starstruck.svg" alt="blobby-starstruck" width="48"> | Blobby Starstruck |  | new | [blobby-starstruck.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-starstruck.svg) |
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-teary.svg" alt="blobby-teary" width="48"> | Blobby Teary |  | new | [blobby-teary.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-teary.svg) |
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-yawn.svg" alt="blobby-yawn" width="48"> | Blobby Yawn |  | new | [blobby-yawn.svg](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-yawn.svg) |
