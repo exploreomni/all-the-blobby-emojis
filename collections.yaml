@@ -1,0 +1,77 @@
+- slug: core
+  name: Core
+  order: 1
+  description: The official master Blobbys, hand-picked only, never assigned by the model.
+  cover: blobby-dynamic
+
+- slug: holidays
+  name: Holidays and seasons
+  order: 7
+  description: Anything tied to a holiday or season, Halloween monsters included.
+  cover: blobby-spooky-szn
+
+- slug: pop-culture
+  name: Pop culture
+  order: 4
+  description: Recognizable franchise characters, celebrities, memes, zodiac signs.
+  cover: remblob-rembrandt-blobby
+
+- slug: costumes
+  name: Costumes and jobs
+  order: 5
+  description: Generic professions and outfits with no franchise (pirate, captain, doctor, chef, builder, showgirl).
+  cover: omni-blobby-show-girl
+
+- slug: cities
+  name: Cities and travel
+  order: 6
+  description: Places, flags, landmarks, local food that stands for a place.
+  cover: blobby-loves-nyc
+
+- slug: partners
+  name: Partners and tools
+  order: 11
+  description: dbt, Snowflake, Databricks, MotherDuck, Google Sheets, and other software or brands.
+  cover: blobby-snowflake-1
+
+- slug: food
+  name: Food and drink
+  order: 8
+  description: Food and drink.
+  cover: blobby-shine-1
+
+- slug: animals
+  name: Animals
+  order: 9
+  description: Animals.
+  cover: blobby-duck
+
+- slug: sports
+  name: Sports
+  order: 10
+  description: Sports.
+  cover: blobby-baller
+
+- slug: omni
+  name: Omni and data
+  order: 12
+  description: AI, agents, dashboards, SQL, data, Omni values.
+  cover: branch_blobby
+
+- slug: reactions
+  name: Reactions
+  order: 2
+  description: Emotions, gestures, and sign-holding words only.
+  cover: blobby-eyebrows-zoom
+
+- slug: objects
+  name: Scenes and objects
+  order: 3
+  description: A Blobby doing or being a thing that fits nowhere above (balloon, cube, rocket, typing, vacation, on a date).
+  cover: yoyo-blobby
+
+- slug: unsorted
+  name: Unsorted
+  order: 13
+  description: Holding pen for items awaiting backfill.
+  cover: null

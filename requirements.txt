@@ -1,0 +1,3 @@
+pyyaml>=6,<7
+pillow>=12,<13
+pytest>=9,<10

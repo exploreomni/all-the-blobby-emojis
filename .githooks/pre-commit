@@ -21,6 +21,18 @@ else
         should_refresh=1
         break
         ;;
+      items.yaml)
+        should_refresh=1
+        break
+        ;;
+      collections.yaml)
+        should_refresh=1
+        break
+        ;;
+      blobbylib/*)
+        should_refresh=1
+        break
+        ;;
     esac
   done <<EOF
 $staged_paths
@@ -31,8 +43,13 @@ if [ "$should_refresh" -ne 1 ]; then
   exit 0
 fi
 
+if ! env -u GIT_DIR -u GIT_INDEX_FILE -u GIT_WORK_TREE -u GIT_PREFIX python3 -m pytest -q; then
+  echo "pre-commit: tests failed, aborting commit" >&2
+  exit 1
+fi
+
 python3 scripts/generate_readme.py
 
 if [ "${SKIP_GIT_ADD:-0}" != "1" ]; then
-  git add README.md
+  git add README.md manifest.json
 fi
