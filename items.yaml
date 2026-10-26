@@ -410,8 +410,6 @@ blobby-beaver:
   - busy
   source: slack
   note: Blobby in a beaver costume runs carrying a laptop and coffee.
-  listed: false
-  unlisted_reason: customer logo
 blobby-benny:
   display_name: Benny Blobby
   generation: new
@@ -1543,6 +1541,8 @@ blobby-on-holiday:
   - cocktail
   source: slack
   note: Blobby in a straw hat and sunglasses sipping a cocktail on vacation.
+  listed: false
+  unlisted_reason: duplicate of vacation-blobby
 blobby-on-the-phone:
   display_name: Blobby on the Phone
   generation: classic
@@ -1613,6 +1613,8 @@ blobby-pet:
   - pet
   source: slack
   note: A hand pats Blobby on the head while Blobby smiles contentedly.
+  listed: false
+  unlisted_reason: duplicate of good-blobby
 blobby-philly:
   display_name: Philly Blobby
   generation: classic
@@ -2404,6 +2406,8 @@ blobby-toronto:
   - maple-leaf
   source: slack
   note: Blobby in a red Canadian hockey jersey and helmet holding a hockey stick.
+  listed: false
+  unlisted_reason: duplicate of hockey-blobby
 blobby-trail-guide:
   display_name: Blobby Trail Guide
   generation: classic
@@ -3268,6 +3272,8 @@ motherduck-blobby:
   - motherduck
   source: slack
   note: Blobby wears a white duck costume and waves, representing MotherDuck.
+  listed: false
+  unlisted_reason: duplicate of blobby-duck
 mr-blobby:
   display_name: Mr Blobby
   generation: classic
@@ -3659,6 +3665,8 @@ topgumz2blobby:
   source: slack
   slack_name: null
   note: Blobby as a Top Gun pilot with aviator sunglasses, helmet, and mustache.
+  listed: false
+  unlisted_reason: duplicate of blobby-topgumz
 topgumzblobby:
   display_name: Top Gun Blobby
   generation: classic
@@ -3673,6 +3681,8 @@ topgumzblobby:
   source: slack
   slack_name: null
   note: 'Current Slack name: blobby-topgumz'
+  listed: false
+  unlisted_reason: duplicate of blobby-topgumz
 tophat-blobby:
   display_name: Tophat Blobby
   generation: new
@@ -3752,6 +3762,8 @@ blobby-big-eyes:
   - wide-eyed
   source: figma-stickers
   note: Blobby stares with huge wide eyes and a small smile.
+  listed: false
+  unlisted_reason: duplicate of blobby-eyes
 blobby-chicago-1:
   display_name: Chicago Blobby
   generation: new
@@ -4060,6 +4072,8 @@ blobby-from-the-black-lagoon-2:
   - fins
   source: figma-stickers
   note: Green scaly Blobby with fins dressed as the Creature from the Black Lagoon.
+  listed: false
+  unlisted_reason: duplicate of blobby-from-the-black-lagoon
 blobby-from-the-black-lagoon:
   display_name: Blobby from the Black Lagoon
   generation: classic
@@ -4166,6 +4180,8 @@ blobby-london-2:
   - clock-tower
   source: figma-illustrations
   note: Blobby as the clock face of London's Big Ben tower.
+  listed: false
+  unlisted_reason: duplicate of big-ben-blobby
 blobby-london-eye:
   display_name: London Eye Blobby
   generation: new
@@ -4189,6 +4205,8 @@ blobby-london:
   - telephone-box
   source: figma-illustrations
   note: Blobby peeks out from behind a red London telephone box.
+  listed: false
+  unlisted_reason: duplicate of blobby-london-telephone
 blobby-nyc-1:
   display_name: NYC Blobby
   generation: new
@@ -4474,6 +4492,8 @@ blobby-startup:
   - startup
   source: figma-illustrations
   note: Blobby wears headphones, works on a laptop, with a coffee cup.
+  listed: false
+  unlisted_reason: duplicate of startup-blobby
 blobby-stockholm-1:
   display_name: Stockholm Blobby
   generation: new
@@ -4526,6 +4546,8 @@ blobby-stockholm:
   - scarf
   source: figma-illustrations
   note: Blobby wears a yellow beanie and a Swedish flag scarf.
+  listed: false
+  unlisted_reason: duplicate of swedish-blobby
 blobby-swedish-meatballs:
   display_name: Swedish Meatballs Blobby
   generation: new
@@ -4599,6 +4621,8 @@ blobby-vegas-1:
   - magic-wand
   source: figma-illustrations
   note: Blobby dressed as a Las Vegas magician with top hat and wand.
+  listed: false
+  unlisted_reason: duplicate of dbt-magician-blobby
 blobby-vegas-2:
   display_name: Vegas Blobby 2
   generation: new
@@ -4622,6 +4646,8 @@ blobby-vegas-3:
   - casino
   source: figma-illustrations
   note: Smiling Blobby holds a fan of playing cards for Las Vegas.
+  listed: false
+  unlisted_reason: duplicate of blobby-vegas-2
 blobby-vegas-4:
   display_name: Vegas Blobby
   generation: new
@@ -4657,6 +4683,8 @@ blobby-vegas:
   - magic-wand
   source: figma-illustrations
   note: Blobby dressed as a Las Vegas magician with top hat and wand.
+  listed: false
+  unlisted_reason: duplicate of dbt-magician-blobby
 blobby-werewolf-2:
   display_name: Werewolf Blobby 2
   generation: classic
@@ -4681,6 +4709,8 @@ blobby-werewolf:
   - fur
   source: figma-illustrations
   note: Blobby covered in brown werewolf fur with pointy ears and fangs.
+  listed: false
+  unlisted_reason: duplicate of blobby-werewolf-2
 blobby-zero:
   display_name: Zero Blobby
   generation: new
@@ -4739,6 +4769,8 @@ omni-blobby-coffee:
   - anthora-cup
   source: figma-illustrations
   note: Blobby peeks out of a Greek-style coffee cup reading AI Analytics.
+  listed: false
+  unlisted_reason: duplicate of blobby-coffee-cup
 omni-blobby-cookie:
   display_name: Cookie Blobby
   generation: new
@@ -4751,6 +4783,8 @@ omni-blobby-cookie:
   - new-york
   source: figma-illustrations
   note: Blobby as a smiling black-and-white cookie.
+  listed: false
+  unlisted_reason: duplicate of blobby-cookie
 omni-blobby-face:
   display_name: Blobby Face
   generation: new
@@ -4788,6 +4822,8 @@ omni-blobby-queen:
   - sunglasses
   source: figma-illustrations
   note: Blobby wears a jeweled crown and pink sunglasses while blowing a kiss.
+  listed: false
+  unlisted_reason: duplicate of blobby-queen
 omni-blobby-santa-cruz:
   display_name: Santa Cruz Blobby
   generation: new
@@ -4941,6 +4977,8 @@ blob-alert:
   - alarm
   source: slack
   note: Blobby wears a flashing red siren light on its head.
+  listed: false
+  unlisted_reason: duplicate of blobby-alert
 blob-barker:
   display_name: Blob Barker
   generation: new
@@ -5269,6 +5307,8 @@ blobbly-exclamation:
   - exclamation
   source: slack
   note: Blobby squints excitedly with a yellow exclamation mark beside it.
+  listed: false
+  unlisted_reason: duplicate of blobby-exclamation
 blobby-base-baller:
   display_name: Blobby Base Baller
   generation: new
@@ -5404,6 +5444,8 @@ blobby-chef-3:
   - toque
   source: slack
   note: Blobby wears a white chef's toque hat.
+  listed: false
+  unlisted_reason: duplicate of omni-blobby-chef
 blobby-chef:
   display_name: Blobby Chef
   generation: classic
@@ -5564,6 +5606,8 @@ blobby-face-crazy:
   collection: reactions
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: duplicate of omni-blobby-face
 blobby-fieri-chef-kiss:
   display_name: Blobby Fieri Chef Kiss
   generation: new
@@ -5622,6 +5666,8 @@ blobby-gift:
   - bow
   source: slack
   note: Blobby as a wrapped gift box with a red bow.
+  listed: false
+  unlisted_reason: duplicate of blobby-present
 blobby-glitch:
   display_name: Blobby Glitch
   generation: classic
@@ -6070,6 +6116,8 @@ blobby-santa-cruz-2:
   - screaming-hand
   source: slack
   note: Blobby in a Santa Cruz cap with a screaming-hand skateboard.
+  listed: false
+  unlisted_reason: duplicate of omni-blobby-santa-cruz
 blobby-show-girl:
   display_name: Blobby Show Girl
   generation: new
@@ -6081,6 +6129,8 @@ blobby-show-girl:
   - feathers
   source: slack
   note: Blobby wears a showgirl feather headdress with a gold headband.
+  listed: false
+  unlisted_reason: duplicate of omni-blobby-show-girl
 blobby-slot-machine:
   display_name: Blobby Slot Machine
   generation: classic
@@ -6163,6 +6213,8 @@ blobby-thread-police:
   - slack-thread
   source: slack
   note: Blobby dressed as a police officer holding a megaphone, the thread police.
+  listed: false
+  unlisted_reason: duplicate of blobby-thread-police-v2
 blobby-tiki-cup:
   display_name: Blobby Tiki Cup
   generation: new
@@ -6517,6 +6569,8 @@ crossfit-blob:
   - muscles
   source: slack
   note: Muscular Blobby flexing both biceps with abs showing.
+  listed: false
+  unlisted_reason: duplicate of blobby-flex
 dbt-cards-blobby:
   display_name: dbt Cards Blobby
   generation: new
@@ -6553,6 +6607,8 @@ dbt-slot-machine-blobby:
   - jackpot
   source: slack
   note: Blobby smiles beside an orange dbt-colored slot machine with sparkles.
+  listed: false
+  unlisted_reason: duplicate of blobby-vegas-4
 dread-pirate-bloberts:
   display_name: Dread Pirate Bloberts
   generation: classic
@@ -6612,6 +6668,8 @@ flying-blobghetti-monster:
   - meatballs
   source: slack
   note: Blobby as the Flying Spaghetti Monster with noodles, meatballs, and eyestalks.
+  listed: false
+  unlisted_reason: duplicate of blobby-fsm
 giga-blobby:
   display_name: Giga Blobby
   generation: classic
@@ -6656,6 +6714,8 @@ howdy-blobby-boot:
   - boot
   source: slack
   note: Blobby wears a brown cowboy hat beside a cowboy boot.
+  listed: false
+  unlisted_reason: duplicate of blobby-texas
 howdy-blobby:
   display_name: Howdy Blobby
   generation: new
@@ -6729,7 +6789,7 @@ magic-blobby:
   display_name: Magic Blobby
   generation: classic
   kind: emoji
-  collection: reactions
+  collection: objects
   tags: []
   source: slack
 meat-crayon-blobby:
@@ -6781,6 +6841,8 @@ new-blobby:
   collection: reactions
   tags: []
   source: slack
+  listed: false
+  unlisted_reason: duplicate of blobby-standard
 nod-blobby:
   display_name: Nod Blobby
   generation: new
@@ -6818,6 +6880,8 @@ omni-blobby-black-cat:
   - black-cat
   source: slack
   note: Blobby wears black cat ears and whiskers with a smile.
+  listed: false
+  unlisted_reason: duplicate of omni-blobby-cat
 pisces-blobby:
   display_name: Pisces Blobby
   generation: classic
@@ -7037,6 +7101,8 @@ this-blob-is-on-fire:
   - hype
   source: slack
   note: Blobby engulfed in flames, signaling being on fire or hyped.
+  listed: false
+  unlisted_reason: duplicate of blobby-on-fire
 vibe-coder-blobby:
   display_name: Vibe Coder Blobby
   generation: classic
@@ -7107,6 +7173,8 @@ blobby-blushed-master:
   - shy
   source: master
   note: Official master file
+  listed: false
+  unlisted_reason: duplicate of blobby-blushed
 blobby-cheeky:
   display_name: Blobby Cheeky
   generation: new
@@ -7217,3 +7285,5 @@ blobby-classic:
   - original
   source: master
   note: Official master file, the original flat Blobby
+  listed: false
+  unlisted_reason: duplicate of blobby-standard

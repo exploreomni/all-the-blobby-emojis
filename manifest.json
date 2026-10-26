@@ -551,7 +551,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blob-alert.gif",
   "height": 128,
   "kind": "animation",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a flashing red siren light on its head.",
   "slack_name": "blob-alert",
   "slug": "blob-alert",
@@ -562,7 +562,7 @@
    "siren",
    "alarm"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-alert",
   "width": 128
  },
  {
@@ -1482,7 +1482,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobbly-exclamation.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby squints excitedly with a yellow exclamation mark beside it.",
   "slack_name": "blobbly-exclamation",
   "slug": "blobbly-exclamation",
@@ -1493,7 +1493,7 @@
    "hype",
    "exclamation"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-exclamation",
   "width": 128
  },
  {
@@ -2073,7 +2073,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-beaver.png",
   "height": 128,
   "kind": "emoji",
-  "listed": false,
+  "listed": true,
   "note": "Blobby in a beaver costume runs carrying a laptop and coffee.",
   "slack_name": "blobby-beaver",
   "slug": "blobby-beaver",
@@ -2086,7 +2086,7 @@
    "beaver",
    "busy"
   ],
-  "unlisted_reason": "customer logo",
+  "unlisted_reason": null,
   "width": 128
  },
  {
@@ -2131,7 +2131,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-big-eyes.svg",
   "height": 438,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby stares with huge wide eyes and a small smile.",
   "slack_name": null,
   "slug": "blobby-big-eyes",
@@ -2142,7 +2142,7 @@
    "big-eyes",
    "wide-eyed"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-eyes",
   "width": 439
  },
  {
@@ -2265,7 +2265,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-blushed-master.svg",
   "height": 727,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Official master file",
   "slack_name": null,
   "slug": "blobby-blushed-master",
@@ -2276,7 +2276,7 @@
    "blush",
    "shy"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-blushed",
   "width": 729
  },
  {
@@ -2995,7 +2995,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-chef-3.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a white chef's toque hat.",
   "slack_name": "blobby-chef-3",
   "slug": "blobby-chef-3",
@@ -3006,7 +3006,7 @@
    "hat",
    "toque"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of omni-blobby-chef",
   "width": 128
  },
  {
@@ -3249,7 +3249,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-classic.svg",
   "height": 966,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Official master file, the original flat Blobby",
   "slack_name": null,
   "slug": "blobby-classic",
@@ -3260,7 +3260,7 @@
    "classic",
    "original"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-standard",
   "width": 963
  },
  {
@@ -4971,14 +4971,14 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-face-crazy.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": null,
   "slack_name": "blobby-face-crazy",
   "slug": "blobby-face-crazy",
   "source": "slack",
   "svg": null,
   "tags": [],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of omni-blobby-face",
   "width": 128
  },
  {
@@ -5311,7 +5311,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-from-the-black-lagoon-2.svg",
   "height": 619,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Green scaly Blobby with fins dressed as the Creature from the Black Lagoon.",
   "slack_name": null,
   "slug": "blobby-from-the-black-lagoon-2",
@@ -5323,7 +5323,7 @@
    "creature",
    "fins"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-from-the-black-lagoon",
   "width": 831
  },
  {
@@ -5510,7 +5510,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-gift.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby as a wrapped gift box with a red bow.",
   "slack_name": "blobby-gift",
   "slug": "blobby-gift",
@@ -5521,7 +5521,7 @@
    "present",
    "bow"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-present",
   "width": 128
  },
  {
@@ -6779,7 +6779,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-london.svg",
   "height": 291,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby peeks out from behind a red London telephone box.",
   "slack_name": null,
   "slug": "blobby-london",
@@ -6791,7 +6791,7 @@
    "london",
    "telephone-box"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-london-telephone",
   "width": 253
  },
  {
@@ -6837,7 +6837,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-london-2.svg",
   "height": 343,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby as the clock face of London's Big Ben tower.",
   "slack_name": null,
   "slug": "blobby-london-2",
@@ -6848,7 +6848,7 @@
    "big-ben",
    "clock-tower"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of big-ben-blobby",
   "width": 116
  },
  {
@@ -7977,7 +7977,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-on-holiday.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby in a straw hat and sunglasses sipping a cocktail on vacation.",
   "slack_name": "blobby-on-holiday",
   "slug": "blobby-on-holiday",
@@ -7990,7 +7990,7 @@
    "vacation",
    "cocktail"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of vacation-blobby",
   "width": 128
  },
  {
@@ -8439,7 +8439,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-pet.gif",
   "height": 112,
   "kind": "animation",
-  "listed": true,
+  "listed": false,
   "note": "A hand pats Blobby on the head while Blobby smiles contentedly.",
   "slack_name": "blobby-pet",
   "slug": "blobby-pet",
@@ -8452,7 +8452,7 @@
    "headpat",
    "pet"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of good-blobby",
   "width": 112
  },
  {
@@ -9826,7 +9826,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-santa-cruz-2.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby in a Santa Cruz cap with a screaming-hand skateboard.",
   "slack_name": "blobby-santa-cruz-2",
   "slug": "blobby-santa-cruz-2",
@@ -9838,7 +9838,7 @@
    "skateboard",
    "screaming-hand"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of omni-blobby-santa-cruz",
   "width": 128
  },
  {
@@ -10025,7 +10025,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-show-girl.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a showgirl feather headdress with a gold headband.",
   "slack_name": "blobby-show-girl",
   "slug": "blobby-show-girl",
@@ -10036,7 +10036,7 @@
    "showgirl",
    "feathers"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of omni-blobby-show-girl",
   "width": 128
  },
  {
@@ -10663,7 +10663,7 @@
   "width": 128
  },
  {
-  "added": "2026-10-25",
+  "added": "2026-10-24",
   "author": null,
   "bytes": 3352,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-starstruck.svg",
@@ -10704,7 +10704,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-startup.svg",
   "height": 207,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears headphones, works on a laptop, with a coffee cup.",
   "slack_name": null,
   "slug": "blobby-startup",
@@ -10717,7 +10717,7 @@
    "headphones",
    "startup"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of startup-blobby",
   "width": 256
  },
  {
@@ -10734,7 +10734,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-stockholm.svg",
   "height": 312,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a yellow beanie and a Swedish flag scarf.",
   "slack_name": null,
   "slug": "blobby-stockholm",
@@ -10747,7 +10747,7 @@
    "sweden",
    "scarf"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of swedish-blobby",
   "width": 186
  },
  {
@@ -11598,7 +11598,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-thread-police.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby dressed as a police officer holding a megaphone, the thread police.",
   "slack_name": "blobby-thread-police",
   "slug": "blobby-thread-police",
@@ -11609,7 +11609,7 @@
    "police",
    "slack-thread"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-thread-police-v2",
   "width": 128
  },
  {
@@ -11740,7 +11740,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-toronto.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby in a red Canadian hockey jersey and helmet holding a hockey stick.",
   "slack_name": "blobby-toronto",
   "slug": "blobby-toronto",
@@ -11754,7 +11754,7 @@
    "canada",
    "maple-leaf"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of hockey-blobby",
   "width": 128
  },
  {
@@ -12000,7 +12000,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-vegas.svg",
   "height": 247,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby dressed as a Las Vegas magician with top hat and wand.",
   "slack_name": null,
   "slug": "blobby-vegas",
@@ -12012,7 +12012,7 @@
    "magician",
    "magic-wand"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of dbt-magician-blobby",
   "width": 209
  },
  {
@@ -12029,7 +12029,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-vegas-1.svg",
   "height": 247,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby dressed as a Las Vegas magician with top hat and wand.",
   "slack_name": null,
   "slug": "blobby-vegas-1",
@@ -12041,7 +12041,7 @@
    "magician",
    "magic-wand"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of dbt-magician-blobby",
   "width": 208
  },
  {
@@ -12086,7 +12086,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-vegas-3.svg",
   "height": 246,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Smiling Blobby holds a fan of playing cards for Las Vegas.",
   "slack_name": null,
   "slug": "blobby-vegas-3",
@@ -12098,7 +12098,7 @@
    "cards",
    "casino"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-vegas-2",
   "width": 297
  },
  {
@@ -12335,7 +12335,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-werewolf.svg",
   "height": 205,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby covered in brown werewolf fur with pointy ears and fangs.",
   "slack_name": null,
   "slug": "blobby-werewolf",
@@ -12347,7 +12347,7 @@
    "fangs",
    "fur"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-werewolf-2",
   "width": 202
  },
  {
@@ -14004,7 +14004,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/crossfit-blob.png",
   "height": 127,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Muscular Blobby flexing both biceps with abs showing.",
   "slack_name": "crossfit-blob",
   "slug": "crossfit-blob",
@@ -14015,7 +14015,7 @@
    "crossfit",
    "muscles"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-flex",
   "width": 128
  },
  {
@@ -14090,7 +14090,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/dbt-slot-machine-blobby.png",
   "height": 127,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby smiles beside an orange dbt-colored slot machine with sparkles.",
   "slack_name": "dbt-slot-machine-blobby",
   "slug": "dbt-slot-machine-blobby",
@@ -14102,7 +14102,7 @@
    "slot-machine",
    "jackpot"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-vegas-4",
   "width": 128
  },
  {
@@ -14574,7 +14574,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/flying-blobghetti-monster.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby as the Flying Spaghetti Monster with noodles, meatballs, and eyestalks.",
   "slack_name": "flying-blobghetti-monster",
   "slug": "flying-blobghetti-monster",
@@ -14585,7 +14585,7 @@
    "spaghetti",
    "meatballs"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-fsm",
   "width": 128
  },
  {
@@ -15084,7 +15084,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/howdy-blobby-boot.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a brown cowboy hat beside a cowboy boot.",
   "slack_name": "howdy-blobby-boot",
   "slug": "howdy-blobby-boot",
@@ -15095,7 +15095,7 @@
    "cowboy",
    "boot"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-texas",
   "width": 128
  },
  {
@@ -15442,7 +15442,7 @@
   "bytes": 15648,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/magic-blobby.png",
   "cdn_pinned": null,
-  "collection": "reactions",
+  "collection": "objects",
   "display_name": "Magic Blobby",
   "file": "all-the-slack-blobbies/magic-blobby.png",
   "frames": 1,
@@ -15633,7 +15633,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/motherduck-blobby.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a white duck costume and waves, representing MotherDuck.",
   "slack_name": "motherduck-blobby",
   "slug": "motherduck-blobby",
@@ -15645,7 +15645,7 @@
    "data",
    "motherduck"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-duck",
   "width": 128
  },
  {
@@ -15770,14 +15770,14 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/new-blobby.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": null,
   "slack_name": "new-blobby",
   "slug": "new-blobby",
   "source": "slack",
   "svg": null,
   "tags": [],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-standard",
   "width": 128
  },
  {
@@ -15883,7 +15883,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/omni-blobby-black-cat.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears black cat ears and whiskers with a smile.",
   "slack_name": "omni-blobby-black-cat",
   "slug": "omni-blobby-black-cat",
@@ -15894,7 +15894,7 @@
    "halloween",
    "black-cat"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of omni-blobby-cat",
   "width": 128
  },
  {
@@ -15995,7 +15995,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/omni-blobby-coffee.svg",
   "height": 250,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby peeks out of a Greek-style coffee cup reading AI Analytics.",
   "slack_name": null,
   "slug": "omni-blobby-coffee",
@@ -16008,7 +16008,7 @@
    "new-york",
    "anthora-cup"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-coffee-cup",
   "width": 250
  },
  {
@@ -16025,7 +16025,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/omni-blobby-cookie.svg",
   "height": 250,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby as a smiling black-and-white cookie.",
   "slack_name": null,
   "slug": "omni-blobby-cookie",
@@ -16037,7 +16037,7 @@
    "black-and-white-cookie",
    "new-york"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-cookie",
   "width": 250
  },
  {
@@ -16083,7 +16083,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/omni-blobby-queen.svg",
   "height": 250,
   "kind": "illustration",
-  "listed": true,
+  "listed": false,
   "note": "Blobby wears a jeweled crown and pink sunglasses while blowing a kiss.",
   "slack_name": null,
   "slug": "omni-blobby-queen",
@@ -16096,7 +16096,7 @@
    "queen",
    "sunglasses"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-queen",
   "width": 250
  },
  {
@@ -17509,7 +17509,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/this-blob-is-on-fire.gif",
   "height": 112,
   "kind": "animation",
-  "listed": true,
+  "listed": false,
   "note": "Blobby engulfed in flames, signaling being on fire or hyped.",
   "slack_name": "this-blob-is-on-fire",
   "slug": "this-blob-is-on-fire",
@@ -17519,7 +17519,7 @@
    "fire",
    "hype"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-on-fire",
   "width": 112
  },
  {
@@ -17564,7 +17564,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/topgumz2blobby.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Blobby as a Top Gun pilot with aviator sunglasses, helmet, and mustache.",
   "slack_name": null,
   "slug": "topgumz2blobby",
@@ -17578,7 +17578,7 @@
    "top-gun",
    "mustache"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-topgumz",
   "width": 128
  },
  {
@@ -17595,7 +17595,7 @@
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/topgumzblobby.png",
   "height": 128,
   "kind": "emoji",
-  "listed": true,
+  "listed": false,
   "note": "Current Slack name: blobby-topgumz",
   "slack_name": null,
   "slug": "topgumzblobby",
@@ -17608,7 +17608,7 @@
    "top-gun",
    "pilot"
   ],
-  "unlisted_reason": null,
+  "unlisted_reason": "duplicate of blobby-topgumz",
   "width": 128
  },
  {
