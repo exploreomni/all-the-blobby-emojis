@@ -119,8 +119,19 @@ omni-blobby-santa-cruz.svg,omni-blobby-santa-cruz
 omni-blobby-show-girl.svg,omni-blobby-show-girl
 omni-blobby-ticket.svg,omni-blobby-ticket
 startup-blobby.svg,blobby-startup
-Standard Blobby.svg,blobby-standard
-Dynamic Blobby.svg,blobby-dynamic
+Blobby=Standard.svg,blobby-standard
+Blobby=Angry.svg,blobby-angry
+Blobby=Blushed.svg,blobby-blushed-master
+Blobby=Cheeky.svg,blobby-cheeky
+Blobby=Chuffed.svg,blobby-chuffed
+Blobby=Content.svg,blobby-content
+Blobby=Cute Yawn.svg,blobby-cute-yawn
+Blobby=Dazed.svg,blobby-dazed
+Blobby=Displeased.svg,blobby-displeased
 Blobby=Ouch!.svg,blobby-ouch
 Blobby=Puppy Eyes.svg,blobby-puppy-eyes
+Blobby=Scrunched.svg,blobby-scrunched
+Blobby=Starstruck.svg,blobby-starstruck
 Blobby=Teary.svg,blobby-teary
+Blobby=Yawn.svg,blobby-yawn
+Standard Blobby.svg,blobby-classic

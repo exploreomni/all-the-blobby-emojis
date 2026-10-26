@@ -361,12 +361,12 @@ def test_merge_never_sets_core():
 
 
 def test_core_holds_the_master_blobbies():
-    """Core must contain the six master files and the base Blobby; curation may add more."""
+    """Core must contain the 16 master files Vincent supplied on 2026-10-25."""
     import yaml
     from pathlib import Path
     repo_root = Path(__file__).resolve().parents[1]
     with open(repo_root / "items.yaml") as f:
         data = yaml.safe_load(f)
     core_slugs = {k for k, v in data.items() if v and v.get("collection") == "core"}
-    for slug in ("blobby", "blobby-standard", "blobby-dynamic", "blobby-ouch", "blobby-puppy-eyes", "blobby-teary", "blobby-blushed"):
+    for slug in ("blobby-standard", "blobby-classic", "blobby-angry", "blobby-blushed-master", "blobby-cheeky", "blobby-chuffed", "blobby-content", "blobby-cute-yawn", "blobby-dazed", "blobby-displeased", "blobby-ouch", "blobby-puppy-eyes", "blobby-scrunched", "blobby-starstruck", "blobby-teary", "blobby-yawn"):
         assert slug in core_slugs, f"{slug!r} should be in core"

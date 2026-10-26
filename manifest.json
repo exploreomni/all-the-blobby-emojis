@@ -1531,7 +1531,7 @@
   "bytes": 21190,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby.png",
   "cdn_pinned": null,
-  "collection": "core",
+  "collection": "reactions",
   "display_name": "Blobby",
   "file": "all-the-slack-blobbies/blobby.png",
   "frames": 1,
@@ -1754,6 +1754,34 @@
   ],
   "unlisted_reason": null,
   "width": 128
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 2619,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-angry.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Angry",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-angry.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-angry",
+  "source": "master",
+  "svg": "svg/blobby-angry.svg",
+  "tags": [
+   "expression",
+   "angry",
+   "mad"
+  ],
+  "unlisted_reason": null,
+  "width": 729
  },
  {
   "added": "2026-02-06",
@@ -2203,25 +2231,53 @@
   "bytes": 61313,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-blushed.png",
   "cdn_pinned": null,
-  "collection": "core",
+  "collection": "reactions",
   "display_name": "Blobby Blushed",
   "file": "all-the-slack-blobbies/blobby-blushed.png",
   "frames": 1,
   "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/blobby-blushed.png",
   "height": 1454,
-  "kind": "illustration",
+  "kind": "emoji",
   "listed": true,
-  "note": "Official master file",
-  "slack_name": null,
+  "note": "Slack emoji of the blushed expression (master file is blobby-blushed-master)",
+  "slack_name": "blobby-blushed",
   "slug": "blobby-blushed",
-  "source": "master",
+  "source": "slack",
   "svg": null,
   "tags": [
    "expression"
   ],
   "unlisted_reason": null,
   "width": 1458
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 5954,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-blushed-master.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Blushed",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-blushed-master.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-blushed-master",
+  "source": "master",
+  "svg": "svg/blobby-blushed-master.svg",
+  "tags": [
+   "expression",
+   "blush",
+   "shy"
+  ],
+  "unlisted_reason": null,
+  "width": 729
  },
  {
   "added": "2026-02-06",
@@ -2813,6 +2869,34 @@
   "width": 128
  },
  {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 4133,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-cheeky.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Cheeky",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-cheeky.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-cheeky",
+  "source": "master",
+  "svg": "svg/blobby-cheeky.svg",
+  "tags": [
+   "expression",
+   "cheeky",
+   "grin"
+  ],
+  "unlisted_reason": null,
+  "width": 729
+ },
+ {
   "added": "2026-02-06",
   "author": null,
   "bytes": 19820,
@@ -3122,6 +3206,62 @@
   ],
   "unlisted_reason": null,
   "width": 128
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 7589,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-chuffed.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Chuffed",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-chuffed.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-chuffed",
+  "source": "master",
+  "svg": "svg/blobby-chuffed.svg",
+  "tags": [
+   "expression",
+   "happy",
+   "proud"
+  ],
+  "unlisted_reason": null,
+  "width": 729
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 1402,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-classic.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Standard Blobby (classic)",
+  "file": null,
+  "frames": 1,
+  "generation": "classic",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-classic.svg",
+  "height": 966,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file, the original flat Blobby",
+  "slack_name": null,
+  "slug": "blobby-classic",
+  "source": "master",
+  "svg": "svg/blobby-classic.svg",
+  "tags": [
+   "standard",
+   "classic",
+   "original"
+  ],
+  "unlisted_reason": null,
+  "width": 963
  },
  {
   "added": "2026-02-06",
@@ -3495,6 +3635,34 @@
   "width": 208
  },
  {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 5245,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-content.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Content",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-content.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-content",
+  "source": "master",
+  "svg": "svg/blobby-content.svg",
+  "tags": [
+   "expression",
+   "content",
+   "calm"
+  ],
+  "unlisted_reason": null,
+  "width": 729
+ },
+ {
   "added": "2026-10-24",
   "author": null,
   "bytes": 15122,
@@ -3665,6 +3833,34 @@
   "width": 128
  },
  {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 4073,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-cute-yawn.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Cute Yawn",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-cute-yawn.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-cute-yawn",
+  "source": "master",
+  "svg": "svg/blobby-cute-yawn.svg",
+  "tags": [
+   "expression",
+   "yawn",
+   "sleepy"
+  ],
+  "unlisted_reason": null,
+  "width": 729
+ },
+ {
   "added": "2026-02-06",
   "author": null,
   "bytes": 16743,
@@ -3800,6 +3996,34 @@
   ],
   "unlisted_reason": null,
   "width": 206
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 7184,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-dazed.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Dazed",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-dazed.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-dazed",
+  "source": "master",
+  "svg": "svg/blobby-dazed.svg",
+  "tags": [
+   "expression",
+   "dazed",
+   "dizzy"
+  ],
+  "unlisted_reason": null,
+  "width": 729
  },
  {
   "added": "2026-02-06",
@@ -4142,6 +4366,34 @@
   "width": 128
  },
  {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 2408,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-displeased.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Displeased",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-displeased.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-displeased",
+  "source": "master",
+  "svg": "svg/blobby-displeased.svg",
+  "tags": [
+   "expression",
+   "displeased",
+   "meh"
+  ],
+  "unlisted_reason": null,
+  "width": 729
+ },
+ {
   "added": "2026-02-06",
   "author": null,
   "bytes": 14422,
@@ -4313,30 +4565,6 @@
   ],
   "unlisted_reason": null,
   "width": 128
- },
- {
-  "added": "2026-10-24",
-  "author": null,
-  "bytes": 1958,
-  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-dynamic.svg",
-  "cdn_pinned": null,
-  "collection": "core",
-  "display_name": "Dynamic Blobby",
-  "file": null,
-  "frames": 1,
-  "generation": "new",
-  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-dynamic.svg",
-  "height": 727,
-  "kind": "illustration",
-  "listed": true,
-  "note": "Official master file",
-  "slack_name": null,
-  "slug": "blobby-dynamic",
-  "source": "master",
-  "svg": "svg/blobby-dynamic.svg",
-  "tags": [],
-  "unlisted_reason": null,
-  "width": 729
  },
  {
   "added": "2026-02-06",
@@ -4735,7 +4963,7 @@
   "bytes": 6432,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/blobby-face-crazy.png",
   "cdn_pinned": null,
-  "collection": "core",
+  "collection": "reactions",
   "display_name": "Blobby Face Crazy",
   "file": "all-the-slack-blobbies/blobby-face-crazy.png",
   "frames": 1,
@@ -7853,7 +8081,7 @@
  {
   "added": "2026-10-24",
   "author": null,
-  "bytes": 6400,
+  "bytes": 6421,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-ouch.svg",
   "cdn_pinned": null,
   "collection": "core",
@@ -7871,7 +8099,9 @@
   "source": "master",
   "svg": "svg/blobby-ouch.svg",
   "tags": [
-   "expression"
+   "expression",
+   "ouch",
+   "hurt"
   ],
   "unlisted_reason": null,
   "width": 729
@@ -8852,7 +9082,7 @@
  {
   "added": "2026-10-24",
   "author": null,
-  "bytes": 2980,
+  "bytes": 2974,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-puppy-eyes.svg",
   "cdn_pinned": null,
   "collection": "core",
@@ -8870,7 +9100,9 @@
   "source": "master",
   "svg": "svg/blobby-puppy-eyes.svg",
   "tags": [
-   "expression"
+   "expression",
+   "puppy-eyes",
+   "pleading"
   ],
   "unlisted_reason": null,
   "width": 729
@@ -9637,6 +9869,34 @@
   "width": 128
  },
  {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 5413,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-scrunched.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Scrunched",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-scrunched.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-scrunched",
+  "source": "master",
+  "svg": "svg/blobby-scrunched.svg",
+  "tags": [
+   "expression",
+   "scrunched",
+   "squint"
+  ],
+  "unlisted_reason": null,
+  "width": 729
+ },
+ {
   "added": "2026-02-06",
   "author": null,
   "bytes": 14631,
@@ -10349,16 +10609,16 @@
  {
   "added": "2026-10-24",
   "author": null,
-  "bytes": 1287,
+  "bytes": 2482,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-standard.svg",
   "cdn_pinned": null,
   "collection": "core",
-  "display_name": "Standard Blobby",
+  "display_name": "Blobby Standard",
   "file": null,
   "frames": 1,
   "generation": "new",
   "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-standard.svg",
-  "height": 690,
+  "height": 727,
   "kind": "illustration",
   "listed": true,
   "note": "Official master file",
@@ -10366,9 +10626,13 @@
   "slug": "blobby-standard",
   "source": "master",
   "svg": "svg/blobby-standard.svg",
-  "tags": [],
+  "tags": [
+   "expression",
+   "standard",
+   "default"
+  ],
   "unlisted_reason": null,
-  "width": 688
+  "width": 729
  },
  {
   "added": "2026-10-24",
@@ -10397,6 +10661,34 @@
   ],
   "unlisted_reason": null,
   "width": 128
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 3352,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-starstruck.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Starstruck",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-starstruck.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-starstruck",
+  "source": "master",
+  "svg": "svg/blobby-starstruck.svg",
+  "tags": [
+   "expression",
+   "starstruck",
+   "stars"
+  ],
+  "unlisted_reason": null,
+  "width": 729
  },
  {
   "added": "2026-10-24",
@@ -10897,7 +11189,7 @@
  {
   "added": "2026-10-24",
   "author": null,
-  "bytes": 3378,
+  "bytes": 3374,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-teary.svg",
   "cdn_pinned": null,
   "collection": "core",
@@ -10915,7 +11207,9 @@
   "source": "master",
   "svg": "svg/blobby-teary.svg",
   "tags": [
-   "expression"
+   "expression",
+   "teary",
+   "sad"
   ],
   "unlisted_reason": null,
   "width": 729
@@ -12281,6 +12575,34 @@
   ],
   "unlisted_reason": null,
   "width": 127
+ },
+ {
+  "added": "2026-10-25",
+  "author": null,
+  "bytes": 5181,
+  "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/svg/blobby-yawn.svg",
+  "cdn_pinned": null,
+  "collection": "core",
+  "display_name": "Blobby Yawn",
+  "file": null,
+  "frames": 1,
+  "generation": "new",
+  "github": "https://github.com/exploreomni/all-the-blobby-emojis/blob/main/svg/blobby-yawn.svg",
+  "height": 727,
+  "kind": "illustration",
+  "listed": true,
+  "note": "Official master file",
+  "slack_name": null,
+  "slug": "blobby-yawn",
+  "source": "master",
+  "svg": "svg/blobby-yawn.svg",
+  "tags": [
+   "expression",
+   "yawn",
+   "tired"
+  ],
+  "unlisted_reason": null,
+  "width": 729
  },
  {
   "added": "2026-02-06",
@@ -15120,7 +15442,7 @@
   "bytes": 15648,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/magic-blobby.png",
   "cdn_pinned": null,
-  "collection": "core",
+  "collection": "reactions",
   "display_name": "Magic Blobby",
   "file": "all-the-slack-blobbies/magic-blobby.png",
   "frames": 1,
@@ -15440,7 +15762,7 @@
   "bytes": 7157,
   "cdn_main": "https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/new-blobby.png",
   "cdn_pinned": null,
-  "collection": "core",
+  "collection": "reactions",
   "display_name": "New Blobby",
   "file": "all-the-slack-blobbies/new-blobby.png",
   "frames": 1,

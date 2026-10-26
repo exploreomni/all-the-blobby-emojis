@@ -2624,7 +2624,7 @@ blobby:
   display_name: Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: reactions
   tags:
   - happy
   - mascot
@@ -4825,20 +4825,12 @@ omni-blobby-ticket:
 blobby-blushed:
   display_name: Blobby Blushed
   generation: new
-  kind: illustration
-  collection: core
+  kind: emoji
+  collection: reactions
   tags:
   - expression
-  source: master
-  note: Official master file
-blobby-dynamic:
-  display_name: Dynamic Blobby
-  generation: new
-  kind: illustration
-  collection: core
-  tags: []
-  source: master
-  note: Official master file
+  source: slack
+  note: Slack emoji of the blushed expression (master file is blobby-blushed-master)
 blobby-ouch:
   display_name: Blobby Ouch
   generation: new
@@ -4846,6 +4838,8 @@ blobby-ouch:
   collection: core
   tags:
   - expression
+  - ouch
+  - hurt
   source: master
   note: Official master file
 blobby-puppy-eyes:
@@ -4855,14 +4849,19 @@ blobby-puppy-eyes:
   collection: core
   tags:
   - expression
+  - puppy-eyes
+  - pleading
   source: master
   note: Official master file
 blobby-standard:
-  display_name: Standard Blobby
+  display_name: Blobby Standard
   generation: new
   kind: illustration
   collection: core
-  tags: []
+  tags:
+  - expression
+  - standard
+  - default
   source: master
   note: Official master file
 blobby-teary:
@@ -4872,6 +4871,8 @@ blobby-teary:
   collection: core
   tags:
   - expression
+  - teary
+  - sad
   source: master
   note: Official master file
 2-blobs-in-a-pod:
@@ -5560,7 +5561,7 @@ blobby-face-crazy:
   display_name: Blobby Face Crazy
   generation: classic
   kind: emoji
-  collection: core
+  collection: reactions
   tags: []
   source: slack
 blobby-fieri-chef-kiss:
@@ -6728,7 +6729,7 @@ magic-blobby:
   display_name: Magic Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: reactions
   tags: []
   source: slack
 meat-crayon-blobby:
@@ -6777,7 +6778,7 @@ new-blobby:
   display_name: New Blobby
   generation: classic
   kind: emoji
-  collection: core
+  collection: reactions
   tags: []
   source: slack
 nod-blobby:
@@ -7084,3 +7085,135 @@ yoyo-blobby:
   - toy
   source: slack
   note: Blobby as a pink yoyo with a string attached.
+blobby-angry:
+  display_name: Blobby Angry
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - angry
+  - mad
+  source: master
+  note: Official master file
+blobby-blushed-master:
+  display_name: Blobby Blushed
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - blush
+  - shy
+  source: master
+  note: Official master file
+blobby-cheeky:
+  display_name: Blobby Cheeky
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - cheeky
+  - grin
+  source: master
+  note: Official master file
+blobby-chuffed:
+  display_name: Blobby Chuffed
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - happy
+  - proud
+  source: master
+  note: Official master file
+blobby-content:
+  display_name: Blobby Content
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - content
+  - calm
+  source: master
+  note: Official master file
+blobby-cute-yawn:
+  display_name: Blobby Cute Yawn
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - yawn
+  - sleepy
+  source: master
+  note: Official master file
+blobby-dazed:
+  display_name: Blobby Dazed
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - dazed
+  - dizzy
+  source: master
+  note: Official master file
+blobby-displeased:
+  display_name: Blobby Displeased
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - displeased
+  - meh
+  source: master
+  note: Official master file
+blobby-scrunched:
+  display_name: Blobby Scrunched
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - scrunched
+  - squint
+  source: master
+  note: Official master file
+blobby-starstruck:
+  display_name: Blobby Starstruck
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - starstruck
+  - stars
+  source: master
+  note: Official master file
+blobby-yawn:
+  display_name: Blobby Yawn
+  generation: new
+  kind: illustration
+  collection: core
+  tags:
+  - expression
+  - yawn
+  - tired
+  source: master
+  note: Official master file
+blobby-classic:
+  display_name: Standard Blobby (classic)
+  generation: classic
+  kind: illustration
+  collection: core
+  tags:
+  - standard
+  - classic
+  - original
+  source: master
+  note: Official master file, the original flat Blobby
