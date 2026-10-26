@@ -15,7 +15,7 @@ Usage terms: [LICENSE.md](LICENSE.md)
 
 ## Core
 
-The official master Blobbies, hand-picked only, never assigned by the model.
+The official master Blobbys, hand-picked only, never assigned by the model.
 
 | Preview | Name | Shortcode | Gen | Files |
 | --- | --- | --- | --- | --- |

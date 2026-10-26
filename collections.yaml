@@ -1,7 +1,7 @@
 - slug: core
   name: Core
   order: 1
-  description: The official master Blobbies, hand-picked only, never assigned by the model.
+  description: The official master Blobbys, hand-picked only, never assigned by the model.
   cover: blobby-dynamic
 
 - slug: holidays
