@@ -2,73 +2,73 @@
   name: Core
   order: 1
   description: The official master Blobbies, hand-picked only, never assigned by the model.
-  cover: null
+  cover: blobby-dynamic
 
 - slug: holidays
   name: Holidays and seasons
   order: 2
   description: Anything tied to a holiday or season, Halloween monsters included.
-  cover: null
+  cover: blobby-spooky-szn
 
 - slug: pop-culture
   name: Pop culture
   order: 3
   description: Recognizable franchise characters, celebrities, memes, zodiac signs.
-  cover: null
+  cover: remblob-rembrandt-blobby
 
 - slug: costumes
   name: Costumes and jobs
   order: 4
   description: Generic professions and outfits with no franchise (pirate, captain, doctor, chef, builder, showgirl).
-  cover: null
+  cover: omni-blobby-show-girl
 
 - slug: cities
   name: Cities and travel
   order: 5
   description: Places, flags, landmarks, local food that stands for a place.
-  cover: null
+  cover: blobby-loves-nyc
 
 - slug: partners
   name: Partners and tools
   order: 6
   description: dbt, Snowflake, Databricks, MotherDuck, Google Sheets, and other software or brands.
-  cover: null
+  cover: blobby-snowflake-1
 
 - slug: food
   name: Food and drink
   order: 7
   description: Food and drink.
-  cover: null
+  cover: blobby-shine-1
 
 - slug: animals
   name: Animals
   order: 8
   description: Animals.
-  cover: null
+  cover: blobby-duck
 
 - slug: sports
   name: Sports
   order: 9
   description: Sports.
-  cover: null
+  cover: blobby-baller
 
 - slug: omni
   name: Omni and data
   order: 10
   description: AI, agents, dashboards, SQL, data, Omni values.
-  cover: null
+  cover: branch_blobby
 
 - slug: reactions
   name: Reactions
   order: 11
   description: Emotions, gestures, and sign-holding words only.
-  cover: null
+  cover: blobby-eyebrows-zoom
 
 - slug: objects
   name: Scenes and objects
   order: 12
   description: A Blobby doing or being a thing that fits nowhere above (balloon, cube, rocket, typing, vacation, on a date).
-  cover: null
+  cover: yoyo-blobby
 
 - slug: unsorted
   name: Unsorted
