@@ -11,7 +11,6 @@ _GITHUB_BLOB_BASE_RE = re.compile(
     r"(https://github\.com/[^/]+/[^/]+/blob/[^/]+/)"
 )
 
-_ZIP_URL = "https://github.com/exploreomni/all-the-blobby-emojis/releases/latest"
 
 
 def _svg_blob_url(github_raster_url: str, svg_path: str) -> str:
@@ -59,8 +58,7 @@ def render_sections(
 
     Returns a string with one ``## <Collection name>`` section per non-empty
     collection (in collections.yaml order), a description line, and a table of
-    items.  A zip-download link and a license pointer appear above the first
-    section.
+    items.  Nothing else is emitted; prose around the block belongs to the README owner.
     """
     # Separate listed from unlisted records.
     listed_records = [r for r in records if r.get("listed", True)]
@@ -74,18 +72,7 @@ def render_sections(
 
     lines: list[str] = []
 
-    # Header lines (above the first collection).
-    lines.append(
-        f"Download the full pack: [{_ZIP_URL}]({_ZIP_URL})"
-    )
-    lines.append("")
-    lines.append("Usage terms: [LICENSE.md](LICENSE.md)")
-    lines.append("")
-    if unlisted_count > 0:
-        lines.append(
-            f"{unlisted_count} items are kept in the repo for link stability but not listed here."
-        )
-        lines.append("")
+    # No header prose: the repo owner's README text lives outside the generated block.
 
     for col_slug, col in collections.items():
         items = by_collection.get(col_slug)

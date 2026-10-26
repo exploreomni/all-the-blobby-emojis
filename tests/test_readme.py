@@ -77,10 +77,10 @@ def test_unlisted_record_omitted_from_readme():
     assert "blobby" in out  # the listed one is still there
 
 
-def test_unlisted_count_line_appears():
+def test_unlisted_items_add_no_prose():
     unlisted = dict(REC_CORE, slug="blobby-secret", display_name="Secret", listed=False)
     out = render_sections([REC_CORE, unlisted], COLS)
-    assert "1 items are kept in the repo for link stability but not listed here." in out
+    assert "kept in the repo for link stability" not in out
 
 
 def test_unlisted_count_line_omitted_when_zero():

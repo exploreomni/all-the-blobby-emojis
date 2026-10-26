@@ -1,18 +1,10 @@
 # Blobby Emoji Pack
 <img width="150" height="150" alt="blobby" src="https://github.com/user-attachments/assets/0e7e168c-26a5-4f2f-9dea-3f8f37ca6c1d" />
 
-Blobby is Omni's mascot emoji pack. There are two generations: classic (original Slack exports) and new (Figma-illustrated). See [LICENSE.md](LICENSE.md) for usage terms.
-
-Slack has no official bulk import tool. This pack ships as image files plus a machine-readable YAML and JSON list for use with third-party importers.
+Use these emojis in Slack, documents, whatever you want!
 
 
 <!-- BEGIN GENERATED EMOJI TABLE -->
-Download the full pack: [https://github.com/exploreomni/all-the-blobby-emojis/releases/latest](https://github.com/exploreomni/all-the-blobby-emojis/releases/latest)
-
-Usage terms: [LICENSE.md](LICENSE.md)
-
-58 items are kept in the repo for link stability but not listed here.
-
 ## Core
 
 The official master Blobbys, hand-picked only, never assigned by the model.
@@ -672,12 +664,7 @@ AI, agents, dashboards, SQL, data, Omni values.
 | <img src="https://cdn.jsdelivr.net/gh/exploreomni/all-the-blobby-emojis@main/all-the-slack-blobbies/branch_blobby.png" alt="branch_blobby" width="48"> | Branch Blobby | `:branch_blobby:` | new | [branch_blobby.png](https://github.com/exploreomni/all-the-blobby-emojis/blob/main/all-the-slack-blobbies/branch_blobby.png) |
 <!-- END GENERATED EMOJI TABLE -->
 
-## Maintainer notes
+## Internal Instructions
+Created using https://medium.com/@alexleybourne/the-how-to-bulk-download-slack-emojis-33cdd6e70eb0
 
-To add items to the pack:
-1. Drop image files into `all-the-slack-blobbies/` (raster) or `svg/` (vector).
-2. Run `python3 scripts/seed_items.py` to create entries in `items.yaml`.
-3. Edit `items.yaml` to fill in display names, collections, and tags.
-4. Commit. The pre-commit hook runs tests, builds the manifest, and regenerates this README automatically.
-
-Keep customer-specific emojis out of this repository.
+If you are refreshing this, make sure to remove any customer-specific emojis
