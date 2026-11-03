@@ -3,6 +3,8 @@
 
 Use these emojis in Slack, documents, whatever you want!
 
+## How to Mass-Install in Slack
+Slack does not have the ability to mass-import emojis, but there are some 3rd party tools that facilitate this. Omni has not verified a particular tool, its current compatibility, or its permissions, but [Neutral face emoji Chrome extension](https://chromewebstore.google.com/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej) has reportedly worked for some.
 
 <!-- BEGIN GENERATED EMOJI TABLE -->
 ## Core
